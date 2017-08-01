@@ -1,0 +1,22 @@
+;problem 4
+
+(define (problem-4) 
+    (let (m 0 _i 0 _j 0)
+        (for (i 100 999)
+            (for (j 100 999)
+                (setq v (* i j)) 
+                (if (= (int (reverse (string v))) v)
+                    (if (> v m) 
+                        (setq m v) 
+                        (setq _i i) 
+                        (setq _j j) 
+                    )              
+                )
+            )
+        )
+        (list m _i _j)
+    )
+)
+(println (problem-4))
+
+(exit)

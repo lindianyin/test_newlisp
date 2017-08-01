@@ -1,0 +1,66 @@
+------WebKitFormBoundary5PNmEViMBV0SErU2
+Content-Disposition: form-data; name="uploaded_data"; filename="????.txt"
+Content-Type: text/plain
+
+1.比赛奖励
+awardconfig='asr=100;ajf=100;apid="1001,1002";apcnt="1,2";adsf=8;'
+//asr 金币
+//ajf 积分
+//apid 道具id 逗号分割
+//apcnt 道具数量
+//adsf  大师分
+
+2.比赛房间配置
+roommoderule="matchids='14,40,41,42,43,44,45,46';waitenter=30;startgame=1;noesape=1;"
+//matchids 房间支持的比赛id
+gamerule="MatchAntes='200,400,600,800,1000,1200,1600,2000,3000,4000,6000,10000,20000,40000,80000';AddAnteTime='45';MatchRoomPreAntes='0,100,150,200,250,300,400,500,750,1000,1500,2500,5000,10000,20000';RoomType='5';"
+//MatchAntes 升盲
+//AddAnteTime 时间
+//MatchRoomPreAntes 前注
+
+3.比赛配置
+startparam="mincnt=4;maxcnt=6;signupdelay=30;signuplimit=10; maxsubmatch=1;subname="sub1='冠军赛';";outrule1='决赛';round1=1;outdesc1='积分最高者为冠军';startmatchhour=15;startmatchmin=0;ismtt=1;isphonebind=0;isrealpeople=1;weekday=-1;month=-1;day=-1;year=2016;matchtype=0;istest=0;signuptime=45;category=1;"
+//mincnt 最少开赛人数
+//maxcnt 最大报名人数
+//category=1; 
+category枚举
+｛
+	default = 0,   //默认
+	silver  = 1;   //德州金币
+	zhepai  = 2;   //浙牌
+	realpeople = 4;//真人
+    redpacket = 8; //红包	
+｝
+
+
+
+
+signupparam="type1=3;id1='3003';cnt1='1';name1='3003号道具1个 ';type2=1;id2='1';cnt2='1000';name2='1000德州币';signupcondition='fee=100;';"
+//配置是type1 id1 cnt1 ... type2 id2 cnt2 ...分组配置
+//fee=100; 服务费用
+//type的枚举值 
+｛
+   SUT_FREE = 0//免费
+   SUT_SR   银子
+   SUT_PROPS 道具
+   SUT_SR_OR_PROPS
+   SUT_SCORE_OR_PROPS
+	。。。。。
+｝
+
+
+
+
+
+
+
+
+
+
+
+
+------WebKitFormBoundary5PNmEViMBV0SErU2
+Content-Disposition: form-data; name="submit"
+
+Upload
+------WebKitFormBoundary5PNmEViMBV0SErU2--

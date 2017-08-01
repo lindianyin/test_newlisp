@@ -1,0 +1,39 @@
+# backup
+*.bak
+*~
+*.tmp
+
+# executable
+*.exe
+*.dll
+*.o
+*.so
+*.dylib
+newlisp
+
+# test files
+junk
+junk2
+qa-junk.txt
+pipe-child.lsp
+\#*\#
+/modules/SQLITE3-TEST
+/modules/test.gz
+/util/types
+._*
+
+# guiserver
+*.class
+
+# eclipse
+.settings
+
+# NetBeans
+.cproject
+.project
+nbproject
+
+# misc
+TAGS
+XTAGS
+*.stackdump

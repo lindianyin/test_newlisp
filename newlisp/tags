@@ -1,0 +1,2572 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+ABEND	./nl-filesys.c	1420;"	d	file:
+ADDR_FAMILY	./nl-sock.c	/^int ADDR_FAMILY = AF_INET; \/* the default is IPv4 *\/$/;"	v
+AF_UNIX	./nl-sock.c	105;"	d	file:
+AF_UNSPEC	./nl-filesys.c	25;"	d	file:
+BACKCHAR	./pcre.c	377;"	d	file:
+BACKCHAR	./pcre.c	454;"	d	file:
+BASE64_DEC	./nl-web.c	848;"	d	file:
+BASE64_ENC	./nl-web.c	847;"	d	file:
+BIGINT	./newlisp.h	31;"	d
+BIGINT_BASE	./nl-math.c	64;"	d	file:
+BIGINT_BASE2	./nl-math.c	65;"	d	file:
+BIGINT_MASK	./newlisp.h	392;"	d
+BLACK	./newlisp.h	458;"	d
+BLACK	./nl-symbol.c	569;"	d	file:
+BOOL	./pcre-internal.h	/^typedef int BOOL;$/;"	t
+BOOL_EVEN	./nl-math.c	3513;"	d	file:
+BOOL_ODD	./nl-math.c	3514;"	d	file:
+BRASTACK_SIZE	./pcre.c	76;"	d	file:
+BUFFSIZE	./nl-web.c	37;"	d	file:
+CALL_CDECL_MASK	./newlisp.h	393;"	d
+CALL_DLL_MASK	./newlisp.h	394;"	d
+CALL_FFI_MASK	./newlisp.h	395;"	d
+CELL	./newlisp.h	/^	} CELL;$/;"	t	typeref:struct:__anon12
+CELL_ARRAY	./newlisp.h	426;"	d
+CELL_BIGINT	./newlisp.h	411;"	d
+CELL_CONTEXT	./newlisp.h	417;"	d
+CELL_DYN_SYMBOL	./newlisp.h	427;"	d
+CELL_EXPRESSION	./newlisp.h	423;"	d
+CELL_FEXPR	./newlisp.h	425;"	d
+CELL_FLOAT	./newlisp.h	414;"	d
+CELL_FREE	./newlisp.h	428;"	d
+CELL_IMPORT_CDECL	./newlisp.h	419;"	d
+CELL_IMPORT_DLL	./newlisp.h	420;"	d
+CELL_IMPORT_FFI	./newlisp.h	421;"	d
+CELL_INT	./newlisp.h	404;"	d
+CELL_INT64	./newlisp.h	407;"	d
+CELL_LAMBDA	./newlisp.h	424;"	d
+CELL_LONG	./newlisp.h	405;"	d
+CELL_NIL	./newlisp.h	402;"	d
+CELL_PRIMITIVE	./newlisp.h	418;"	d
+CELL_QUOTE	./newlisp.h	422;"	d
+CELL_STRING	./newlisp.h	415;"	d
+CELL_SYMBOL	./newlisp.h	416;"	d
+CELL_TRUE	./newlisp.h	403;"	d
+CGI_EXTENSION	./nl-web.c	1047;"	d	file:
+COMPARE_TYPE_MASK	./newlisp.h	385;"	d
+CONNECT_TIMEOUT	./newlisp.h	324;"	d
+CREF_RECURSE	./pcre-internal.h	542;"	d
+Curl_base64_decode	./nl-web.c	/^size_t Curl_base64_decode(const char *src, char *dest)$/;"	f
+Curl_base64_encode	./nl-web.c	/^size_t Curl_base64_encode(const char *inp, size_t insize, char **outptr)$/;"	f
+DEBUGGER	./newlisp.h	33;"	d
+DEBUG_ENTRY	./nl-debug.c	57;"	d	file:
+DEBUG_EXIT	./nl-debug.c	58;"	d	file:
+DEFAULT_PAGE_1	./nl-web.c	1045;"	d	file:
+DEFAULT_PAGE_2	./nl-web.c	1046;"	d	file:
+DEFAULT_S	./newlisp.c	7107;"	d	file:
+DIR	./newlisp.h	291;"	d
+DIST_NORMAL	./nl-math.c	1344;"	d	file:
+DIST_RANDOM	./nl-math.c	1343;"	d	file:
+DOARGS	./newlisp.c	5981;"	d	file:
+DOLIST	./newlisp.c	5979;"	d	file:
+DOSTRING	./newlisp.c	5982;"	d	file:
+DOTREE	./newlisp.c	5980;"	d	file:
+DOT_PATH	./nl-filesys.c	947;"	d	file:
+DOUBLE_MAX	./nl-matrix.c	530;"	d	file:
+DPRINTF	./pcre.c	52;"	d	file:
+DPRINTF	./pcre.c	54;"	d	file:
+EBCDIC	./pcre-config.h	29;"	d
+ENDS_WITH	./nl-liststr.c	1408;"	d	file:
+ENVELOPE_TYPE_MASK	./newlisp.h	386;"	d
+EPS7	./nl-math.c	1834;"	d	file:
+EPS9	./nl-math.c	1919;"	d	file:
+ERR1	./pcre-internal.h	549;"	d
+ERR10	./pcre-internal.h	558;"	d
+ERR11	./pcre-internal.h	559;"	d
+ERR12	./pcre-internal.h	560;"	d
+ERR13	./pcre-internal.h	561;"	d
+ERR14	./pcre-internal.h	562;"	d
+ERR15	./pcre-internal.h	563;"	d
+ERR16	./pcre-internal.h	564;"	d
+ERR17	./pcre-internal.h	565;"	d
+ERR18	./pcre-internal.h	566;"	d
+ERR19	./pcre-internal.h	567;"	d
+ERR2	./pcre-internal.h	550;"	d
+ERR20	./pcre-internal.h	568;"	d
+ERR21	./pcre-internal.h	569;"	d
+ERR22	./pcre-internal.h	570;"	d
+ERR23	./pcre-internal.h	571;"	d
+ERR24	./pcre-internal.h	572;"	d
+ERR25	./pcre-internal.h	573;"	d
+ERR26	./pcre-internal.h	574;"	d
+ERR27	./pcre-internal.h	575;"	d
+ERR28	./pcre-internal.h	576;"	d
+ERR29	./pcre-internal.h	577;"	d
+ERR3	./pcre-internal.h	551;"	d
+ERR30	./pcre-internal.h	578;"	d
+ERR31	./pcre-internal.h	579;"	d
+ERR32	./pcre-internal.h	580;"	d
+ERR33	./pcre-internal.h	581;"	d
+ERR34	./pcre-internal.h	582;"	d
+ERR35	./pcre-internal.h	583;"	d
+ERR36	./pcre-internal.h	584;"	d
+ERR37	./pcre-internal.h	585;"	d
+ERR38	./pcre-internal.h	586;"	d
+ERR39	./pcre-internal.h	587;"	d
+ERR4	./pcre-internal.h	552;"	d
+ERR40	./pcre-internal.h	588;"	d
+ERR41	./pcre-internal.h	589;"	d
+ERR42	./pcre-internal.h	590;"	d
+ERR43	./pcre-internal.h	591;"	d
+ERR44	./pcre-internal.h	592;"	d
+ERR45	./pcre-internal.h	593;"	d
+ERR46	./pcre-internal.h	594;"	d
+ERR47	./pcre-internal.h	595;"	d
+ERR5	./pcre-internal.h	553;"	d
+ERR6	./pcre-internal.h	554;"	d
+ERR7	./pcre-internal.h	555;"	d
+ERR8	./pcre-internal.h	556;"	d
+ERR9	./pcre-internal.h	557;"	d
+ERROR_404	./nl-web.c	1042;"	d	file:
+ERROR_411	./nl-web.c	1043;"	d	file:
+ERROR_500	./nl-web.c	1044;"	d	file:
+ERROR_BAD_URL	./newlisp.h	580;"	d
+ERROR_CHUNKED_FORMAT	./newlisp.h	587;"	d
+ERROR_FILE_OP	./newlisp.h	581;"	d
+ERROR_HEADER	./newlisp.h	586;"	d
+ERROR_INVALID_RESPONSE	./newlisp.h	583;"	d
+ERROR_NO_CONTENT	./newlisp.h	585;"	d
+ERROR_NO_RESPONSE	./newlisp.h	584;"	d
+ERROR_TRANSFER	./newlisp.h	582;"	d
+ERR_ACCESSING_FILE	./newlisp.h	484;"	d
+ERR_ARRAY_EXPECTED	./newlisp.h	500;"	d
+ERR_ARRAY_INDEX_OUTOF_BOUNDS	./newlisp.h	533;"	d
+ERR_ARRAY_LIST_OR_STRING_EXPECTED	./newlisp.h	501;"	d
+ERR_BIGINT_NOT_ALLOWED	./newlisp.h	554;"	d
+ERR_CANNOT_CONVERT	./newlisp.h	555;"	d
+ERR_CANNOT_CONVERT_NULL	./newlisp.h	556;"	d
+ERR_CANNOT_FORK_PROCESS	./newlisp.h	549;"	d
+ERR_CANNOT_OPEN_SOCKETPAIR	./newlisp.h	548;"	d
+ERR_CANNOT_PROTECT_LOCAL	./newlisp.h	542;"	d
+ERR_CONTEXT_EXPECTED	./newlisp.h	493;"	d
+ERR_EXPRESSION	./newlisp.h	485;"	d
+ERR_FFI_INVALID_TYPE	./newlisp.h	552;"	d
+ERR_FFI_PREP_FAILED	./newlisp.h	551;"	d
+ERR_FFI_STRUCT_EXPECTED	./newlisp.h	553;"	d
+ERR_FORMAT_DATA_TYPE	./newlisp.h	523;"	d
+ERR_FORMAT_STRING	./newlisp.h	522;"	d
+ERR_ILLEGAL_TYPE	./newlisp.h	528;"	d
+ERR_IMPORT_FUNC_NOT_FOUND	./newlisp.h	516;"	d
+ERR_IMPORT_LIB_NOT_FOUND	./newlisp.h	515;"	d
+ERR_INET_ACCEPT	./newlisp.h	565;"	d
+ERR_INET_BAD_FORMED_IP	./newlisp.h	573;"	d
+ERR_INET_CANNOT_BIND	./newlisp.h	570;"	d
+ERR_INET_CANNOT_CHANGE_SOCK_BLOCK	./newlisp.h	577;"	d
+ERR_INET_CONNECTION_BROKEN	./newlisp.h	567;"	d
+ERR_INET_CONNECTION_DROPPED	./newlisp.h	566;"	d
+ERR_INET_CONNECT_FAILED	./newlisp.h	564;"	d
+ERR_INET_HOST_UNKNOWN	./newlisp.h	562;"	d
+ERR_INET_INVALID_SERVICE	./newlisp.h	563;"	d
+ERR_INET_LISTEN_FAILED	./newlisp.h	572;"	d
+ERR_INET_NOT_VALID_SOCKET	./newlisp.h	576;"	d
+ERR_INET_OPEN_SOCKET	./newlisp.h	561;"	d
+ERR_INET_PEEK_FAILED	./newlisp.h	575;"	d
+ERR_INET_READ	./newlisp.h	568;"	d
+ERR_INET_SELECT_FAILED	./newlisp.h	574;"	d
+ERR_INET_TIMEOUT	./newlisp.h	578;"	d
+ERR_INET_TOO_MUCH_SOCKETS	./newlisp.h	571;"	d
+ERR_INET_WRITE	./newlisp.h	569;"	d
+ERR_INVALID_FUNCTION	./newlisp.h	504;"	d
+ERR_INVALID_LAMBDA	./newlisp.h	505;"	d
+ERR_INVALID_LET	./newlisp.h	507;"	d
+ERR_INVALID_MACRO	./newlisp.h	506;"	d
+ERR_INVALID_OPTION	./newlisp.h	513;"	d
+ERR_INVALID_PARAMETER	./newlisp.h	524;"	d
+ERR_INVALID_PARAMETER_0	./newlisp.h	525;"	d
+ERR_INVALID_PARAMETER_NAN	./newlisp.h	526;"	d
+ERR_INVALID_PID	./newlisp.h	547;"	d
+ERR_INVALID_UTF8	./newlisp.h	527;"	d
+ERR_IO_ERROR	./newlisp.h	545;"	d
+ERR_IS_NOT_REFERENCED	./newlisp.h	543;"	d
+ERR_JSON_CLOSING_QUOTE	./nl-xml-json.c	687;"	d	file:
+ERR_JSON_INVALID_ARRAY	./nl-xml-json.c	690;"	d	file:
+ERR_JSON_INVALID_NUMBER	./nl-xml-json.c	689;"	d	file:
+ERR_JSON_INVALID_OBJECT	./nl-xml-json.c	685;"	d	file:
+ERR_JSON_INVALID_UNICODE	./nl-xml-json.c	688;"	d	file:
+ERR_JSON_INVALID_VALUE	./nl-xml-json.c	691;"	d	file:
+ERR_JSON_MISSING_BRACE	./nl-xml-json.c	683;"	d	file:
+ERR_JSON_MISSING_COLON	./nl-xml-json.c	684;"	d	file:
+ERR_JSON_MISSING_KEY	./nl-xml-json.c	686;"	d	file:
+ERR_LAMBDA_EXPECTED	./newlisp.h	502;"	d
+ERR_LIST_EMPTY	./newlisp.h	544;"	d
+ERR_LIST_EXPECTED	./newlisp.h	495;"	d
+ERR_LIST_INDEX_INVALID	./newlisp.h	532;"	d
+ERR_LIST_OR_ARRAY_EXPECTED	./newlisp.h	496;"	d
+ERR_LIST_OR_NUMBER_EXPECTED	./newlisp.h	499;"	d
+ERR_LIST_OR_STRING_EXPECTED	./newlisp.h	498;"	d
+ERR_LIST_OR_SYMBOL_EXPECTED	./newlisp.h	497;"	d
+ERR_LIST_REFERENCE_CHANGED	./newlisp.h	536;"	d
+ERR_MACRO_EXPECTED	./newlisp.h	503;"	d
+ERR_MATH	./newlisp.h	509;"	d
+ERR_MISSING_ARGUMENT	./newlisp.h	488;"	d
+ERR_MISSING_PAR	./newlisp.h	486;"	d
+ERR_NESTING_TOO_DEEP	./newlisp.h	535;"	d
+ERR_NOT_CURRENT_CONTEXT	./newlisp.h	530;"	d
+ERR_NOT_ENOUGH_MEMORY	./newlisp.h	481;"	d
+ERR_NOT_IN_MAIN	./newlisp.h	529;"	d
+ERR_NOT_MATRIX	./newlisp.h	510;"	d
+ERR_NOT_REENTRANT	./newlisp.h	541;"	d
+ERR_NO_SOCKET	./newlisp.h	550;"	d
+ERR_NUMBER_EXPECTED	./newlisp.h	490;"	d
+ERR_NUMBER_OR_STRING_EXPECTED	./newlisp.h	489;"	d
+ERR_NUMBER_OUT_OF_RANGE	./newlisp.h	518;"	d
+ERR_NUM_ARGS	./newlisp.h	521;"	d
+ERR_OUT_OF_CALL_STACK	./newlisp.h	483;"	d
+ERR_OUT_OF_ENV_STACK	./newlisp.h	482;"	d
+ERR_REGEX	./newlisp.h	519;"	d
+ERR_SAVING_FILE	./newlisp.h	508;"	d
+ERR_SIGINT	./newlisp.h	540;"	d
+ERR_SINGULAR	./newlisp.h	512;"	d
+ERR_STRING_EXPECTED	./newlisp.h	491;"	d
+ERR_STRING_INDEX_INVALID	./newlisp.h	534;"	d
+ERR_STRING_TOO_LONG	./newlisp.h	487;"	d
+ERR_SYMBOL_EXPECTED	./newlisp.h	492;"	d
+ERR_SYMBOL_OR_CONTEXT_EXPECTED	./newlisp.h	494;"	d
+ERR_SYMBOL_PROTECTED	./newlisp.h	517;"	d
+ERR_SYNTAX_WRONG	./newlisp.h	537;"	d
+ERR_TARGET_NO_MAIN	./newlisp.h	531;"	d
+ERR_TEXT_END_TAG	./newlisp.h	520;"	d
+ERR_THROW_WO_CATCH	./newlisp.h	514;"	d
+ERR_USER_ERROR	./newlisp.h	538;"	d
+ERR_USER_RESET	./newlisp.h	539;"	d
+ERR_WORKING_DIR	./newlisp.h	546;"	d
+ERR_WRONG_DIMENSIONS	./newlisp.h	511;"	d
+ESC_A	./pcre-internal.h	/^enum { ESC_A = 1, ESC_G, ESC_B, ESC_b, ESC_D, ESC_d, ESC_S, ESC_s, ESC_W,$/;"	e	enum:__anon17
+ESC_B	./pcre-internal.h	/^enum { ESC_A = 1, ESC_G, ESC_B, ESC_b, ESC_D, ESC_d, ESC_S, ESC_s, ESC_W,$/;"	e	enum:__anon17
+ESC_C	./pcre-internal.h	/^       ESC_w, ESC_dum1, ESC_C, ESC_P, ESC_p, ESC_X, ESC_Z, ESC_z, ESC_E,$/;"	e	enum:__anon17
+ESC_D	./pcre-internal.h	/^enum { ESC_A = 1, ESC_G, ESC_B, ESC_b, ESC_D, ESC_d, ESC_S, ESC_s, ESC_W,$/;"	e	enum:__anon17
+ESC_E	./pcre-internal.h	/^       ESC_w, ESC_dum1, ESC_C, ESC_P, ESC_p, ESC_X, ESC_Z, ESC_z, ESC_E,$/;"	e	enum:__anon17
+ESC_G	./pcre-internal.h	/^enum { ESC_A = 1, ESC_G, ESC_B, ESC_b, ESC_D, ESC_d, ESC_S, ESC_s, ESC_W,$/;"	e	enum:__anon17
+ESC_P	./pcre-internal.h	/^       ESC_w, ESC_dum1, ESC_C, ESC_P, ESC_p, ESC_X, ESC_Z, ESC_z, ESC_E,$/;"	e	enum:__anon17
+ESC_Q	./pcre-internal.h	/^       ESC_Q, ESC_REF };$/;"	e	enum:__anon17
+ESC_REF	./pcre-internal.h	/^       ESC_Q, ESC_REF };$/;"	e	enum:__anon17
+ESC_S	./pcre-internal.h	/^enum { ESC_A = 1, ESC_G, ESC_B, ESC_b, ESC_D, ESC_d, ESC_S, ESC_s, ESC_W,$/;"	e	enum:__anon17
+ESC_W	./pcre-internal.h	/^enum { ESC_A = 1, ESC_G, ESC_B, ESC_b, ESC_D, ESC_d, ESC_S, ESC_s, ESC_W,$/;"	e	enum:__anon17
+ESC_X	./pcre-internal.h	/^       ESC_w, ESC_dum1, ESC_C, ESC_P, ESC_p, ESC_X, ESC_Z, ESC_z, ESC_E,$/;"	e	enum:__anon17
+ESC_Z	./pcre-internal.h	/^       ESC_w, ESC_dum1, ESC_C, ESC_P, ESC_p, ESC_X, ESC_Z, ESC_z, ESC_E,$/;"	e	enum:__anon17
+ESC_b	./pcre-internal.h	/^enum { ESC_A = 1, ESC_G, ESC_B, ESC_b, ESC_D, ESC_d, ESC_S, ESC_s, ESC_W,$/;"	e	enum:__anon17
+ESC_d	./pcre-internal.h	/^enum { ESC_A = 1, ESC_G, ESC_B, ESC_b, ESC_D, ESC_d, ESC_S, ESC_s, ESC_W,$/;"	e	enum:__anon17
+ESC_dum1	./pcre-internal.h	/^       ESC_w, ESC_dum1, ESC_C, ESC_P, ESC_p, ESC_X, ESC_Z, ESC_z, ESC_E,$/;"	e	enum:__anon17
+ESC_e	./pcre-internal.h	286;"	d
+ESC_f	./pcre-internal.h	290;"	d
+ESC_n	./pcre-internal.h	294;"	d
+ESC_p	./pcre-internal.h	/^       ESC_w, ESC_dum1, ESC_C, ESC_P, ESC_p, ESC_X, ESC_Z, ESC_z, ESC_E,$/;"	e	enum:__anon17
+ESC_r	./pcre-internal.h	298;"	d
+ESC_s	./pcre-internal.h	/^enum { ESC_A = 1, ESC_G, ESC_B, ESC_b, ESC_D, ESC_d, ESC_S, ESC_s, ESC_W,$/;"	e	enum:__anon17
+ESC_tee	./pcre-internal.h	305;"	d
+ESC_w	./pcre-internal.h	/^       ESC_w, ESC_dum1, ESC_C, ESC_P, ESC_p, ESC_X, ESC_Z, ESC_z, ESC_E,$/;"	e	enum:__anon17
+ESC_z	./pcre-internal.h	/^       ESC_w, ESC_dum1, ESC_C, ESC_P, ESC_p, ESC_X, ESC_Z, ESC_z, ESC_E,$/;"	e	enum:__anon17
+EVAL_SELF_TYPE_MASK	./newlisp.h	390;"	d
+EVAL_STRING	./newlisp.h	607;"	d
+EXCEPTION_THROW	./newlisp.c	226;"	d	file:
+EXPORT	./pcre-config.h	36;"	d
+EXPORT	./win-dll.c	24;"	d	file:
+EXTRACT_BASIC_MAX	./pcre-internal.h	464;"	d
+FALSE	./newlisp.h	339;"	d
+FALSE	./pcre-internal.h	278;"	d
+FFIMPORT	./newlisp.h	/^    } FFIMPORT;$/;"	t	typeref:struct:__anon16
+FFITYPE	./nl-import.c	/^    } FFITYPE;$/;"	t	typeref:struct:__anon3	file:
+FFI_64_BIT_MAX	./win-ffi.h	213;"	d
+FFI_64_BIT_MAX	./win-ffi.h	221;"	d
+FFI_64_BIT_MAX	./win-ffi.h	222;"	d
+FFI_64_BIT_MAX	./win-ffi.h	234;"	d
+FFI_64_BIT_MAX	./win-ffi.h	235;"	d
+FFI_BAD_ABI	./win-ffi.h	/^  FFI_BAD_ABI$/;"	e	enum:__anon27
+FFI_BAD_TYPEDEF	./win-ffi.h	/^  FFI_BAD_TYPEDEF,$/;"	e	enum:__anon27
+FFI_CLOSURE	./newlisp.h	668;"	d
+FFI_CLOSURES	./win-ffi.h	171;"	d
+FFI_DEFAULT_ABI	./win-ffi.h	/^  FFI_DEFAULT_ABI = FFI_SYSV$/;"	e	enum:ffi_abi
+FFI_EXTRA_CIF_FIELDS	./win-ffi.h	/^  FFI_EXTRA_CIF_FIELDS;$/;"	m	struct:__anon28
+FFI_FIRST_ABI	./win-ffi.h	/^  FFI_FIRST_ABI = 0,$/;"	e	enum:ffi_abi
+FFI_FN	./win-ffi.h	524;"	d
+FFI_FUNCTION	./newlisp.h	667;"	d
+FFI_LAST_ABI	./win-ffi.h	/^  FFI_LAST_ABI,$/;"	e	enum:ffi_abi
+FFI_LONG_LONG_MAX	./win-ffi.h	216;"	d
+FFI_LONG_LONG_MAX	./win-ffi.h	219;"	d
+FFI_LONG_LONG_MAX	./win-ffi.h	226;"	d
+FFI_LONG_LONG_MAX	./win-ffi.h	231;"	d
+FFI_NATIVE_RAW_API	./win-ffi.h	178;"	d
+FFI_NATIVE_RAW_API	./win-ffi.h	185;"	d
+FFI_NATIVE_RAW_API	./win-ffi.h	192;"	d
+FFI_NO_RAW_API	./win-ffi.h	186;"	d
+FFI_OK	./win-ffi.h	/^  FFI_OK = 0,$/;"	e	enum:__anon27
+FFI_SIZEOF_ARG	./win-ffi.h	119;"	d
+FFI_SIZEOF_ARG	./win-ffi.h	345;"	d
+FFI_SIZEOF_ARG	./win-ffi.h	347;"	d
+FFI_SIZEOF_JAVA_RAW	./win-ffi.h	352;"	d
+FFI_STDCALL	./win-ffi.h	/^  FFI_STDCALL,$/;"	e	enum:ffi_abi
+FFI_STRUCT	./newlisp.h	669;"	d
+FFI_SYSV	./win-ffi.h	/^  FFI_SYSV,$/;"	e	enum:ffi_abi
+FFI_TRAMPOLINE_SIZE	./win-ffi.h	177;"	d
+FFI_TRAMPOLINE_SIZE	./win-ffi.h	181;"	d
+FFI_TRAMPOLINE_SIZE	./win-ffi.h	184;"	d
+FFI_TRAMPOLINE_SIZE	./win-ffi.h	188;"	d
+FFI_TYPE	./win-ffi.h	/^typedef unsigned FFI_TYPE;$/;"	t
+FFI_TYPE_DOUBLE	./win-ffi.h	534;"	d
+FFI_TYPE_FLOAT	./win-ffi.h	533;"	d
+FFI_TYPE_INT	./win-ffi.h	532;"	d
+FFI_TYPE_LAST	./win-ffi.h	552;"	d
+FFI_TYPE_LONGDOUBLE	./win-ffi.h	536;"	d
+FFI_TYPE_LONGDOUBLE	./win-ffi.h	538;"	d
+FFI_TYPE_POINTER	./win-ffi.h	549;"	d
+FFI_TYPE_SINT16	./win-ffi.h	543;"	d
+FFI_TYPE_SINT32	./win-ffi.h	545;"	d
+FFI_TYPE_SINT64	./win-ffi.h	547;"	d
+FFI_TYPE_SINT8	./win-ffi.h	541;"	d
+FFI_TYPE_SMALL_STRUCT_1B	./win-ffi.h	172;"	d
+FFI_TYPE_SMALL_STRUCT_2B	./win-ffi.h	173;"	d
+FFI_TYPE_SMALL_STRUCT_4B	./win-ffi.h	174;"	d
+FFI_TYPE_STRUCT	./win-ffi.h	548;"	d
+FFI_TYPE_UINT16	./win-ffi.h	542;"	d
+FFI_TYPE_UINT32	./win-ffi.h	544;"	d
+FFI_TYPE_UINT64	./win-ffi.h	546;"	d
+FFI_TYPE_UINT8	./win-ffi.h	540;"	d
+FFI_TYPE_VOID	./win-ffi.h	531;"	d
+FILTER_CLEAN	./nl-list.c	1123;"	d	file:
+FILTER_EXISTS	./nl-list.c	1125;"	d	file:
+FILTER_FILTER	./nl-list.c	1121;"	d	file:
+FILTER_FOR_ALL	./nl-list.c	1124;"	d	file:
+FILTER_INDEX	./nl-list.c	1122;"	d	file:
+FIONREAD	./nl-filesys.c	33;"	d	file:
+FIONREAD	./nl-sock.c	92;"	d	file:
+FORCE_CREATION	./newlisp.h	462;"	d
+FPMIN	./nl-math.c	1920;"	d	file:
+GET	./pcre-internal.h	160;"	d
+GET	./pcre-internal.h	173;"	d
+GET	./pcre-internal.h	187;"	d
+GET2	./pcre-internal.h	211;"	d
+GETCHAR	./pcre.c	373;"	d	file:
+GETCHAR	./pcre.c	384;"	d	file:
+GETCHARINC	./nl-utf8.c	63;"	d	file:
+GETCHARINC	./pcre.c	374;"	d	file:
+GETCHARINC	./pcre.c	402;"	d	file:
+GETCHARINCTEST	./pcre.c	375;"	d	file:
+GETCHARINCTEST	./pcre.c	418;"	d	file:
+GETCHARLEN	./pcre.c	376;"	d	file:
+GETCHARLEN	./pcre.c	435;"	d	file:
+HAVE_BCOPY	./pcre-config.h	61;"	d
+HAVE_MEMMOVE	./pcre-config.h	55;"	d
+HAVE_STRERROR	./pcre-config.h	54;"	d
+HTTP_DELETE	./newlisp.h	604;"	d
+HTTP_GET	./newlisp.h	599;"	d
+HTTP_HEAD	./newlisp.h	600;"	d
+HTTP_POST	./newlisp.h	603;"	d
+HTTP_PUT	./newlisp.h	601;"	d
+HTTP_PUT_APPEND	./newlisp.h	602;"	d
+ICMP6_FILTER	./nl-sock.c	64;"	d	file:
+ICMP_ECHO	./nl-sock.c	72;"	d	file:
+ICMP_TYPE	./nl-sock.c	/^int ICMP_TYPE;$/;"	v
+IGNORE_S	./newlisp.c	7106;"	d	file:
+IMPORT_MASK	./newlisp.h	396;"	d
+INADDR_NONE	./nl-sock.c	101;"	d	file:
+INIT_FILE	./newlisp.c	42;"	d	file:
+INSERT_AFTER	./nl-liststr.c	425;"	d	file:
+INSERT_BEFORE	./nl-liststr.c	424;"	d	file:
+INSERT_END	./nl-liststr.c	426;"	d	file:
+INT	./newlisp.h	316;"	d
+INT16	./newlisp.h	318;"	d
+INT32_MIN_AS_INT64	./newlisp.h	336;"	d
+INT64	./newlisp.h	319;"	d
+INT64_MASK	./newlisp.h	391;"	d
+INVALID_SOCKET	./nl-filesys.c	82;"	d	file:
+INVALID_SOCKET	./nl-sock.c	122;"	d	file:
+IO_SESSION	./newlisp.h	/^    } IO_SESSION;$/;"	t	typeref:struct:__anon14
+IOchannel	./newlisp.c	/^FILE * IOchannel;$/;"	v
+IOchannelIsSocketStream	./newlisp.c	/^int IOchannelIsSocketStream = 0;$/;"	v
+IOdomain	./newlisp.c	/^char * IOdomain = NULL;$/;"	v
+IOport	./newlisp.c	/^int IOport = 0;$/;"	v
+IPPROTO_DIVERT	./nl-sock.c	59;"	d	file:
+IRR_ERROR	./nl-math.c	2398;"	d	file:
+ISO_C90	./newlisp.h	46;"	d
+ITMAX	./nl-math.c	1833;"	d	file:
+KMEANS	./newlisp.h	32;"	d
+LET_EXPAND	./newlisp.c	5196;"	d	file:
+LET_LOCAL	./newlisp.c	5197;"	d	file:
+LET_NEST	./newlisp.c	5195;"	d	file:
+LET_STD	./newlisp.c	5194;"	d	file:
+LFS	./newlisp.h	155;"	d
+LIBCALLBACK	./nl-import.c	/^    } LIBCALLBACK;$/;"	t	typeref:struct:__anon2	file:
+LIBFFI	./newlisp.h	121;"	d
+LIBFFI	./newlisp.h	123;"	d
+LIBFFI_H	./win-ffi.h	54;"	d
+LIBFFI_TARGET_H	./win-ffi.h	106;"	d
+LIBNAME	./unix-lib.c	38;"	d	file:
+LIBNAME	./unix-lib.c	40;"	d	file:
+LIBNAME	./unix-lib.c	43;"	d	file:
+LIMIT	./nl-string.c	880;"	d	file:
+LINE_FEED	./newlisp.h	261;"	d
+LINE_FEED	./newlisp.h	301;"	d
+LINE_FEED_LEN	./newlisp.h	262;"	d
+LINE_FEED_LEN	./newlisp.h	302;"	d
+LINK_SIZE	./pcre-config.h	79;"	d
+LINUX	./util/sql.c	24;"	d	file:
+LIST_TYPE_MASK	./newlisp.h	387;"	d
+LITTLE_ENDIAN	./newlisp.h	260;"	d
+LLEN	./nl-string.c	879;"	d	file:
+LOCAL_INFO	./nl-sock.c	794;"	d	file:
+LOG_LESS	./newlisp.c	165;"	d	file:
+LOG_MORE	./newlisp.c	166;"	d	file:
+LOOKUP_ONLY	./newlisp.h	461;"	d
+LibMain	./win-dll.c	/^int CALLBACK LibMain(HANDLE hModule, WORD wDataSeg, WORD cbHeapSize, LPSTR lpszCmdLine)$/;"	f
+MAGIC_NUMBER	./pcre-internal.h	261;"	d
+MATCH_LIMIT	./pcre-config.h	91;"	d
+MATCH_MATCH	./pcre.c	332;"	d	file:
+MATCH_NOMATCH	./pcre.c	333;"	d	file:
+MAX_BIN_NO	./newlisp.h	348;"	d
+MAX_BLOCK	./newlisp.h	352;"	d
+MAX_BUFF	./nl-sock.c	1559;"	d	file:
+MAX_BUFF	./nl-web.c	1041;"	d	file:
+MAX_CELL_COUNT	./newlisp.c	/^INT MAX_CELL_COUNT = 0x10000000;$/;"	v
+MAX_CELL_COUNT	./newlisp.c	/^INT MAX_CELL_COUNT = 0x800000000000000LL;$/;"	v
+MAX_COMMAND_LINE	./newlisp.h	344;"	d
+MAX_CPU_STACK	./newlisp.c	/^int MAX_CPU_STACK = 0x800;$/;"	v
+MAX_DECIMALS	./newlisp.h	349;"	d
+MAX_DIGITS	./newlisp.h	346;"	d
+MAX_ENV_STACK	./newlisp.c	/^int MAX_ENV_STACK;$/;"	v
+MAX_ERROR_NUMBER	./newlisp.h	557;"	d
+MAX_FILE_BUFFER	./newlisp.h	351;"	d
+MAX_HEX_NO	./newlisp.h	347;"	d
+MAX_ITERATIONS	./nl-math.c	2397;"	d	file:
+MAX_LINE	./newlisp.h	342;"	d
+MAX_LONG	./newlisp.h	322;"	d
+MAX_NET_ERROR	./newlisp.h	589;"	d
+MAX_OBJECT_STACK	./newlisp.c	172;"	d	file:
+MAX_PATTERN_SIZE	./pcre-internal.h	163;"	d
+MAX_PATTERN_SIZE	./pcre-internal.h	176;"	d
+MAX_PATTERN_SIZE	./pcre-internal.h	190;"	d
+MAX_PENDING_CONNECTS	./nl-sock.c	115;"	d	file:
+MAX_PRETTY_PRINT_LENGTH	./newlisp.c	276;"	d	file:
+MAX_PROTOCOL	./nl-web.c	52;"	d	file:
+MAX_REF_STACK	./nl-list.c	1317;"	d	file:
+MAX_REGEX_EXP	./newlisp.h	355;"	d
+MAX_RESULT_STACK	./newlisp.c	/^int MAX_RESULT_STACK;$/;"	v
+MAX_STRING	./newlisp.h	341;"	d
+MAX_SYMBOL	./newlisp.h	345;"	d
+MAX_TYPE_ARGS	./nl-import.c	906;"	d	file:
+MAX_URL_LEN	./newlisp.h	353;"	d
+MEDIA_TEXT	./nl-web.c	1048;"	d	file:
+MY_INT64_MAX	./newlisp.h	337;"	d
+MY_RAND_MAX	./newlisp.h	133;"	d
+MY_RAND_MAX	./newlisp.h	135;"	d
+MY_SETENV	./newlisp.h	245;"	d
+MY_SETENV	./newlisp.h	254;"	d
+MY_VASPRINTF	./newlisp.h	231;"	d
+MY_VASPRINTF	./newlisp.h	240;"	d
+MY_VASPRINTF	./newlisp.h	251;"	d
+MainArgs	./newlisp.c	/^char ** MainArgs;$/;"	v
+NANOSLEEP	./newlisp.h	303;"	d
+NETEVAL	./nl-sock.c	/^    } NETEVAL;$/;"	t	typeref:struct:__anon5	file:
+NEWLINE	./pcre-config.h	68;"	d
+NEWLISPDIR	./newlisp.h	40;"	d
+NEWLISP_H	./newlisp.h	21;"	d
+NEWTON_EPSILON	./nl-math.c	1617;"	d	file:
+NEW_BIG_GCD	./nl-math.c	2187;"	d	file:
+NIL_SYM	./newlisp.h	460;"	d
+NIL_SYM	./nl-symbol.c	572;"	d	file:
+NO_DEBUG	./newlisp.h	141;"	d
+NO_DEBUG	./newlisp.h	146;"	d
+NO_FLAGS_SET	./nl-sock.c	116;"	d	file:
+NO_FLAGS_SET	./nl-web.c	53;"	d	file:
+NO_FORK	./newlisp.h	139;"	d
+NO_FORK	./newlisp.h	233;"	d
+NO_FORK	./newlisp.h	256;"	d
+NO_NET_FUNCTIONS	./newlisp.h	147;"	d
+NO_NET_PACKET	./newlisp.h	257;"	d
+NO_NET_PING	./newlisp.h	258;"	d
+NO_PACKET	./newlisp.h	235;"	d
+NO_SEMAPHORE	./newlisp.h	54;"	d
+NO_SHARE	./newlisp.h	234;"	d
+NO_SPAWN	./newlisp.h	140;"	d
+NO_SPAWN	./newlisp.h	232;"	d
+NO_SPAWN	./newlisp.h	255;"	d
+NO_TIMER	./newlisp.h	142;"	d
+NO_WEB_FUNCTIONS	./newlisp.h	148;"	d
+NUMBER_TYPE_MASK	./newlisp.h	389;"	d
+OCT151582	./nl-filesys.c	3074;"	d	file:
+OK_FILE_DELETED	./nl-web.c	50;"	d	file:
+OPTION_NO_COMMENTS	./nl-xml-json.c	56;"	d	file:
+OPTION_NO_EMPTY_ATTRIBUTES	./nl-xml-json.c	55;"	d	file:
+OPTION_NO_OPTION	./nl-xml-json.c	53;"	d	file:
+OPTION_NO_WHITESPACE	./nl-xml-json.c	54;"	d	file:
+OPTION_SXML_ATTRIBUTES	./nl-xml-json.c	58;"	d	file:
+OPTION_TAGS_TO_SYMBOLS	./nl-xml-json.c	57;"	d	file:
+OP_ACOS	./nl-math.c	42;"	d	file:
+OP_ACOSH	./nl-math.c	48;"	d	file:
+OP_ADD	./nl-math.c	27;"	d	file:
+OP_ALT	./pcre-internal.h	/^  OP_ALT,            \/* 65 Start of alternation *\/$/;"	e	enum:__anon18
+OP_ANY	./pcre-internal.h	/^  OP_ANY,            \/* 11 Match any character *\/$/;"	e	enum:__anon18
+OP_ANYBYTE	./pcre-internal.h	/^  OP_ANYBYTE,        \/* 12 Match any byte (\\C); different to OP_ANY for UTF-8 *\/$/;"	e	enum:__anon18
+OP_ASIN	./nl-math.c	41;"	d	file:
+OP_ASINH	./nl-math.c	47;"	d	file:
+OP_ASSERT	./pcre-internal.h	/^  OP_ASSERT,         \/* 69 Positive lookahead *\/$/;"	e	enum:__anon18
+OP_ASSERTBACK	./pcre-internal.h	/^  OP_ASSERTBACK,     \/* 71 Positive lookbehind *\/$/;"	e	enum:__anon18
+OP_ASSERTBACK_NOT	./pcre-internal.h	/^  OP_ASSERTBACK_NOT, \/* 72 Negative lookbehind *\/$/;"	e	enum:__anon18
+OP_ASSERT_NOT	./pcre-internal.h	/^  OP_ASSERT_NOT,     \/* 70 Negative lookahead *\/$/;"	e	enum:__anon18
+OP_ATAN	./nl-math.c	43;"	d	file:
+OP_ATANH	./nl-math.c	49;"	d	file:
+OP_BIT_AND	./nl-math.c	32;"	d	file:
+OP_BIT_OR	./nl-math.c	31;"	d	file:
+OP_BIT_XOR	./nl-math.c	33;"	d	file:
+OP_BRA	./pcre-internal.h	/^  OP_BRA             \/* 80 This and greater values are used for brackets that$/;"	e	enum:__anon18
+OP_BRAMINZERO	./pcre-internal.h	/^  OP_BRAMINZERO,     \/* 78 order. *\/$/;"	e	enum:__anon18
+OP_BRANUMBER	./pcre-internal.h	/^  OP_BRANUMBER,      \/* 79 Used for extracting brackets whose number is greater$/;"	e	enum:__anon18
+OP_BRAZERO	./pcre-internal.h	/^  OP_BRAZERO,        \/* 77 These two must remain together and in this *\/$/;"	e	enum:__anon18
+OP_CALLOUT	./pcre-internal.h	/^  OP_CALLOUT,        \/* 64 Call out to external function if provided *\/$/;"	e	enum:__anon18
+OP_CEIL	./nl-math.c	55;"	d	file:
+OP_CHAR	./pcre-internal.h	/^  OP_CHAR,           \/* 21 Match one character, casefully *\/$/;"	e	enum:__anon18
+OP_CHARNC	./pcre-internal.h	/^  OP_CHARNC,         \/* 22 Match one character, caselessly *\/$/;"	e	enum:__anon18
+OP_CIRC	./pcre-internal.h	/^  OP_CIRC,           \/* 19 Start of line - varies with multiline switch *\/$/;"	e	enum:__anon18
+OP_CLASS	./pcre-internal.h	/^  OP_CLASS,          \/* 59 Match a character class, chars < 256 only *\/$/;"	e	enum:__anon18
+OP_COND	./pcre-internal.h	/^  OP_COND,           \/* 75 Conditional group *\/$/;"	e	enum:__anon18
+OP_COS	./nl-math.c	39;"	d	file:
+OP_COSH	./nl-math.c	45;"	d	file:
+OP_CREF	./pcre-internal.h	/^  OP_CREF,           \/* 76 Used to hold an extraction string number (cond ref) *\/$/;"	e	enum:__anon18
+OP_CRMINPLUS	./pcre-internal.h	/^  OP_CRMINPLUS,      \/* 54 be in exactly the same order as those above. *\/$/;"	e	enum:__anon18
+OP_CRMINQUERY	./pcre-internal.h	/^  OP_CRMINQUERY,     \/* 56 *\/$/;"	e	enum:__anon18
+OP_CRMINRANGE	./pcre-internal.h	/^  OP_CRMINRANGE,     \/* 58 *\/$/;"	e	enum:__anon18
+OP_CRMINSTAR	./pcre-internal.h	/^  OP_CRMINSTAR,      \/* 52 all these opcodes must come in pairs, with *\/$/;"	e	enum:__anon18
+OP_CRPLUS	./pcre-internal.h	/^  OP_CRPLUS,         \/* 53 the minimizing one second. These codes must *\/$/;"	e	enum:__anon18
+OP_CRQUERY	./pcre-internal.h	/^  OP_CRQUERY,        \/* 55 These are for character classes and back refs *\/$/;"	e	enum:__anon18
+OP_CRRANGE	./pcre-internal.h	/^  OP_CRRANGE,        \/* 57 These are different to the three sets above. *\/$/;"	e	enum:__anon18
+OP_CRSTAR	./pcre-internal.h	/^  OP_CRSTAR,         \/* 51 The maximizing and minimizing versions of *\/$/;"	e	enum:__anon18
+OP_DIGIT	./pcre-internal.h	/^  OP_DIGIT,              \/*  6 \\d *\/$/;"	e	enum:__anon18
+OP_DIVIDE	./nl-math.c	30;"	d	file:
+OP_DOLL	./pcre-internal.h	/^  OP_DOLL,           \/* 20 End of line - varies with multiline switch *\/$/;"	e	enum:__anon18
+OP_END	./pcre-internal.h	/^  OP_END,            \/* 0 End of pattern *\/$/;"	e	enum:__anon18
+OP_EOD	./pcre-internal.h	/^  OP_EOD,            \/* 17 End of data: \\z *\/$/;"	e	enum:__anon18
+OP_EODN	./pcre-internal.h	/^  OP_EODN,           \/* 16 End of data or \\n at end of data: \\Z. *\/$/;"	e	enum:__anon18
+OP_EQUAL	./nl-math.c	882;"	d	file:
+OP_ERRORFUNC	./nl-math.c	58;"	d	file:
+OP_EXACT	./pcre-internal.h	/^  OP_EXACT,          \/* 32 Exactly n matches *\/$/;"	e	enum:__anon18
+OP_EXP	./nl-math.c	52;"	d	file:
+OP_EXTUNI	./pcre-internal.h	/^  OP_EXTUNI,         \/* 15 \\X (extended Unicode sequence *\/$/;"	e	enum:__anon18
+OP_FLOOR	./nl-math.c	56;"	d	file:
+OP_GREATER	./nl-math.c	879;"	d	file:
+OP_GREATER_EQUAL	./nl-math.c	881;"	d	file:
+OP_ISINF	./nl-math.c	61;"	d	file:
+OP_ISNAN	./nl-math.c	60;"	d	file:
+OP_KET	./pcre-internal.h	/^  OP_KET,            \/* 66 End of group that doesn't have an unbounded repeat *\/$/;"	e	enum:__anon18
+OP_KETRMAX	./pcre-internal.h	/^  OP_KETRMAX,        \/* 67 These two must remain together and in this *\/$/;"	e	enum:__anon18
+OP_KETRMIN	./pcre-internal.h	/^  OP_KETRMIN,        \/* 68 order. They are for groups the repeat for ever. *\/$/;"	e	enum:__anon18
+OP_LENGTHS	./pcre-internal.h	496;"	d
+OP_LESS	./nl-math.c	878;"	d	file:
+OP_LESS_EQUAL	./nl-math.c	880;"	d	file:
+OP_LOG	./nl-math.c	51;"	d	file:
+OP_MAX	./nl-math.c	54;"	d	file:
+OP_MIN	./nl-math.c	53;"	d	file:
+OP_MINPLUS	./pcre-internal.h	/^  OP_MINPLUS,        \/* 27 This first set applies to single characters *\/$/;"	e	enum:__anon18
+OP_MINQUERY	./pcre-internal.h	/^  OP_MINQUERY,       \/* 29 *\/$/;"	e	enum:__anon18
+OP_MINSTAR	./pcre-internal.h	/^  OP_MINSTAR,        \/* 25 all these opcodes must come in pairs, with *\/$/;"	e	enum:__anon18
+OP_MINUPTO	./pcre-internal.h	/^  OP_MINUPTO,        \/* 31 *\/$/;"	e	enum:__anon18
+OP_MODULO	./nl-math.c	37;"	d	file:
+OP_MULTIPLY	./nl-math.c	29;"	d	file:
+OP_NAME_LIST	./pcre-internal.h	471;"	d
+OP_NAN	./nl-math.c	57;"	d	file:
+OP_NCLASS	./pcre-internal.h	/^  OP_NCLASS,         \/* 60 Same, but the bitmap was created from a negative$/;"	e	enum:__anon18
+OP_NOT	./pcre-internal.h	/^  OP_NOT,            \/* 23 Match anything but the following char *\/$/;"	e	enum:__anon18
+OP_NOTEQUAL	./nl-math.c	883;"	d	file:
+OP_NOTEXACT	./pcre-internal.h	/^  OP_NOTEXACT,       \/* 41 Exactly n matches *\/$/;"	e	enum:__anon18
+OP_NOTMINPLUS	./pcre-internal.h	/^  OP_NOTMINPLUS,     \/* 36 This set applies to "not" single characters *\/$/;"	e	enum:__anon18
+OP_NOTMINQUERY	./pcre-internal.h	/^  OP_NOTMINQUERY,    \/* 38 *\/$/;"	e	enum:__anon18
+OP_NOTMINSTAR	./pcre-internal.h	/^  OP_NOTMINSTAR,     \/* 34 all these opcodes must come in pairs, with *\/$/;"	e	enum:__anon18
+OP_NOTMINUPTO	./pcre-internal.h	/^  OP_NOTMINUPTO,     \/* 40 *\/$/;"	e	enum:__anon18
+OP_NOTPLUS	./pcre-internal.h	/^  OP_NOTPLUS,        \/* 35 the minimizing one second. *\/$/;"	e	enum:__anon18
+OP_NOTPROP	./pcre-internal.h	/^  OP_NOTPROP,        \/* 13 \\P (not Unicode property) *\/$/;"	e	enum:__anon18
+OP_NOTQUERY	./pcre-internal.h	/^  OP_NOTQUERY,       \/* 37 *\/$/;"	e	enum:__anon18
+OP_NOTSTAR	./pcre-internal.h	/^  OP_NOTSTAR,        \/* 33 The maximizing and minimizing versions of *\/$/;"	e	enum:__anon18
+OP_NOTUPTO	./pcre-internal.h	/^  OP_NOTUPTO,        \/* 39 From 0 to n matches *\/$/;"	e	enum:__anon18
+OP_NOT_DIGIT	./pcre-internal.h	/^  OP_NOT_DIGIT,          \/*  5 \\D *\/$/;"	e	enum:__anon18
+OP_NOT_WHITESPACE	./pcre-internal.h	/^  OP_NOT_WHITESPACE,     \/*  7 \\S *\/$/;"	e	enum:__anon18
+OP_NOT_WORDCHAR	./pcre-internal.h	/^  OP_NOT_WORDCHAR,       \/*  9 \\W *\/$/;"	e	enum:__anon18
+OP_NOT_WORD_BOUNDARY	./pcre-internal.h	/^  OP_NOT_WORD_BOUNDARY,  \/*  3 \\B *\/$/;"	e	enum:__anon18
+OP_ONCE	./pcre-internal.h	/^  OP_ONCE,           \/* 74 Once matched, don't back up into the subpattern *\/$/;"	e	enum:__anon18
+OP_OPT	./pcre-internal.h	/^  OP_OPT,            \/* 18 Set runtime options *\/$/;"	e	enum:__anon18
+OP_PLUS	./pcre-internal.h	/^  OP_PLUS,           \/* 26 the minimizing one second. *\/$/;"	e	enum:__anon18
+OP_POW	./nl-math.c	36;"	d	file:
+OP_PROP	./pcre-internal.h	/^  OP_PROP,           \/* 14 \\p (Unicode property) *\/$/;"	e	enum:__anon18
+OP_QUERY	./pcre-internal.h	/^  OP_QUERY,          \/* 28 *\/$/;"	e	enum:__anon18
+OP_RECURSE	./pcre-internal.h	/^  OP_RECURSE,        \/* 63 Match a numbered subpattern (possibly recursive) *\/$/;"	e	enum:__anon18
+OP_REF	./pcre-internal.h	/^  OP_REF,            \/* 62 Match a back reference *\/$/;"	e	enum:__anon18
+OP_REVERSE	./pcre-internal.h	/^  OP_REVERSE,        \/* 73 Move pointer back - used in lookbehind assertions *\/$/;"	e	enum:__anon18
+OP_SHIFTL	./nl-math.c	34;"	d	file:
+OP_SHIFTR	./nl-math.c	35;"	d	file:
+OP_SIGNUM	./nl-math.c	59;"	d	file:
+OP_SIN	./nl-math.c	38;"	d	file:
+OP_SINH	./nl-math.c	44;"	d	file:
+OP_SOD	./pcre-internal.h	/^  OP_SOD,            \/* 1 Start of data: \\A *\/$/;"	e	enum:__anon18
+OP_SOM	./pcre-internal.h	/^  OP_SOM,            \/* 2 Start of match (subject + offset): \\G *\/$/;"	e	enum:__anon18
+OP_SQRT	./nl-math.c	50;"	d	file:
+OP_STAR	./pcre-internal.h	/^  OP_STAR,           \/* 24 The maximizing and minimizing versions of *\/$/;"	e	enum:__anon18
+OP_SUBTRACT	./nl-math.c	28;"	d	file:
+OP_TAN	./nl-math.c	40;"	d	file:
+OP_TANH	./nl-math.c	46;"	d	file:
+OP_TYPEEXACT	./pcre-internal.h	/^  OP_TYPEEXACT,      \/* 50 Exactly n matches *\/$/;"	e	enum:__anon18
+OP_TYPEMINPLUS	./pcre-internal.h	/^  OP_TYPEMINPLUS,    \/* 45 be in exactly the same order as those above. *\/$/;"	e	enum:__anon18
+OP_TYPEMINQUERY	./pcre-internal.h	/^  OP_TYPEMINQUERY,   \/* 47 *\/$/;"	e	enum:__anon18
+OP_TYPEMINSTAR	./pcre-internal.h	/^  OP_TYPEMINSTAR,    \/* 43 all these opcodes must come in pairs, with *\/$/;"	e	enum:__anon18
+OP_TYPEMINUPTO	./pcre-internal.h	/^  OP_TYPEMINUPTO,    \/* 49 *\/$/;"	e	enum:__anon18
+OP_TYPEPLUS	./pcre-internal.h	/^  OP_TYPEPLUS,       \/* 44 the minimizing one second. These codes must *\/$/;"	e	enum:__anon18
+OP_TYPEQUERY	./pcre-internal.h	/^  OP_TYPEQUERY,      \/* 46 This set applies to character types such as \\d *\/$/;"	e	enum:__anon18
+OP_TYPESTAR	./pcre-internal.h	/^  OP_TYPESTAR,       \/* 42 The maximizing and minimizing versions of *\/$/;"	e	enum:__anon18
+OP_TYPEUPTO	./pcre-internal.h	/^  OP_TYPEUPTO,       \/* 48 From 0 to n matches *\/$/;"	e	enum:__anon18
+OP_UPTO	./pcre-internal.h	/^  OP_UPTO,           \/* 30 From 0 to n matches *\/$/;"	e	enum:__anon18
+OP_WHITESPACE	./pcre-internal.h	/^  OP_WHITESPACE,         \/*  8 \\s *\/$/;"	e	enum:__anon18
+OP_WORDCHAR	./pcre-internal.h	/^  OP_WORDCHAR,           \/* 10 \\w *\/$/;"	e	enum:__anon18
+OP_WORD_BOUNDARY	./pcre-internal.h	/^  OP_WORD_BOUNDARY,      \/*  4 \\b *\/$/;"	e	enum:__anon18
+OP_XCLASS	./pcre-internal.h	/^  OP_XCLASS,         \/* 61 Extended class for handling UTF-8 chars within the$/;"	e	enum:__anon18
+OP_lengths	./pcre.c	/^static const uschar OP_lengths[] = { OP_LENGTHS };$/;"	v	file:
+OSTYPE	./newlisp.h	102;"	d
+OSTYPE	./newlisp.h	50;"	d
+OSTYPE	./newlisp.h	58;"	d
+OSTYPE	./newlisp.h	63;"	d
+OSTYPE	./newlisp.h	65;"	d
+OSTYPE	./newlisp.h	70;"	d
+OSTYPE	./newlisp.h	76;"	d
+OSTYPE	./newlisp.h	80;"	d
+OSTYPE	./newlisp.h	84;"	d
+OSTYPE	./newlisp.h	89;"	d
+OSTYPE	./newlisp.h	98;"	d
+OUT_CONSOLE	./newlisp.h	595;"	d
+OUT_DEVICE	./newlisp.h	594;"	d
+OUT_LOG	./newlisp.h	596;"	d
+OUT_NULL	./newlisp.h	593;"	d
+OVECCOUNT	./nl-string.c	33;"	d	file:
+O_BINARY	./newlisp.h	307;"	d
+PACK_BIG_ENDIAN	./nl-string.c	1590;"	d	file:
+PACK_BYTE	./nl-string.c	1579;"	d	file:
+PACK_CHAR	./nl-string.c	1578;"	d	file:
+PACK_DOUBLE	./nl-string.c	1587;"	d	file:
+PACK_FLOAT	./nl-string.c	1586;"	d	file:
+PACK_INT	./nl-string.c	1580;"	d	file:
+PACK_LITTLE_ENDIAN	./nl-string.c	1591;"	d	file:
+PACK_LONG	./nl-string.c	1582;"	d	file:
+PACK_LONG_LONG	./nl-string.c	1584;"	d	file:
+PACK_NONE	./nl-string.c	1577;"	d	file:
+PACK_NULL	./nl-string.c	1589;"	d	file:
+PACK_STRING	./nl-string.c	1588;"	d	file:
+PACK_UNSIGNED_INT	./nl-string.c	1581;"	d	file:
+PACK_UNSIGNED_LONG	./nl-string.c	1583;"	d	file:
+PACK_UNSIGNED_LONG_LONG	./nl-string.c	1585;"	d	file:
+PCRE_ANCHORED	./pcre.h	83;"	d
+PCRE_AUTO_CALLOUT	./pcre.h	93;"	d
+PCRE_CASELESS	./pcre.h	79;"	d
+PCRE_CONFIG_H	./pcre-config.h	26;"	d
+PCRE_CONFIG_LINK_SIZE	./pcre.h	134;"	d
+PCRE_CONFIG_MATCH_LIMIT	./pcre.h	136;"	d
+PCRE_CONFIG_NEWLINE	./pcre.h	133;"	d
+PCRE_CONFIG_POSIX_MALLOC_THRESHOLD	./pcre.h	135;"	d
+PCRE_CONFIG_STACKRECURSE	./pcre.h	137;"	d
+PCRE_CONFIG_UNICODE_PROPERTIES	./pcre.h	138;"	d
+PCRE_CONFIG_UTF8	./pcre.h	132;"	d
+PCRE_DATA_SCOPE	./pcre.h	54;"	d
+PCRE_DATA_SCOPE	./pcre.h	58;"	d
+PCRE_DATA_SCOPE	./pcre.h	63;"	d
+PCRE_DATE	./pcre.h	47;"	d
+PCRE_DEFINITION	./pcre-internal.h	66;"	d
+PCRE_DOLLAR_ENDONLY	./pcre.h	84;"	d
+PCRE_DOTALL	./pcre.h	81;"	d
+PCRE_ERROR_BADCOUNT	./pcre.h	112;"	d
+PCRE_ERROR_BADMAGIC	./pcre.h	101;"	d
+PCRE_ERROR_BADOPTION	./pcre.h	100;"	d
+PCRE_ERROR_BADPARTIAL	./pcre.h	110;"	d
+PCRE_ERROR_BADUTF8	./pcre.h	107;"	d
+PCRE_ERROR_BADUTF8_OFFSET	./pcre.h	108;"	d
+PCRE_ERROR_CALLOUT	./pcre.h	106;"	d
+PCRE_ERROR_INTERNAL	./pcre.h	111;"	d
+PCRE_ERROR_MATCHLIMIT	./pcre.h	105;"	d
+PCRE_ERROR_NOMATCH	./pcre.h	98;"	d
+PCRE_ERROR_NOMEMORY	./pcre.h	103;"	d
+PCRE_ERROR_NOSUBSTRING	./pcre.h	104;"	d
+PCRE_ERROR_NULL	./pcre.h	99;"	d
+PCRE_ERROR_PARTIAL	./pcre.h	109;"	d
+PCRE_ERROR_UNKNOWN_NODE	./pcre.h	102;"	d
+PCRE_EXEC_OPTIONS	./nl-string.c	2136;"	d	file:
+PCRE_EXTENDED	./pcre.h	82;"	d
+PCRE_EXTRA	./pcre.h	85;"	d
+PCRE_EXTRA_CALLOUT_DATA	./pcre.h	144;"	d
+PCRE_EXTRA_MATCH_LIMIT	./pcre.h	143;"	d
+PCRE_EXTRA_STUDY_DATA	./pcre.h	142;"	d
+PCRE_EXTRA_TABLES	./pcre.h	145;"	d
+PCRE_FIRSTSET	./pcre-internal.h	235;"	d
+PCRE_ICHANGED	./pcre-internal.h	238;"	d
+PCRE_IMS	./pcre-internal.h	227;"	d
+PCRE_INFO_BACKREFMAX	./pcre.h	119;"	d
+PCRE_INFO_CAPTURECOUNT	./pcre.h	118;"	d
+PCRE_INFO_DEFAULT_TABLES	./pcre.h	128;"	d
+PCRE_INFO_FIRSTBYTE	./pcre.h	120;"	d
+PCRE_INFO_FIRSTCHAR	./pcre.h	121;"	d
+PCRE_INFO_FIRSTTABLE	./pcre.h	122;"	d
+PCRE_INFO_LASTLITERAL	./pcre.h	123;"	d
+PCRE_INFO_NAMECOUNT	./pcre.h	125;"	d
+PCRE_INFO_NAMEENTRYSIZE	./pcre.h	124;"	d
+PCRE_INFO_NAMETABLE	./pcre.h	126;"	d
+PCRE_INFO_OPTIONS	./pcre.h	116;"	d
+PCRE_INFO_SIZE	./pcre.h	117;"	d
+PCRE_INFO_STUDYSIZE	./pcre.h	127;"	d
+PCRE_INTERNAL_H	./pcre-internal.h	44;"	d
+PCRE_MAJOR	./pcre.h	45;"	d
+PCRE_MINOR	./pcre.h	46;"	d
+PCRE_MULTILINE	./pcre.h	80;"	d
+PCRE_NOPARTIAL	./pcre-internal.h	239;"	d
+PCRE_NOTBOL	./pcre.h	86;"	d
+PCRE_NOTEMPTY	./pcre.h	89;"	d
+PCRE_NOTEOL	./pcre.h	87;"	d
+PCRE_NOT_COMPILE	./nl-string.c	2133;"	d	file:
+PCRE_NO_AUTO_CAPTURE	./pcre.h	91;"	d
+PCRE_NO_UTF8_CHECK	./pcre.h	92;"	d
+PCRE_PARTIAL	./pcre.h	94;"	d
+PCRE_REQCHSET	./pcre-internal.h	236;"	d
+PCRE_STARTLINE	./pcre-internal.h	237;"	d
+PCRE_STATIC	./nl-string.c	24;"	d	file:
+PCRE_STUDY_MAPPED	./pcre-internal.h	243;"	d
+PCRE_UNGREEDY	./pcre.h	88;"	d
+PCRE_UTF8	./pcre.h	90;"	d
+PEER_INFO	./nl-sock.c	795;"	d	file:
+PLEN	./nl-sock.c	1988;"	d	file:
+POSIX_MALLOC_THRESHOLD	./pcre-config.h	104;"	d
+PRECISION	./nl-math.c	2396;"	d	file:
+PRECOMPILED	./nl-string.c	2128;"	d	file:
+PRETTYPRINT_DOUBLE	./newlisp.h	733;"	d
+PRETTYPRINT_STRING	./newlisp.h	734;"	d
+PRIMES_H	./primes.h	21;"	d
+PRIMITIVE	./newlisp.h	/^	} PRIMITIVE;$/;"	t	typeref:struct:__anon13
+PRINT_TYPE_MASK	./newlisp.h	374;"	d
+PROCESS_SPAWN_ABNORMAL_END	./nl-filesys.c	1419;"	d	file:
+PROCESS_SPAWN_ABORT	./nl-filesys.c	1418;"	d	file:
+PROCESS_SPAWN_RESULT	./nl-filesys.c	1417;"	d	file:
+PROTOS_H	./protos.h	20;"	d
+PUBLIC_EXEC_OPTIONS	./pcre-internal.h	253;"	d
+PUBLIC_OPTIONS	./pcre-internal.h	248;"	d
+PUBLIC_STUDY_OPTIONS	./pcre-internal.h	257;"	d
+PUT	./pcre-internal.h	156;"	d
+PUT	./pcre-internal.h	168;"	d
+PUT	./pcre-internal.h	181;"	d
+PUT2	./pcre-internal.h	207;"	d
+PUT2INC	./pcre-internal.h	214;"	d
+PUTINC	./pcre-internal.h	200;"	d
+RAW_TYPE_MASK	./newlisp.h	384;"	d
+READY_READ	./nl-sock.c	133;"	d	file:
+READY_WRITE	./nl-sock.c	134;"	d	file:
+READ_EXPR	./newlisp.h	608;"	d
+READ_EXPR_NET	./newlisp.h	610;"	d
+READ_EXPR_SYNC	./newlisp.h	609;"	d
+REC_STACK_SAVE_MAX	./pcre.c	83;"	d	file:
+RED	./newlisp.h	459;"	d
+RED	./nl-symbol.c	570;"	d	file:
+REFSTACK	./nl-list.c	/^    } REFSTACK;$/;"	t	typeref:struct:__anon9	file:
+REF_ALL	./nl-list.c	1346;"	d	file:
+REF_CONTENTS	./nl-list.c	1349;"	d	file:
+REF_INDEX	./nl-list.c	1348;"	d	file:
+REF_SINGLE	./nl-list.c	1345;"	d	file:
+REGEX	./nl-string.c	/^    } REGEX;$/;"	t	typeref:struct:__anon8	file:
+REGISTER	./pcre.c	5789;"	d	file:
+REGISTER	./pcre.c	5799;"	d	file:
+REPEAT_DOUNTIL	./newlisp.c	5763;"	d	file:
+REPEAT_DOWHILE	./newlisp.c	5761;"	d	file:
+REPEAT_UNTIL	./newlisp.c	5762;"	d	file:
+REPEAT_WHILE	./newlisp.c	5760;"	d	file:
+REPLACE_ONCE	./nl-string.c	2127;"	d	file:
+REQ_BYTE_MAX	./pcre.c	89;"	d	file:
+REQ_CASELESS	./pcre-internal.h	271;"	d
+REQ_NONE	./pcre-internal.h	266;"	d
+REQ_UNSET	./pcre-internal.h	265;"	d
+REQ_VARY	./pcre-internal.h	272;"	d
+RESET_S	./newlisp.c	7108;"	d	file:
+RMATCH	./pcre.c	5790;"	d	file:
+RMATCH	./pcre.c	5801;"	d	file:
+RRETURN	./pcre.c	5791;"	d	file:
+RRETURN	./pcre.c	5825;"	d	file:
+SEARCH_SIZE	./nl-string.c	83;"	d	file:
+SELECT_READ_READY	./nl-filesys.c	1664;"	d	file:
+SELECT_WRITE_READY	./nl-filesys.c	1665;"	d	file:
+SEM_CREATE	./nl-filesys.c	102;"	d	file:
+SEM_SIGNAL	./nl-filesys.c	104;"	d	file:
+SEM_STATUS	./nl-filesys.c	103;"	d	file:
+SEND_TO_SOCK	./nl-sock.c	1125;"	d	file:
+SEND_TO_UDP	./nl-sock.c	1124;"	d	file:
+SERVER_SOFTWARE	./nl-web.c	977;"	d	file:
+SETREF_ALL	./nl-list.c	1469;"	d	file:
+SETREF_SINGLE	./nl-list.c	1468;"	d	file:
+SET_CONSTANT	./newlisp.h	614;"	d
+SET_DEFINE	./newlisp.h	615;"	d
+SET_DIFF	./nl-list.c	201;"	d	file:
+SET_INTER	./nl-list.c	200;"	d	file:
+SET_SET	./newlisp.h	613;"	d
+SET_UNIQUE	./nl-list.c	202;"	d	file:
+SHARED_MEM_EVAL_MASK	./newlisp.h	399;"	d
+SHUT_RDWR	./nl-sock.c	34;"	d	file:
+SHUT_RDWR	./nl-sock.c	97;"	d	file:
+SOCKET_ERROR	./nl-filesys.c	81;"	d	file:
+SOCKET_ERROR	./nl-sock.c	121;"	d	file:
+SOCKET_ERROR	./nl-web.c	40;"	d	file:
+SOCKLIST	./nl-sock.c	/^    } SOCKLIST;$/;"	t	typeref:struct:__anon4	file:
+SOLARIS	./newlisp.h	74;"	d
+SPARC	./newlisp.h	75;"	d
+SPAWN_LIST	./nl-filesys.c	/^    } SPAWN_LIST;$/;"	t	typeref:struct:__anon6	file:
+SQRT2	./nl-math.c	1491;"	d	file:
+STARTS_WITH	./nl-liststr.c	1407;"	d	file:
+STAT_CHI2	./nl-math.c	1564;"	d	file:
+STAT_F	./nl-math.c	1566;"	d	file:
+STAT_T	./nl-math.c	1565;"	d	file:
+STRADDR_LEN	./nl-sock.c	143;"	d	file:
+STREAM	./newlisp.h	/^	} STREAM;$/;"	t	typeref:struct:__anon11
+STRING	./pcre.c	552;"	d	file:
+STR_LOWER	./nl-string.c	432;"	d	file:
+STR_TITLE	./nl-string.c	434;"	d	file:
+STR_UPPER	./nl-string.c	433;"	d	file:
+SUN_LEN	./nl-sock.c	109;"	d	file:
+SWAP	./nl-math.c	1282;"	d	file:
+SYMBOL	./newlisp.h	/^	} SYMBOL;$/;"	t	typeref:struct:tagSYMBOL
+SYMBOL_BUILTIN	./newlisp.h	377;"	d
+SYMBOL_DESTRUCTIVE	./newlisp.h	380;"	d
+SYMBOL_FFI	./newlisp.h	378;"	d
+SYMBOL_GLOBAL	./newlisp.h	376;"	d
+SYMBOL_MACRO	./newlisp.h	379;"	d
+SYMBOL_PROTECTED	./newlisp.h	375;"	d
+SYMBOL_TYPE_MASK	./newlisp.h	388;"	d
+TAG_STACK	./nl-xml-json.c	/^    } TAG_STACK;$/;"	t	typeref:struct:__anon10	file:
+TERMSET	./nl-math.c	/^    } TERMSET;$/;"	t	typeref:struct:__anon1	file:
+TKN_BINARY	./newlisp.h	363;"	d
+TKN_CHARACTER	./newlisp.h	360;"	d
+TKN_CONTEXT	./newlisp.h	368;"	d
+TKN_DECIMAL	./newlisp.h	364;"	d
+TKN_EMPTY	./newlisp.h	359;"	d
+TKN_ERROR	./newlisp.h	358;"	d
+TKN_FLOAT	./newlisp.h	365;"	d
+TKN_HEX	./newlisp.h	361;"	d
+TKN_LEFT_PAR	./newlisp.h	369;"	d
+TKN_OCTAL	./newlisp.h	362;"	d
+TKN_QUOTE	./newlisp.h	371;"	d
+TKN_RIGHT_PAR	./newlisp.h	370;"	d
+TKN_STRING	./newlisp.h	366;"	d
+TKN_SYMBOL	./newlisp.h	367;"	d
+TRACE_CILK	./newlisp.h	477;"	d
+TRACE_DEBUG_EVAL	./newlisp.h	470;"	d
+TRACE_DEBUG_NEXT	./newlisp.h	472;"	d
+TRACE_DEBUG_PENDING	./newlisp.h	469;"	d
+TRACE_DEBUG_STEP	./newlisp.h	471;"	d
+TRACE_IN_DEBUG	./newlisp.h	468;"	d
+TRACE_IN_ENTRY	./newlisp.h	466;"	d
+TRACE_IN_EXIT	./newlisp.h	467;"	d
+TRACE_PRINT_EVAL	./newlisp.h	473;"	d
+TRACE_SIGINT	./newlisp.h	474;"	d
+TRACE_SIGNAL	./newlisp.h	476;"	d
+TRACE_TIMER	./newlisp.h	475;"	d
+TRACE_TRUE	./newlisp.h	465;"	d
+TRUE	./newlisp.h	338;"	d
+TRUE	./pcre-internal.h	279;"	d
+T_MEDIA_TYPE	./nl-web.c	/^    } T_MEDIA_TYPE;$/;"	t	typeref:struct:__anon19	file:
+UINT	./newlisp.h	315;"	d
+UINT	./nl-sock.c	28;"	d	file:
+UINT16	./nl-filesys.c	3057;"	d	file:
+UINT32	./nl-filesys.c	3058;"	d	file:
+UINT64	./newlisp.h	320;"	d
+UNIFY_ANY	./nl-math.c	3112;"	d	file:
+UNIFY_ATOM	./nl-math.c	3109;"	d	file:
+UNIFY_LIST	./nl-math.c	3110;"	d	file:
+UNIFY_VAR	./nl-math.c	3111;"	d	file:
+UNKNOWN_ERROR	./newlisp.h	558;"	d
+USE_BUILTIN_FFS	./win-ffi.h	120;"	d
+USE_WIN_UTF16PATH	./newlisp.h	283;"	d
+UTF8_MAX_BYTES	./newlisp.h	310;"	d
+UUID	./nl-filesys.c	/^    } UUID;$/;"	t	typeref:struct:__anon7	file:
+WCSFTIME	./newlisp.h	190;"	d
+WCSFTIME	./newlisp.h	197;"	d
+WEP	./win-dll.c	/^int EXPORT WEP (int bSystemExit)$/;"	f
+WIN32_LEAN_AND_MEAN	./win-util.c	27;"	d	file:
+WIN_32	./newlisp.h	93;"	d
+WIN_64	./newlisp.h	91;"	d
+WSAData	./win-dll.c	/^WSADATA WSAData;$/;"	v
+X86	./win-ffi.h	115;"	d
+X86_64	./win-ffi.h	114;"	d
+X86_ANY	./win-ffi.h	111;"	d
+X86_WIN32	./win-ffi.h	63;"	d
+X86_WIN64	./win-ffi.h	69;"	d
+XCL_END	./pcre-internal.h	329;"	d
+XCL_MAP	./pcre-internal.h	327;"	d
+XCL_NOT	./pcre-internal.h	326;"	d
+XCL_NOTPROP	./pcre-internal.h	333;"	d
+XCL_PROP	./pcre-internal.h	332;"	d
+XCL_RANGE	./pcre-internal.h	331;"	d
+XCL_SINGLE	./pcre-internal.h	330;"	d
+XML_CDATA	./nl-xml-json.c	26;"	d	file:
+XML_COMMENT	./nl-xml-json.c	27;"	d	file:
+XML_ELEMENT	./nl-xml-json.c	28;"	d	file:
+XML_SUPPORT	./newlisp.h	30;"	d
+XML_TEXT	./nl-xml-json.c	25;"	d	file:
+XMLcontext	./nl-xml-json.c	/^static SYMBOL * XMLcontext;$/;"	v	file:
+XSTRING	./pcre.c	553;"	d	file:
+Xcallpat	./pcre.c	/^  const uschar *Xcallpat;$/;"	m	struct:heapframe	file:
+Xcharptr	./pcre.c	/^  const uschar *Xcharptr;$/;"	m	struct:heapframe	file:
+Xcondition	./pcre.c	/^  BOOL Xcondition;$/;"	m	struct:heapframe	file:
+Xctype	./pcre.c	/^  int Xctype;$/;"	m	struct:heapframe	file:
+Xcur_is_word	./pcre.c	/^  BOOL Xcur_is_word;$/;"	m	struct:heapframe	file:
+Xdata	./pcre.c	/^  const uschar *Xdata;$/;"	m	struct:heapframe	file:
+Xecode	./pcre.c	/^  const uschar *Xecode;$/;"	m	struct:heapframe	file:
+Xeptr	./pcre.c	/^  const uschar *Xeptr;$/;"	m	struct:heapframe	file:
+Xeptrb	./pcre.c	/^  eptrblock *Xeptrb;$/;"	m	struct:heapframe	file:
+Xfc	./pcre.c	/^  int Xfc;$/;"	m	struct:heapframe	file:
+Xfi	./pcre.c	/^  int Xfi;$/;"	m	struct:heapframe	file:
+Xflags	./pcre.c	/^  int Xflags;$/;"	m	struct:heapframe	file:
+Xims	./pcre.c	/^  long int Xims;$/;"	m	struct:heapframe	file:
+Xlength	./pcre.c	/^  int Xlength;$/;"	m	struct:heapframe	file:
+Xmax	./pcre.c	/^  int Xmax;$/;"	m	struct:heapframe	file:
+Xmin	./pcre.c	/^  int Xmin;$/;"	m	struct:heapframe	file:
+Xminimize	./pcre.c	/^  BOOL Xminimize;$/;"	m	struct:heapframe	file:
+Xnew_recursive	./pcre.c	/^  recursion_info Xnew_recursive;$/;"	m	struct:heapframe	file:
+Xnewptrb	./pcre.c	/^  eptrblock Xnewptrb;$/;"	m	struct:heapframe	file:
+Xnext	./pcre.c	/^  const uschar *Xnext;$/;"	m	struct:heapframe	file:
+Xnumber	./pcre.c	/^  int Xnumber;$/;"	m	struct:heapframe	file:
+Xoffset	./pcre.c	/^  int Xoffset;$/;"	m	struct:heapframe	file:
+Xoffset_top	./pcre.c	/^  int Xoffset_top;$/;"	m	struct:heapframe	file:
+Xop	./pcre.c	/^  int Xop;$/;"	m	struct:heapframe	file:
+Xoriginal_ims	./pcre.c	/^  unsigned long int Xoriginal_ims;$/;"	m	struct:heapframe	file:
+Xpp	./pcre.c	/^  const uschar *Xpp;$/;"	m	struct:heapframe	file:
+Xprev	./pcre.c	/^  const uschar *Xprev;$/;"	m	struct:heapframe	file:
+Xprev_is_word	./pcre.c	/^  BOOL Xprev_is_word;$/;"	m	struct:heapframe	file:
+Xprevframe	./pcre.c	/^  struct heapframe *Xprevframe;$/;"	m	struct:heapframe	typeref:struct:heapframe::heapframe	file:
+Xprop_category	./pcre.c	/^  int Xprop_category;$/;"	m	struct:heapframe	file:
+Xprop_chartype	./pcre.c	/^  int Xprop_chartype;$/;"	m	struct:heapframe	file:
+Xprop_fail_result	./pcre.c	/^  int Xprop_fail_result;$/;"	m	struct:heapframe	file:
+Xprop_othercase	./pcre.c	/^  int Xprop_othercase;$/;"	m	struct:heapframe	file:
+Xprop_test_against	./pcre.c	/^  int Xprop_test_against;$/;"	m	struct:heapframe	file:
+Xprop_test_variable	./pcre.c	/^  int *Xprop_test_variable;$/;"	m	struct:heapframe	file:
+Xprop_type	./pcre.c	/^  int Xprop_type;$/;"	m	struct:heapframe	file:
+Xresult	./pcre.c	/^  int  Xresult;$/;"	m	struct:heapframe	file:
+Xsave_capture_last	./pcre.c	/^  int Xsave_capture_last;$/;"	m	struct:heapframe	file:
+Xsave_offset1	./pcre.c	/^  int Xsave_offset1, Xsave_offset2, Xsave_offset3;$/;"	m	struct:heapframe	file:
+Xsave_offset2	./pcre.c	/^  int Xsave_offset1, Xsave_offset2, Xsave_offset3;$/;"	m	struct:heapframe	file:
+Xsave_offset3	./pcre.c	/^  int Xsave_offset1, Xsave_offset2, Xsave_offset3;$/;"	m	struct:heapframe	file:
+Xsaved_eptr	./pcre.c	/^  const uschar *Xsaved_eptr;$/;"	m	struct:heapframe	file:
+Xstacksave	./pcre.c	/^  int Xstacksave[REC_STACK_SAVE_MAX];$/;"	m	struct:heapframe	file:
+Xwhere	./pcre.c	/^  jmp_buf Xwhere;$/;"	m	struct:heapframe	file:
+Z_EPSILON	./nl-math.c	1510;"	d	file:
+_CRT_fmode	./nl-filesys.c	/^unsigned int _CRT_fmode = _O_BINARY;$/;"	v
+_FILE_OFFSET_BITS	./newlisp.h	160;"	d
+_LARGEFILE64_SOURCE	./newlisp.h	158;"	d
+_PCRE_H	./pcre.h	40;"	d
+_WIN32_WINNT	./newlisp.h	169;"	d
+__FAVOR_BSD	./nl-sock.c	45;"	d	file:
+__attribute__	./win-ffi.h	203;"	d
+_ffi_type	./win-ffi.h	/^typedef struct _ffi_type$/;"	s
+abi	./win-ffi.h	/^  ffi_abi abi;$/;"	m	struct:__anon28
+addBigint	./nl-math.c	/^int * addBigint(int * x, int nx, int * y, int ny, int * sm, int * nsm)$/;"	f
+addClock	./util/ffitest.c	/^clock addClock(clock in)$/;"	f
+addList	./newlisp.c	/^void addList(CELL * list, CELL * new)$/;"	f
+addResult	./nl-sock.c	/^CELL * addResult(CELL * * result, CELL * cell, CELL * new)$/;"	f
+addSpawnedChild	./nl-filesys.c	/^void addSpawnedChild(void * addr, SYMBOL * sPtr, int pid, int socket)$/;"	f
+add_double	./util/ffitest.c	/^double add_double(double number1, double number2)$/;"	f
+adjustCount	./nl-liststr.c	/^size_t adjustCount(ssize_t count, ssize_t length)$/;"	f
+adjustNegativeIndex	./nl-liststr.c	/^size_t adjustNegativeIndex(ssize_t index, size_t length)$/;"	f
+adjust_recurse	./pcre.c	/^adjust_recurse(uschar *group, int adjust, BOOL utf8, compile_data *cd)$/;"	f	file:
+after_call	./pcre-internal.h	/^  const uschar *after_call;     \/* "Return value": points after the call in the expr *\/$/;"	m	struct:recursion_info
+alignment	./win-ffi.h	/^  unsigned short alignment;$/;"	m	struct:_ffi_type
+alignment1	./util/types.c	/^    } alignment1;$/;"	t	typeref:struct:__anon34	file:
+alignment2	./util/types.c	/^    } alignment2;$/;"	t	typeref:struct:__anon35	file:
+alignment3	./util/types.c	/^    } alignment3;$/;"	t	typeref:struct:__anon36	file:
+alignment4	./util/types.c	/^    } alignment4;$/;"	t	typeref:struct:__anon37	file:
+allocBlock	./newlisp.c	/^void allocBlock()$/;"	f
+allocMemory	./newlisp.c	/^void * allocMemory(size_t nbytes)$/;"	f
+allocateMatrix	./nl-matrix.c	/^double * * allocateMatrix(int rows, int cols)$/;"	f
+ansi_mbcs_to_utf16	./win-path.c	/^WCHAR * ansi_mbcs_to_utf16(const char *mbcsStr)$/;"	f
+appendArray	./nl-list.c	/^CELL * appendArray(CELL * array, CELL * params)$/;"	f
+appendCellString	./nl-filesys.c	/^size_t appendCellString(CELL * cell, char * buffer, size_t size)$/;"	f
+appendNode	./nl-xml-json.c	/^CELL * appendNode(CELL * node, CELL * newNode)$/;"	f
+appendString	./nl-liststr.c	/^CELL * appendString(CELL * cell, CELL * list, char * joint, size_t jointLen, int trailJoint, int evalFlag)$/;"	f
+appendWriteFile	./nl-filesys.c	/^CELL * appendWriteFile(CELL * params, char * type)$/;"	f
+arg_types	./win-ffi.h	/^  ffi_type **arg_types;$/;"	m	struct:__anon28
+argsSymbol	./newlisp.c	/^SYMBOL * argsSymbol;$/;"	v
+arithmetikOp	./nl-math.c	/^CELL * arithmetikOp(CELL * params, int op)$/;"	f
+arrayList	./nl-list.c	/^CELL * arrayList(CELL * array, int flag)$/;"	f
+arrayTranspose	./nl-list.c	/^CELL * arrayTranspose(CELL * array)$/;"	f
+array_test	./util/ffitest.c	/^int array_test(int n, int m, double * ptr[])$/;"	f
+assignSymbol	./nl-symbol.c	/^CELL * assignSymbol(SYMBOL * sPtr, CELL * content)$/;"	f
+associationsFromTree	./nl-symbol.c	/^CELL * associationsFromTree(SYMBOL * context)$/;"	f
+atSymbol	./newlisp.c	/^SYMBOL * atSymbol;$/;"	v
+auto_callout	./pcre.c	/^auto_callout(uschar *code, const uschar *ptr, compile_data *cd)$/;"	f	file:
+aux	./newlisp.h	/^	UINT aux;$/;"	m	struct:__anon12
+backref_map	./pcre-internal.h	/^  unsigned int backref_map;     \/* Bitmap of low back refs *\/$/;"	m	struct:compile_data
+banner	./newlisp.c	/^char banner[]=$/;"	v
+banner2	./newlisp.c	/^char banner2[]= ", options: newlisp -h";$/;"	v
+base	./nl-list.c	/^    size_t * base;$/;"	m	struct:__anon9	file:
+base64	./nl-web.c	/^CELL * base64(CELL * params, int type)$/;"	f
+beginSymbol	./newlisp.c	/^SYMBOL * beginSymbol;$/;"	v
+betacf	./nl-math.c	/^double betacf(double a, double b, double x)$/;"	f
+betai	./nl-math.c	/^double betai(double a, double b, double x)$/;"	f
+bigEndian	./newlisp.c	/^int bigEndian = 1; \/* gets set in main() *\/$/;"	v
+bigintCellToFloat	./nl-math.c	/^double bigintCellToFloat(CELL * cell)$/;"	f
+bigintToAbsFloat	./nl-math.c	/^double bigintToAbsFloat(int * numPtr, int n)$/;"	f
+bigintToDigits	./nl-math.c	/^char * bigintToDigits(int * num, int n, int offset, int * slen)$/;"	f
+bigintToInt64	./nl-math.c	/^INT64 bigintToInt64(CELL * cell)$/;"	f
+bindFlag	./nl-math.c	/^int bindFlag;$/;"	v
+bindList	./nl-list.c	/^CELL * bindList(CELL * params, int evalFlag)$/;"	f
+binsort	./nl-list.c	/^void binsort(CELL * * x, ssize_t n, CELL * pCell)$/;"	f
+blockCount	./newlisp.c	/^INT blockCount = 0;$/;"	v
+blockExpand	./newlisp.c	/^CELL * blockExpand(CELL * block, SYMBOL * symbol)$/;"	f
+blockSocket	./nl-sock.c	/^int blockSocket(int sock)$/;"	f
+branch_chain	./pcre-internal.h	/^typedef struct branch_chain {$/;"	s
+branch_chain	./pcre-internal.h	/^} branch_chain;$/;"	t	typeref:struct:branch_chain
+buffer	./newlisp.h	/^	char *buffer;$/;"	m	struct:__anon11
+byteflip	./pcre.c	/^byteflip(long int value, int n)$/;"	f	file:
+bytes	./win-ffi.h	/^  unsigned bytes;$/;"	m	struct:__anon28
+calcDateValue	./nl-filesys.c	/^time_t calcDateValue(int year, int month, int day, int hour, int min, int sec)$/;"	f
+callback	./nl-import.c	/^LIBCALLBACK callback[] = {$/;"	v
+callback0	./nl-import.c	/^INT callback0(INT p1, INT p2, INT p3, INT p4, INT p5, INT p6, INT p7, INT p8) $/;"	f
+callback1	./nl-import.c	/^INT callback1(INT p1, INT p2, INT p3, INT p4, INT p5, INT p6, INT p7, INT p8) $/;"	f
+callback10	./nl-import.c	/^INT callback10(INT p1, INT p2, INT p3, INT p4, INT p5, INT p6, INT p7, INT p8) $/;"	f
+callback11	./nl-import.c	/^INT callback11(INT p1, INT p2, INT p3, INT p4, INT p5, INT p6, INT p7, INT p8) $/;"	f
+callback12	./nl-import.c	/^INT callback12(INT p1, INT p2, INT p3, INT p4, INT p5, INT p6, INT p7, INT p8) $/;"	f
+callback13	./nl-import.c	/^INT callback13(INT p1, INT p2, INT p3, INT p4, INT p5, INT p6, INT p7, INT p8) $/;"	f
+callback14	./nl-import.c	/^INT callback14(INT p1, INT p2, INT p3, INT p4, INT p5, INT p6, INT p7, INT p8) $/;"	f
+callback15	./nl-import.c	/^INT callback15(INT p1, INT p2, INT p3, INT p4, INT p5, INT p6, INT p7, INT p8) $/;"	f
+callback2	./nl-import.c	/^INT callback2(INT p1, INT p2, INT p3, INT p4, INT p5, INT p6, INT p7, INT p8) $/;"	f
+callback3	./nl-import.c	/^INT callback3(INT p1, INT p2, INT p3, INT p4, INT p5, INT p6, INT p7, INT p8) $/;"	f
+callback4	./nl-import.c	/^INT callback4(INT p1, INT p2, INT p3, INT p4, INT p5, INT p6, INT p7, INT p8) $/;"	f
+callback5	./nl-import.c	/^INT callback5(INT p1, INT p2, INT p3, INT p4, INT p5, INT p6, INT p7, INT p8) $/;"	f
+callback6	./nl-import.c	/^INT callback6(INT p1, INT p2, INT p3, INT p4, INT p5, INT p6, INT p7, INT p8) $/;"	f
+callback7	./nl-import.c	/^INT callback7(INT p1, INT p2, INT p3, INT p4, INT p5, INT p6, INT p7, INT p8) $/;"	f
+callback8	./nl-import.c	/^INT callback8(INT p1, INT p2, INT p3, INT p4, INT p5, INT p6, INT p7, INT p8) $/;"	f
+callback9	./nl-import.c	/^INT callback9(INT p1, INT p2, INT p3, INT p4, INT p5, INT p6, INT p7, INT p8) $/;"	f
+callocMemory	./newlisp.c	/^void * callocMemory(size_t nbytes)$/;"	f
+callout_data	./pcre-internal.h	/^  void  *callout_data;          \/* To pass back to callouts *\/$/;"	m	struct:match_data
+callout_data	./pcre.h	/^  void        *callout_data;      \/* Data passed in with the call *\/$/;"	m	struct:pcre_callout_block
+callout_data	./pcre.h	/^  void *callout_data;             \/* Data passed back in callouts *\/$/;"	m	struct:pcre_extra
+callout_number	./pcre.h	/^  int          callout_number;    \/* Number compiled into pattern *\/$/;"	m	struct:pcre_callout_block
+callpat	./pcre.c	5996;"	d	file:
+callpat	./pcre.c	8727;"	d	file:
+capture_last	./pcre-internal.h	/^  int    capture_last;          \/* Most recent capture number *\/$/;"	m	struct:match_data
+capture_last	./pcre.h	/^  int          capture_last;      \/* Most recently closed capture *\/$/;"	m	struct:pcre_callout_block
+capture_top	./pcre.h	/^  int          capture_top;       \/* Max current capture *\/$/;"	m	struct:pcre_callout_block
+cbit_cntrl	./pcre-internal.h	743;"	d
+cbit_digit	./pcre-internal.h	736;"	d
+cbit_graph	./pcre-internal.h	740;"	d
+cbit_length	./pcre-internal.h	744;"	d
+cbit_lower	./pcre-internal.h	738;"	d
+cbit_print	./pcre-internal.h	741;"	d
+cbit_punct	./pcre-internal.h	742;"	d
+cbit_space	./pcre-internal.h	734;"	d
+cbit_upper	./pcre-internal.h	737;"	d
+cbit_word	./pcre-internal.h	739;"	d
+cbit_xdigit	./pcre-internal.h	735;"	d
+cbits	./pcre-internal.h	/^  const uschar *cbits;          \/* Points to character type table *\/$/;"	m	struct:compile_data
+cbits_offset	./pcre-internal.h	751;"	d
+cdeclFunction	./nl-import.c	/^UINT cdeclFunction(UINT fAddress, UINT * args, int count)$/;"	f
+cellBlock	./newlisp.c	/^CELL * cellBlock = NULL; \/* the last block allocated *\/$/;"	v
+cellCount	./newlisp.c	/^size_t cellCount = 0;$/;"	v
+cellMemory	./newlisp.c	/^CELL * cellMemory = NULL;\/* start of cell memory *\/$/;"	v
+cellToString	./nl-string.c	/^char * cellToString(CELL * cell, size_t * size, int quoteFlag)$/;"	f
+cellTokenString	./nl-string.c	/^CELL * cellTokenString(char * * source, size_t * srclen, char * separator, pcre * re)$/;"	f
+cfPv	./nl-math.c	/^double cfPv(int N, int times[], double amounts[], double rate)$/;"	f
+changeContextCells	./nl-symbol.c	/^void changeContextCells(SYMBOL * contextPtr)$/;"	f
+charptr	./pcre.c	5994;"	d	file:
+charptr	./pcre.c	8728;"	d	file:
+chdir	./newlisp.h	289;"	d
+chdir_utf16	./win-path.c	/^int chdir_utf16(const char* filename8)$/;"	f
+checkDeleteShareFile	./nl-filesys.c	/^void checkDeleteShareFile(UINT * address)$/;"	f
+check_escape	./pcre.c	/^check_escape(const uschar **ptrptr, const char **errorptr, int bracount,$/;"	f	file:
+check_posix_name	./pcre.c	/^check_posix_name(const uschar *ptr, int len)$/;"	f	file:
+check_posix_syntax	./pcre.c	/^check_posix_syntax(const uschar *ptr, const uschar **endptr, compile_data *cd)$/;"	f	file:
+cif	./newlisp.h	/^    ffi_cif cif;$/;"	m	struct:__anon16
+cif	./win-ffi.h	/^  ffi_cif   *cif;$/;"	m	struct:__anon31
+cif	./win-ffi.h	/^  ffi_cif   *cif;$/;"	m	struct:__anon32
+cif	./win-ffi.h	/^  ffi_cif   *cif;$/;"	m	struct:__anon33
+cleanupResults	./newlisp.c	/^void cleanupResults(UINT * from)$/;"	f
+clock	./util/ffitest.c	/^    } clock;$/;"	t	typeref:struct:clock	file:
+clock	./util/ffitest.c	/^typedef struct clock$/;"	s	file:
+clock_seq	./nl-filesys.c	/^UINT16 clock_seq = 0;$/;"	v
+clock_seq_hi_and_reserved	./nl-filesys.c	/^    unsigned char   clock_seq_hi_and_reserved;$/;"	m	struct:__anon7	file:
+clock_seq_low	./nl-filesys.c	/^    unsigned char   clock_seq_low;$/;"	m	struct:__anon7	file:
+clos	./newlisp.h	/^    ffi_closure *clos;$/;"	m	struct:__anon16
+close	./nl-sock.c	119;"	d	file:
+close	./nl-web.c	43;"	d	file:
+closeStrStream	./nl-string.c	/^void closeStrStream(STREAM * stream)$/;"	f
+closeTrace	./nl-debug.c	/^void closeTrace(void)$/;"	f
+closedir	./newlisp.h	295;"	d
+cmpAbsBigint	./nl-math.c	/^int cmpAbsBigint(int * x, int nx, int * y, int ny)$/;"	f
+cmpBigint	./nl-math.c	/^int cmpBigint(int * x, int nx, int * y, int ny)$/;"	f
+code	./newlisp.h	/^    void *code;$/;"	m	struct:__anon16
+code	./newlisp.h	/^  void *code;$/;"	m	struct:__anon15
+collectSymbolAssocs	./nl-symbol.c	/^void collectSymbolAssocs(SYMBOL * sPtr, CELL * assocList)$/;"	f
+collectSymbols	./nl-symbol.c	/^void collectSymbols(SYMBOL * sPtr, CELL * symbolList)$/;"	f
+color	./newlisp.h	/^	int color;$/;"	m	struct:tagSYMBOL
+commandEvent	./newlisp.c	/^SYMBOL * commandEvent;$/;"	v
+command_generator	./newlisp.c	/^char * command_generator(char * text, int state)$/;"	f
+compEQ	./nl-symbol.c	567;"	d	file:
+compLT	./nl-symbol.c	566;"	d	file:
+compareArrays	./nl-list.c	/^int compareArrays(CELL * left, CELL * right)$/;"	f
+compareCells	./nl-math.c	/^int compareCells(CELL * left, CELL * right)$/;"	f
+compareFloats	./nl-math.c	/^int compareFloats(CELL * left, CELL * right)$/;"	f
+compareFunc	./nl-list.c	/^int compareFunc(CELL * left, CELL * right, CELL * func)$/;"	f
+compareInts	./nl-math.c	/^int compareInts(CELL * left, CELL * right)$/;"	f
+compareLists	./nl-math.c	/^int compareLists(CELL * left, CELL * right)$/;"	f
+compareOp	./nl-math.c	/^CELL * compareOp(CELL * params, int op)$/;"	f
+compareSymbols	./nl-math.c	/^int compareSymbols(CELL * left, CELL * right)$/;"	f
+compileExpression	./newlisp.c	/^int compileExpression(STREAM * stream, CELL * cell)$/;"	f
+compile_branch	./pcre.c	/^compile_branch(int *optionsptr, int *brackets, uschar **codeptr,$/;"	f	file:
+compile_data	./pcre-internal.h	/^typedef struct compile_data {$/;"	s
+compile_data	./pcre-internal.h	/^} compile_data;$/;"	t	typeref:struct:compile_data
+compile_regex	./pcre.c	/^compile_regex(int options, int oldims, int *brackets, uschar **codeptr,$/;"	f	file:
+complete_callout	./pcre.c	/^complete_callout(uschar *previous_callout, const uschar *ptr, compile_data *cd)$/;"	f	file:
+complex_test	./util/ffitest.c	/^gsl_complex complex_test(gsl_complex gs)$/;"	f
+condition	./pcre.c	6006;"	d	file:
+condition	./pcre.c	8738;"	d	file:
+connectionTimeout	./newlisp.c	/^int connectionTimeout = 0;$/;"	v
+contents	./newlisp.h	/^	UINT contents; $/;"	m	struct:tagSYMBOL
+contents	./newlisp.h	/^	UINT contents;$/;"	m	struct:__anon12
+context	./newlisp.h	/^	struct tagSYMBOL * context;$/;"	m	struct:tagSYMBOL	typeref:struct:tagSYMBOL::tagSYMBOL
+convertNegativeOffset	./newlisp.c	/^ssize_t convertNegativeOffset(ssize_t offset, CELL * list)$/;"	f
+copyArray	./nl-list.c	/^UINT * copyArray(CELL * array)$/;"	f
+copyCell	./newlisp.c	/^CELL * copyCell(CELL * cell)$/;"	f
+copyContextArray	./newlisp.c	/^UINT * copyContextArray(CELL * array)$/;"	f
+copyContextCell	./newlisp.c	/^CELL * copyContextCell(CELL * cell)$/;"	f
+copyContextList	./newlisp.c	/^CELL * copyContextList(CELL * cell)$/;"	f
+copyList	./newlisp.c	/^CELL * copyList(CELL * cell)$/;"	f
+copyright	./newlisp.c	/^char copyright[]=$/;"	v
+could_be_empty	./pcre.c	/^could_be_empty(const uschar *code, const uschar *endcode, branch_chain *bcptr,$/;"	f	file:
+could_be_empty_branch	./pcre.c	/^could_be_empty_branch(const uschar *code, const uschar *endcode, BOOL utf8)$/;"	f	file:
+countCell	./newlisp.c	/^CELL * countCell;$/;"	v
+countSymbol	./newlisp.c	/^SYMBOL * countSymbol;$/;"	v
+crc16	./nl-math.c	/^unsigned short crc16(unsigned char * buff, int len)$/;"	f
+createIOsession	./nl-sock.c	/^IO_SESSION * createIOsession(int handle, int family)$/;"	f
+createRootContext	./nl-symbol.c	/^SYMBOL * createRootContext(char * token)$/;"	f
+criticalX	./nl-math.c	/^CELL * criticalX(CELL * params, int type)$/;"	f
+critical_value	./nl-math.c	/^double critical_value(double p, UINT df1, UINT df2, double max_val, int type)$/;"	f
+cstruct	./newlisp.h	/^    ffi_type *cstruct;$/;"	m	struct:__anon16
+ctrlC_handler	./newlisp.c	/^void ctrlC_handler(int sig) $/;"	f
+ctype	./pcre.c	6022;"	d	file:
+ctype	./pcre.c	8744;"	d	file:
+ctype_digit	./pcre-internal.h	726;"	d
+ctype_letter	./pcre-internal.h	725;"	d
+ctype_meta	./pcre-internal.h	729;"	d
+ctype_space	./pcre-internal.h	724;"	d
+ctype_word	./pcre-internal.h	728;"	d
+ctype_xdigit	./pcre-internal.h	727;"	d
+ctypes	./pcre-internal.h	/^  const uschar *ctypes;         \/* Points to table of type maps *\/$/;"	m	struct:compile_data
+ctypes	./pcre-internal.h	/^  const uschar *ctypes;         \/* Points to table of type maps *\/$/;"	m	struct:match_data
+ctypes_offset	./pcre-internal.h	752;"	d
+cur_is_word	./pcre.c	6005;"	d	file:
+cur_is_word	./pcre.c	8737;"	d	file:
+current	./pcre-internal.h	/^  uschar *current;$/;"	m	struct:branch_chain
+currentContext	./newlisp.c	/^SYMBOL * currentContext = NULL;$/;"	v
+currentDateValue	./nl-filesys.c	/^ssize_t currentDateValue(void)$/;"	f
+currentFunc	./newlisp.c	/^SYMBOL * currentFunc;$/;"	v
+currentLevel	./nl-debug.c	/^int currentLevel = 0;$/;"	v
+currentSignal	./newlisp.c	/^int currentSignal = 0;$/;"	v
+current_position	./pcre.h	/^  int          current_position;  \/* Where we currently are in the subject *\/$/;"	m	struct:pcre_callout_block
+daemonMode	./newlisp.c	/^int daemonMode = 0;$/;"	v
+dat	./util/ffitest.c	/^double dat[2];$/;"	m	struct:__anon38	file:
+data	./newlisp.h	/^    ffi_closure_data *data;$/;"	m	struct:__anon16
+data	./pcre.c	5997;"	d	file:
+data	./pcre.c	8729;"	d	file:
+data	./win-ffi.h	/^  char		data[FFI_SIZEOF_JAVA_RAW];$/;"	m	union:__anon30
+data	./win-ffi.h	/^  char      data[FFI_SIZEOF_ARG];$/;"	m	union:__anon29
+data2matrix	./nl-matrix.c	/^double * * data2matrix(CELL * list, int n, int m)$/;"	f
+debug	./nl-math.c	/^void debug(int * x, int n, char * txt)$/;"	f
+debugConsole	./win-dll.c	/^int EXPORT debugConsole() {$/;"	f
+debugFlag	./nl-math.c	/^int debugFlag;$/;"	v
+debugPostStr	./nl-debug.c	/^char debugPostStr[8] = "#";$/;"	v
+debugPreStr	./nl-debug.c	/^char debugPreStr[8] = "#";$/;"	v
+debugPrintCell	./nl-debug.c	/^CELL * debugPrintCell = NULL;$/;"	v
+debugPrintFunction	./nl-debug.c	/^int debugPrintFunction(CELL * cell)$/;"	f
+debugStack	./nl-debug.c	/^UINT * debugStack;$/;"	v
+debugStackIdx	./nl-debug.c	/^int debugStackIdx = 0;$/;"	v
+decodeQuantum	./nl-web.c	/^static void decodeQuantum(unsigned char *dest, const char *src)$/;"	f	file:
+defaultIn	./nl-sock.c	/^struct sockaddr * defaultIn = NULL;$/;"	v	typeref:struct:sockaddr
+defaultInAddr	./nl-sock.c	/^void * defaultInAddr = NULL; \/* either (struct in6_addr *) or (struct in_adr *) *\/$/;"	v
+defaultInLen	./nl-sock.c	/^socklen_t defaultInLen;$/;"	v
+defaultInterface	./nl-sock.c	/^char * defaultInterface = NULL;$/;"	v
+defineOrMacro	./newlisp.c	/^CELL * defineOrMacro(CELL * params, UINT cellType, int flag)$/;"	f
+deleteAndFreeSymbol	./nl-symbol.c	/^void deleteAndFreeSymbol(SYMBOL * sPtr, int checkReferences)$/;"	f
+deleteArray	./nl-list.c	/^void deleteArray(CELL * array)$/;"	f
+deleteContextSymbols	./nl-symbol.c	/^void deleteContextSymbols(CELL * cell, int checkReferences)$/;"	f
+deleteFixup	./nl-symbol.c	/^void deleteFixup(SYMBOL *x)$/;"	f
+deleteIOsession	./nl-sock.c	/^int deleteIOsession(int handle)$/;"	f
+deleteList	./newlisp.c	/^void deleteList(CELL * cell)$/;"	f
+deleteSymbol	./nl-symbol.c	/^int deleteSymbol(char * key)$/;"	f
+deleteTagStack	./nl-xml-json.c	/^void deleteTagStack(void)$/;"	f
+dest_addr	./nl-sock.c	/^    struct in_addr dest_addr;$/;"	m	struct:pseudohdr	typeref:struct:pseudohdr::in_addr	file:
+digitab	./pcre.c	/^static const unsigned char digitab[] =$/;"	v	file:
+dirent	./newlisp.h	293;"	d
+divModBigint	./nl-math.c	/^int * divModBigint(int * x, int nx, int * y, int ny, int rmndr, int * nq)$/;"	f
+dllEvalStr	./win-dll.c	/^LPSTR EXPORT dllEvalStr(LPSTR cmd)$/;"	f
+dllInitialized	./win-dll.c	/^int dllInitialized = 0;$/;"	v
+dllName	./win-dll.c	/^int EXPORT dllName(LPSTR name)$/;"	f
+dolist	./newlisp.c	/^CELL * dolist(CELL * params, int doType)$/;"	f
+dummy	./nl-sock.c	/^    unsigned char dummy;$/;"	m	struct:pseudohdr	file:
+dummy1	./pcre-internal.h	/^  pcre_uint32 dummy1;             \/* For future use, maybe *\/$/;"	m	struct:real_pcre
+dummy2	./pcre-internal.h	/^  pcre_uint16 dummy2;             \/* For future use, maybe *\/$/;"	m	struct:real_pcre
+ebcdic_chartab	./pcre.c	/^static const unsigned char ebcdic_chartab[] = { \/* chartable partial dup *\/$/;"	v	file:
+ecode	./pcre.c	5985;"	d	file:
+ecode	./pcre.c	8721;"	d	file:
+elements	./win-ffi.h	/^  struct _ffi_type **elements;$/;"	m	struct:_ffi_type	typeref:struct:_ffi_type::_ffi_type
+emscriptenReload	./newlisp.c	/^void emscriptenReload(void)$/;"	f
+encryptPad	./nl-math.c	/^void encryptPad(char *encrypted, char *data, char * key, size_t dataLen, size_t keyLen)$/;"	f
+end_match_ptr	./pcre-internal.h	/^  const uschar *end_match_ptr;  \/* Subject position at end match *\/$/;"	m	struct:match_data
+end_offset_top	./pcre-internal.h	/^  int    end_offset_top;        \/* Highwater mark at end of match *\/$/;"	m	struct:match_data
+end_subject	./pcre-internal.h	/^  const uschar *end_subject;    \/* End of the subject string *\/$/;"	m	struct:match_data
+endonly	./pcre-internal.h	/^  BOOL   endonly;               \/* Dollar not before final \\n *\/$/;"	m	struct:match_data
+endsWith	./nl-web.c	/^int endsWith(char * str, char * ext)$/;"	f
+envStack	./newlisp.c	/^UINT * envStack = NULL;$/;"	v
+envStackIdx	./newlisp.c	/^UINT * envStackIdx;$/;"	v
+envStackTop	./newlisp.c	/^UINT * envStackTop;$/;"	v
+environment	./nl-filesys.c	/^CELL * environment(void)$/;"	f
+epb_prev	./pcre.c	/^  struct eptrblock *epb_prev;$/;"	m	struct:eptrblock	typeref:struct:eptrblock::eptrblock	file:
+epb_saved_eptr	./pcre.c	/^  const uschar *epb_saved_eptr;$/;"	m	struct:eptrblock	file:
+eptr	./pcre.c	5984;"	d	file:
+eptr	./pcre.c	8720;"	d	file:
+eptrb	./pcre.c	5988;"	d	file:
+eptrb	./pcre.c	8724;"	d	file:
+eptrblock	./pcre.c	/^typedef struct eptrblock {$/;"	s	file:
+eptrblock	./pcre.c	/^} eptrblock;$/;"	t	typeref:struct:eptrblock	file:
+errorEvent	./newlisp.c	/^SYMBOL * errorEvent;$/;"	v
+errorJump	./newlisp.c	/^jmp_buf errorJump;$/;"	v
+errorMessage	./newlisp.c	/^char * errorMessage[] =$/;"	v
+errorMissingPar	./newlisp.c	/^void errorMissingPar(STREAM * stream)$/;"	f
+errorProc	./newlisp.c	/^CELL * errorProc(int errorNumber)$/;"	f
+errorProcAll	./newlisp.c	/^CELL * errorProcAll(int errorNumber, CELL * expr, int deleteFlag)$/;"	f
+errorProcArgs	./newlisp.c	/^CELL * errorProcArgs(int errorNumber, CELL * expr)$/;"	f
+errorProcExt	./newlisp.c	/^CELL * errorProcExt(int errorNumber, CELL * expr)$/;"	f
+errorProcExt2	./newlisp.c	/^CELL * errorProcExt2(int errorNumber, CELL * expr)$/;"	f
+errorReg	./newlisp.c	/^int errorReg = 0;$/;"	v
+errorStream	./newlisp.c	/^STREAM errorStream;$/;"	v
+escapes	./pcre.c	/^static const short int escapes[] = {$/;"	v	file:
+evalCatchFlag	./newlisp.c	/^int evalCatchFlag = 0;$/;"	v
+evalFunc	./newlisp.c	/^static CELL * (*evalFunc)(CELL *) = NULL;$/;"	v	file:
+evalJSbuff	./newlisp.c	/^char * evalJSbuff = NULL;$/;"	v
+evalSilent	./newlisp.c	/^int evalSilent = 0;$/;"	v
+evalString	./newlisp.c	/^CELL * evalString(CELL * params, int mode)$/;"	f
+evalStringJS	./newlisp.c	/^char * evalStringJS(char * cmd, size_t len)$/;"	f
+evaluateBlock	./newlisp.c	/^CELL * evaluateBlock(CELL * cell)$/;"	f
+evaluateExpression	./newlisp.c	/^CELL * evaluateExpression(CELL * cell)$/;"	f
+evaluateExpressionSafe	./newlisp.c	/^CELL *  evaluateExpressionSafe(CELL * cell, int * errNo)$/;"	f
+evaluateLambda	./newlisp.c	/^CELL * evaluateLambda(CELL * localLst, CELL * arg, SYMBOL * newContext)$/;"	f
+evaluateLambdaMacro	./newlisp.c	/^CELL * evaluateLambdaMacro(CELL * localLst, CELL * arg, SYMBOL * newContext)$/;"	f
+evaluateNamespaceHash	./newlisp.c	/^CELL * evaluateNamespaceHash(CELL * args, SYMBOL * newContext)$/;"	f
+evaluateStream	./newlisp.c	/^CELL * evaluateStream(STREAM * stream, UINT outDevice, int flag)$/;"	f
+executeCommandLine	./newlisp.c	/^void executeCommandLine(char * command, UINT outDevice, STREAM * cmdStream)$/;"	f
+executeHTTPrequest	./nl-web.c	/^int executeHTTPrequest(char * request, int type)$/;"	f
+executeLibFFI	./nl-import.c	/^CELL * executeLibFFI(CELL * pCell, CELL * params)$/;"	f
+executeLibfunction	./nl-import.c	/^CELL * executeLibfunction(CELL * pCell, CELL * params)$/;"	f
+executeSymbol	./newlisp.c	/^int executeSymbol(SYMBOL * symbol, CELL * params, CELL * * result)$/;"	f
+expand	./newlisp.c	/^CELL * expand(CELL * expr, SYMBOL * symbol)$/;"	f
+expandExprSymbol	./newlisp.c	/^void expandExprSymbol(CELL * cell, SYMBOL * sPtr)$/;"	f
+expandSymbol	./newlisp.c	/^SYMBOL * expandSymbol;$/;"	v
+explodeList	./nl-list.c	/^CELL * explodeList(CELL * list, CELL * params)$/;"	f
+extension	./nl-web.c	/^    char * extension;$/;"	m	struct:__anon19	file:
+externalContextReferences	./nl-symbol.c	/^int externalContextReferences(SYMBOL * contextPtr, int replaceFlag)$/;"	f
+family	./newlisp.h	/^    int family;$/;"	m	struct:__anon14
+fastFourierTransform	./nl-math.c	/^void fastFourierTransform(double data[], unsigned int nn, int isign)$/;"	f
+fatalError	./newlisp.c	/^void fatalError(int errorNumber, CELL * expr, int deleteFlag)$/;"	f
+fc	./pcre.c	6023;"	d	file:
+fc	./pcre.c	8763;"	d	file:
+fcc	./pcre-internal.h	/^  const uschar *fcc;            \/* Points to case-flipping table *\/$/;"	m	struct:compile_data
+fcc_offset	./pcre-internal.h	750;"	d
+fclose	./newlisp.c	47;"	d	file:
+fdopen	./nl-sock.c	33;"	d	file:
+ffiPreparation	./nl-import.c	/^CELL * ffiPreparation(CELL * pCell, CELL * params, int type)$/;"	f
+ffiTypeToCell	./nl-import.c	/^CELL * ffiTypeToCell(ffi_type *type, void * result)$/;"	f
+ffi_abi	./win-ffi.h	/^typedef enum ffi_abi {$/;"	g
+ffi_abi	./win-ffi.h	/^} ffi_abi;$/;"	t	typeref:enum:ffi_abi
+ffi_arg	./win-ffi.h	/^typedef unsigned __int64       ffi_arg;$/;"	t
+ffi_arg	./win-ffi.h	/^typedef unsigned long          ffi_arg;$/;"	t
+ffi_arg	./win-ffi.h	/^typedef unsigned long long     ffi_arg;$/;"	t
+ffi_cif	./win-ffi.h	/^} ffi_cif;$/;"	t	typeref:struct:__anon28
+ffi_closure	./win-ffi.h	/^} ffi_closure __attribute__((aligned (8)));$/;"	t	typeref:struct:__anon31
+ffi_closure_data	./newlisp.h	/^} ffi_closure_data;$/;"	t	typeref:struct:__anon15
+ffi_java_raw	./win-ffi.h	/^typedef ffi_raw ffi_java_raw;$/;"	t
+ffi_java_raw	./win-ffi.h	/^} ffi_java_raw;$/;"	t	typeref:union:__anon30
+ffi_java_raw_closure	./win-ffi.h	/^} ffi_java_raw_closure;$/;"	t	typeref:struct:__anon33
+ffi_raw	./win-ffi.h	/^} ffi_raw;$/;"	t	typeref:union:__anon29
+ffi_raw_closure	./win-ffi.h	/^} ffi_raw_closure;$/;"	t	typeref:struct:__anon32
+ffi_sarg	./win-ffi.h	/^typedef __int64                ffi_sarg;$/;"	t
+ffi_sarg	./win-ffi.h	/^typedef long long              ffi_sarg;$/;"	t
+ffi_sarg	./win-ffi.h	/^typedef signed long            ffi_sarg;$/;"	t
+ffi_status	./win-ffi.h	/^} ffi_status;$/;"	t	typeref:enum:__anon27
+ffi_trampoline	./nl-import.c	/^void ffi_trampoline(ffi_cif *cif, void *ret, void **args, void *data)$/;"	f
+ffi_type	./win-ffi.h	/^} ffi_type;$/;"	t	typeref:struct:_ffi_type
+ffi_type_charpointer	./nl-import.c	/^ffi_type ffi_type_charpointer = {0, 0, 0, NULL};$/;"	v
+ffi_type_longdouble	./win-ffi.h	317;"	d
+ffi_type_schar	./win-ffi.h	254;"	d
+ffi_type_sint	./win-ffi.h	271;"	d
+ffi_type_sint	./win-ffi.h	274;"	d
+ffi_type_sint	./win-ffi.h	277;"	d
+ffi_type_slong	./win-ffi.h	292;"	d
+ffi_type_slong	./win-ffi.h	295;"	d
+ffi_type_sshort	./win-ffi.h	261;"	d
+ffi_type_sshort	./win-ffi.h	264;"	d
+ffi_type_uchar	./win-ffi.h	253;"	d
+ffi_type_uint	./win-ffi.h	270;"	d
+ffi_type_uint	./win-ffi.h	273;"	d
+ffi_type_uint	./win-ffi.h	276;"	d
+ffi_type_ulong	./win-ffi.h	291;"	d
+ffi_type_ulong	./win-ffi.h	294;"	d
+ffi_type_ushort	./win-ffi.h	260;"	d
+ffi_type_ushort	./win-ffi.h	263;"	d
+ffi_types	./nl-import.c	/^FFITYPE ffi_types[] =$/;"	v
+fft	./nl-math.c	/^CELL * fft(CELL * params, int isign)$/;"	f
+fgetc	./nl-filesys.c	61;"	d	file:
+fgets	./newlisp.c	46;"	d	file:
+fgets	./nl-debug.c	25;"	d	file:
+fgets	./nl-web.c	42;"	d	file:
+fi	./pcre.c	6024;"	d	file:
+fi	./pcre.c	8764;"	d	file:
+fileSize	./nl-filesys.c	/^INT64 fileSize(char * pathName)$/;"	f
+filterIndex	./nl-list.c	/^CELL * filterIndex(CELL * pCell, CELL * args, int mode)$/;"	f
+find	./nl-xml-json.c	/^int find(char * key, char * source)$/;"	f
+findAllList	./nl-liststr.c	/^CELL * findAllList(CELL * pattern, CELL * list, CELL * exprCell)$/;"	f
+findAllString	./nl-liststr.c	/^CELL * findAllString(char * pattern, char * str, size_t size, CELL * params)$/;"	f
+findInsertSymbol	./nl-symbol.c	/^SYMBOL * findInsertSymbol(char * key, int forceCreation) $/;"	f
+find_bracket	./pcre.c	/^find_bracket(const uschar *code, BOOL utf8, int number)$/;"	f	file:
+find_firstassertedchar	./pcre.c	/^find_firstassertedchar(const uschar *code, int *options, BOOL inassert)$/;"	f	file:
+find_fixedlength	./pcre.c	/^find_fixedlength(uschar *code, int options)$/;"	f	file:
+find_recurse	./pcre.c	/^find_recurse(const uschar *code, BOOL utf8)$/;"	f	file:
+finishUnify	./nl-math.c	/^CELL * finishUnify(CELL * result)$/;"	f
+first	./util/ffitest.c	/^	char first;$/;"	m	struct:foo	file:
+firstFreeCell	./newlisp.c	/^CELL * firstFreeCell = NULL;$/;"	v
+first_byte	./pcre-internal.h	/^  pcre_uint16 first_byte;$/;"	m	struct:real_pcre
+first_significant_code	./pcre.c	/^first_significant_code(const uschar *code, int *options, int optbit,$/;"	f	file:
+flags	./newlisp.h	/^	int flags;$/;"	m	struct:tagSYMBOL
+flags	./newlisp.h	/^	short int flags;$/;"	m	struct:__anon13
+flags	./pcre.c	5989;"	d	file:
+flags	./pcre.c	8725;"	d	file:
+flags	./pcre.h	/^  unsigned long int flags;        \/* Bits for which fields are set *\/$/;"	m	struct:pcre_extra
+flags	./win-ffi.h	/^  unsigned flags;$/;"	m	struct:__anon28
+flat	./nl-list.c	/^void flat(CELL * list, CELL * result, CELL * * next, UINT recursion)$/;"	f
+floatOp	./nl-math.c	/^CELL * floatOp(CELL * params, int op)$/;"	f
+floatToBigint	./nl-math.c	/^int * floatToBigint(double fnum, int * len)$/;"	f
+flt	./win-ffi.h	/^  float		flt;$/;"	m	union:__anon30
+flt	./win-ffi.h	/^  float	    flt;$/;"	m	union:__anon29
+foo	./util/ffitest.c	/^	} foo;$/;"	t	typeref:struct:foo	file:
+foo	./util/ffitest.c	/^typedef struct foo$/;"	s	file:
+footerStr	./nl-debug.c	/^char footerStr[32] = " s|tep n|ext c|ont q|uit > ";$/;"	v
+forcePromptMode	./newlisp.c	/^int forcePromptMode = 0;$/;"	v
+four	./util/types.c	/^    int four;$/;"	m	struct:__anon34	file:
+four	./util/types.c	/^    int four;$/;"	m	struct:__anon35	file:
+four	./util/types.c	/^    int four;$/;"	m	struct:__anon36	file:
+four	./util/types.c	/^    int four;$/;"	m	struct:__anon37	file:
+fprintf	./newlisp.c	45;"	d	file:
+freeCellBlocks	./newlisp.c	/^void freeCellBlocks()$/;"	f
+freeMatrix	./nl-matrix.c	/^void freeMatrix(double * * m, int rows)$/;"	f
+freeMemory	./newlisp.c	40;"	d	file:
+freeMemory	./newlisp.h	334;"	d
+freeRegex	./nl-string.c	/^void freeRegex(REGEX * regex)$/;"	f
+freeSessions	./nl-sock.c	/^void freeSessions(NETEVAL * base)$/;"	f
+freeTermSet	./nl-math.c	/^void freeTermSet(TERMSET * * tset)$/;"	f
+fromContext	./newlisp.c	/^static SYMBOL * fromContext;$/;"	v	file:
+ftell	./newlisp.h	270;"	d
+fun	./win-ffi.h	/^  void     (*fun)(ffi_cif*,void*,ffi_java_raw*,void*);$/;"	m	struct:__anon33
+fun	./win-ffi.h	/^  void     (*fun)(ffi_cif*,void*,ffi_raw*,void*);$/;"	m	struct:__anon32
+fun	./win-ffi.h	/^  void     (*fun)(ffi_cif*,void*,void**,void*);$/;"	m	struct:__anon31
+func	./newlisp.h	/^    void (*func)(void);$/;"	m	struct:__anon16
+func	./nl-import.c	/^    lib_callback_t func;$/;"	m	struct:__anon2	file:
+function	./newlisp.h	/^	CELL * (*function)(CELL *);$/;"	m	struct:__anon13
+function	./util/ffitest.c	/^void (*function)(char * str, int inum, double fnum);$/;"	v
+functionFloat	./nl-math.c	/^CELL * functionFloat(CELL * params, int op)$/;"	f
+function_simple	./util/ffitest.c	/^void (*function_simple)(char * str, int inum);$/;"	v
+gammaln	./nl-math.c	/^double gammaln(double xx)$/;"	f
+gammap	./nl-math.c	/^double gammap(double a, double x)$/;"	f
+gcdBig	./nl-math.c	/^CELL * gcdBig(CELL * a, CELL * b)$/;"	f
+gcf	./nl-math.c	/^double gcf(double a, double x, double gln)$/;"	f
+getAddress	./nl-string.c	/^UINT getAddress(CELL * params)$/;"	f
+getArg	./newlisp.c	/^char * getArg(char * * arg, int argc, int * index)$/;"	f
+getBigintSizeDirect	./nl-math.c	/^int * getBigintSizeDirect(CELL * cell, int * * numPtr, int * len)$/;"	f
+getCell	./newlisp.c	/^CELL * getCell(int type)$/;"	f
+getCommandLine	./newlisp.c	/^char * getCommandLine(int batchMode, int * length)$/;"	f
+getContext	./newlisp.c	/^CELL * getContext(CELL * params, SYMBOL * * context)$/;"	f
+getCreateContext	./newlisp.c	/^SYMBOL * getCreateContext(CELL * cell, int evaluate)$/;"	f
+getCreateSymbol	./newlisp.c	/^CELL * getCreateSymbol(CELL * params, SYMBOL * * symbol, char * name)$/;"	f
+getDebuggerInput	./nl-debug.c	/^void getDebuggerInput(char * msg)$/;"	f
+getDimensions	./nl-matrix.c	/^int getDimensions(CELL * mat, int * n, int * m)$/;"	f
+getDirectFloat	./nl-math.c	/^double getDirectFloat(CELL * param)$/;"	f
+getDynamicSymbol	./newlisp.c	/^SYMBOL * getDynamicSymbol(CELL * cell)$/;"	f
+getEvalDefault	./newlisp.c	/^CELL * getEvalDefault(CELL * params, CELL * * result)$/;"	f
+getFFIType	./nl-import.c	/^ffi_type * getFFIType(char * type)$/;"	f
+getFlag	./newlisp.c	/^int getFlag(CELL * params)$/;"	f
+getFloat	./newlisp.c	/^CELL * getFloat(CELL * params, double * floatNumber)$/;"	f
+getFormatType	./nl-string.c	/^char * getFormatType(char * fmt, int * type)$/;"	f
+getHostAddr	./nl-sock.c	/^int getHostAddr(struct sockaddr * address, int stype, char * ifAddr)$/;"	f
+getIOstream	./nl-sock.c	/^FILE * getIOstream(int handle)$/;"	f
+getInteger	./newlisp.c	/^CELL * getInteger(CELL * params, UINT * number)$/;"	f
+getInteger64Ext	./newlisp.c	/^CELL * getInteger64Ext(CELL * params, INT64 * number, int evalFlag)$/;"	f
+getIntegerExt	./newlisp.c	/^CELL * getIntegerExt(CELL * params, UINT * number, int evalFlag)$/;"	f
+getIpPortFromSocket	./nl-sock.c	/^int getIpPortFromSocket(int sock, int peerLocalFlag, char * IPaddress)$/;"	f
+getJSONobject	./nl-xml-json.c	/^CELL * getJSONobject(char * jsonStr, char * * restStr)$/;"	f
+getJSONstring	./nl-xml-json.c	/^CELL * getJSONstring(char * jsonStr, char * * restStr)$/;"	f
+getJSONvalue	./nl-xml-json.c	/^CELL * getJSONvalue(char * jsonStr, char * * restStr)$/;"	f
+getListHead	./newlisp.c	/^CELL * getListHead(CELL * params, CELL * * head)$/;"	f
+getLocalPath	./nl-filesys.c	/^char * getLocalPath(char * fileName)$/;"	f
+getMainArgs	./newlisp.c	/^CELL * getMainArgs(char * mainArgs[])$/;"	f
+getMatrix	./nl-matrix.c	/^double * * getMatrix(CELL * params, int * type, int * n, int * m, int *err)$/;"	f
+getMediaType	./nl-web.c	/^char * getMediaType(char * request)$/;"	f
+getPushSymbolParam	./newlisp.c	/^CELL * getPushSymbolParam(CELL * params, SYMBOL * * sym)$/;"	f
+getPutPostDeleteUrl	./nl-web.c	/^CELL * getPutPostDeleteUrl(char * url, CELL * params, int type, int timeout)$/;"	f
+getRandom	./nl-math.c	/^double getRandom(double offset, double scale, int type)$/;"	f
+getRefCheckProtected	./nl-liststr.c	/^CELL * getRefCheckProtected(CELL * params)$/;"	f
+getSelectReadyList	./nl-filesys.c	/^CELL * getSelectReadyList(int mode)$/;"	f
+getSocket	./newlisp.h	263;"	d
+getSocketFamily	./nl-sock.c	/^int getSocketFamily(int sock)$/;"	f
+getSpawnedChild	./nl-filesys.c	/^SPAWN_LIST * getSpawnedChild(int pid)$/;"	f
+getString	./newlisp.c	/^CELL * getString(CELL * params, char * * stringPtr)$/;"	f
+getStringSize	./newlisp.c	/^CELL * getStringSize(CELL * params, char * * stringPtr, size_t * size, int evalFlag)$/;"	f
+getSymbol	./newlisp.c	/^CELL * getSymbol(CELL * params, SYMBOL * * symbol)$/;"	f
+getSymbolCheckProtected	./nl-filesys.c	/^SYMBOL * getSymbolCheckProtected(CELL * params)$/;"	f
+getToken	./newlisp.c	/^int getToken(STREAM * stream, char * token, int * ptr_len)$/;"	f
+getUUID	./nl-filesys.c	/^char * getUUID(char * str, char * node) $/;"	f
+getVector	./nl-math.c	/^double * getVector(CELL * data, UINT * N, double * Sum, double * Mean, double * Sd2)$/;"	f
+get_othercase_range	./pcre.c	/^get_othercase_range(int *cptr, int d, int *ocptr, int *odptr)$/;"	f	file:
+get_ucp	./pcre.c	/^get_ucp(const uschar **ptrptr, BOOL *negptr, const char **errorptr)$/;"	f	file:
+gethostbyname2	./nl-sock.c	35;"	d	file:
+gethostbyname2	./nl-sock.c	88;"	d	file:
+getpid	./newlisp.h	271;"	d
+group_num	./pcre-internal.h	/^  int group_num;                \/* Number of group that was called *\/$/;"	m	struct:recursion_info
+gser	./nl-math.c	/^static double gser(double a, double x, double gln)$/;"	f	file:
+gsl_complex	./util/ffitest.c	/^} gsl_complex;$/;"	t	typeref:struct:__anon38	file:
+handle	./newlisp.h	/^	int handle;$/;"	m	struct:__anon11
+handle	./newlisp.h	/^    int handle;$/;"	m	struct:__anon14
+handleHTTPcgi	./nl-web.c	/^void handleHTTPcgi(char * request, char * query, ssize_t querySize)$/;"	f
+headerStr	./nl-debug.c	/^char headerStr[16] = "\\n-----\\n\\n";$/;"	v
+heapframe	./pcre.c	/^typedef struct heapframe {$/;"	s	file:
+heapframe	./pcre.c	/^} heapframe;$/;"	t	typeref:struct:heapframe	file:
+hitend	./pcre-internal.h	/^  BOOL   hitend;                \/* Hit the end of the subject at some point *\/$/;"	m	struct:match_data
+host	./nl-sock.c	/^    char * host;$/;"	m	struct:__anon5	file:
+hour	./util/ffitest.c	/^    char hour;$/;"	m	struct:clock	file:
+httpMode	./newlisp.c	/^int httpMode = 0;$/;"	v
+icmp	./nl-sock.c	/^struct icmp$/;"	s	file:
+icmp_cksum	./nl-sock.c	/^   unsigned short icmp_cksum;$/;"	m	struct:icmp	file:
+icmp_code	./nl-sock.c	/^   unsigned char icmp_code;$/;"	m	struct:icmp	file:
+icmp_id	./nl-sock.c	/^   unsigned short icmp_id;$/;"	m	struct:icmp	file:
+icmp_seq	./nl-sock.c	/^   unsigned short icmp_seq;$/;"	m	struct:icmp	file:
+icmp_type	./nl-sock.c	/^   unsigned char icmp_type;$/;"	m	struct:icmp	file:
+idx	./nl-list.c	/^    size_t idx;$/;"	m	struct:__anon9	file:
+implicitIndexArray	./nl-list.c	/^CELL * implicitIndexArray(CELL * cell, CELL * params)$/;"	f
+implicitIndexList	./nl-list.c	/^CELL * implicitIndexList (CELL * list, CELL * params)$/;"	f
+implicitIndexString	./nl-string.c	/^CELL * implicitIndexString(CELL * cell, CELL * params)$/;"	f
+implicitNrestSlice	./newlisp.c	/^CELL * implicitNrestSlice(CELL * num, CELL * params)$/;"	f
+ims	./pcre.c	5987;"	d	file:
+ims	./pcre.c	8723;"	d	file:
+in_cksum	./nl-sock.c	/^unsigned short in_cksum(unsigned short * addr, int len)$/;"	f
+in_port_t	./nl-sock.c	319;"	d	file:
+incDecF	./nl-math.c	/^CELL * incDecF(CELL * params, int type)$/;"	f
+incDecI	./nl-math.c	/^CELL * incDecI(CELL * params, int type)$/;"	f
+initArray	./nl-list.c	/^CELL * initArray(CELL * array, CELL * list, CELL * * next)$/;"	f
+initDefaultInAddr	./nl-sock.c	/^void initDefaultInAddr()$/;"	f
+initFFI	./nl-import.c	/^void initFFI(void)$/;"	f
+initIteratorIndex	./newlisp.c	/^CELL * initIteratorIndex(void)$/;"	f
+initLocale	./newlisp.c	/^void initLocale(void)$/;"	f
+initNewlispDir	./newlisp.c	/^void initNewlispDir(void)$/;"	f
+initStacks	./newlisp.c	/^void initStacks()$/;"	f
+initTempDir	./newlisp.c	/^void initTempDir()$/;"	f
+init_argv	./nl-filesys.c	/^int init_argv(char * ptr, char *argv[])$/;"	f
+initialize	./newlisp.c	/^void initialize()$/;"	f
+initializeMain	./unix-lib.c	/^void initializeMain(void)$/;"	f
+initializeMain	./win-dll.c	/^void initializeMain(void)$/;"	f
+insertFixup	./nl-symbol.c	/^static void insertFixup(SYMBOL * x)$/;"	f	file:
+intToBigint	./nl-math.c	/^int * intToBigint(INT64 num, int * len)$/;"	f
+invert	./nl-matrix.c	/^double * * invert(double * * A, int n, int * err, double tiny)$/;"	f
+ioSessions	./nl-sock.c	/^IO_SESSION * ioSessions = NULL;$/;"	v
+ioctl	./newlisp.h	267;"	d
+ipstrFromSockAddr	./nl-sock.c	/^int ipstrFromSockAddr(struct sockaddr * addr, char * host, int len)$/;"	f
+irr	./nl-math.c	/^double irr(int N, int times[], double amounts[], double x2)$/;"	f
+isBuiltin	./newlisp.h	439;"	d
+isDigit	./newlisp.h	443;"	d
+isDir	./nl-filesys.c	/^int isDir(char * fileName)$/;"	f
+isEmpty	./newlisp.h	448;"	d
+isEmptyFunc	./newlisp.c	/^CELL * isEmptyFunc(CELL * cell)$/;"	f
+isEnvelope	./newlisp.h	431;"	d
+isFFIsymbol	./newlisp.h	441;"	d
+isFile	./nl-filesys.c	/^int isFile(char * fileName, int flag)$/;"	f
+isGlobal	./newlisp.h	440;"	d
+isHexDigit	./newlisp.h	444;"	d
+isLegalSymbol	./newlisp.c	/^int isLegalSymbol(char * source)$/;"	f
+isList	./newlisp.h	432;"	d
+isNil	./newlisp.h	446;"	d
+isNumber	./newlisp.h	433;"	d
+isOddEven	./nl-math.c	/^CELL * isOddEven(CELL * params, int type)$/;"	f
+isProtected	./newlisp.h	438;"	d
+isSelfEval	./newlisp.h	435;"	d
+isSessionSocket	./nl-sock.c	/^int isSessionSocket(int sock)$/;"	f
+isSymbol	./newlisp.h	434;"	d
+isTTY	./newlisp.c	/^int isTTY = FALSE;$/;"	v
+isTrue	./newlisp.h	447;"	d
+isType	./newlisp.c	/^CELL * isType(CELL * params, int operand)$/;"	f
+isWhiteSpaceStringN	./nl-xml-json.c	/^int isWhiteSpaceStringN(char * source, int tagPos)$/;"	f
+isZero	./newlisp.c	/^CELL * isZero(CELL * cell)$/;"	f
+is_anchored	./pcre.c	/^is_anchored(register const uschar *code, int *options, unsigned int bracket_map,$/;"	f	file:
+is_counted_repeat	./pcre.c	/^is_counted_repeat(const uschar *p)$/;"	f	file:
+is_startline	./pcre.c	/^is_startline(const uschar *code, unsigned int bracket_map,$/;"	f	file:
+isnum	./nl-sock.c	125;"	d	file:
+itSymbol	./newlisp.c	/^SYMBOL * itSymbol;$/;"	v
+iterateCopyCreateSymbols	./newlisp.c	/^void iterateCopyCreateSymbols(SYMBOL * sPtr)$/;"	f
+jsonStrStart	./nl-xml-json.c	/^char * jsonStrStart;$/;"	v
+kill	./win-util.c	/^int kill(pid_t pid, int sig)$/;"	f
+lambdaStack	./newlisp.c	/^UINT * lambdaStack = NULL;$/;"	v
+lambdaStackIdx	./newlisp.c	/^UINT * lambdaStackIdx;$/;"	v
+lastCellCopied	./newlisp.c	/^CELL * lastCellCopied;$/;"	v
+lastJSONerror	./nl-xml-json.c	/^CELL * lastJSONerror = NULL;$/;"	v
+last_node	./nl-filesys.c	/^char last_node[6];$/;"	v
+last_time	./nl-filesys.c	/^INT64 last_time = 0;$/;"	v
+lc_decimal_point	./newlisp.c	/^char lc_decimal_point;$/;"	v
+lcc	./pcre-internal.h	/^  const uschar *lcc;            \/* Points to lower casing table *\/$/;"	m	struct:compile_data
+lcc	./pcre-internal.h	/^  const uschar *lcc;            \/* Points to lower casing table *\/$/;"	m	struct:match_data
+lcc_offset	./pcre-internal.h	749;"	d
+left	./newlisp.h	/^	struct tagSYMBOL * left;$/;"	m	struct:tagSYMBOL	typeref:struct:tagSYMBOL::tagSYMBOL
+left	./nl-math.c	/^    CELL * left;$/;"	m	struct:__anon1	file:
+len	./nl-sock.c	/^    unsigned short len;$/;"	m	struct:pseudohdr	file:
+length	./nl-string.c	/^    int length;$/;"	m	struct:__anon8	file:
+length	./pcre.c	6025;"	d	file:
+length	./pcre.c	8745;"	d	file:
+lengthBigint	./nl-math.c	/^int lengthBigint(int * num, int len)$/;"	f
+let	./newlisp.c	/^CELL * let(CELL * params, int type)$/;"	f
+libInitialized	./unix-lib.c	/^int libInitialized = 0;$/;"	v
+libName	./win-dll.c	/^char libName[MAX_LINE] = "newlisp.dll";$/;"	v
+libStrStream	./unix-lib.c	/^STREAM libStrStream = {NULL, NULL, 0, 0, 0};$/;"	v
+libStrStream	./win-dll.c	/^STREAM libStrStream = {NULL, NULL, 0, 0, 0};$/;"	v
+lib_callback_t	./nl-import.c	/^typedef INT (*lib_callback_t)(INT p1, INT p2, INT p3, INT p4, INT p5, INT p6, INT p7, INT p8);$/;"	t	file:
+linkCell	./newlisp.c	/^void linkCell(CELL * left, CELL * right, int linkFlag)$/;"	f
+linkMatches	./nl-list.c	/^CELL * linkMatches(CELL * * matchList, CELL * matchPtr, CELL * elmnt)$/;"	f
+linkOffset	./newlisp.c	/^char linkOffset[] = "&&&&@@@@";$/;"	v
+linkSource	./newlisp.c	/^void linkSource(char * pathname, char * source, char * target)$/;"	f
+listIdxSymbol	./newlisp.c	/^SYMBOL * listIdxSymbol;$/;"	v
+listToSortedVector	./nl-list.c	/^CELL * * listToSortedVector(CELL * list, ssize_t * length, CELL * func, int indexFlag)$/;"	f
+listlen	./newlisp.c	/^size_t listlen(CELL * listHead)$/;"	f
+loadFile	./newlisp.c	/^CELL * loadFile(char * fileName, UINT offset, int linkFlag, SYMBOL * context)$/;"	f
+loadStartup	./newlisp.c	/^void loadStartup(char * name)$/;"	f
+logFile	./newlisp.c	/^char logFile[PATH_MAX]; \/* logFile, is define with -l, -L *\/$/;"	v
+logTraffic	./newlisp.c	/^int logTraffic = 0;$/;"	v
+lookupSymbol	./nl-symbol.c	/^SYMBOL * lookupSymbol(char * token, SYMBOL * context)$/;"	f
+loop	./newlisp.c	/^CELL * loop(CELL * params, int forFlag)$/;"	f
+lseek	./newlisp.h	269;"	d
+lstat	./newlisp.h	276;"	d
+lstat	./newlisp.h	292;"	d
+lubksb	./nl-matrix.c	/^void lubksb(double * * a, int n, int * indx, double * b)$/;"	f
+ludcmp	./nl-matrix.c	/^int ludcmp(double * * a, int n, int * indx, double * d, double tiny)$/;"	f
+m_w	./nl-math.c	/^int  m_w = 0x12345678;    \/* must not be zero, nor 0x464fffff *\/$/;"	v
+m_z	./nl-math.c	/^int  m_z = 0x23456789;    \/* must not be zero, nor 0x9068ffff *\/$/;"	v
+magic_number	./pcre-internal.h	/^  pcre_uint32 magic_number;$/;"	m	struct:real_pcre
+main	./newlisp.c	/^int main(int argc, char * argv[])$/;"	f
+main	./util/sql.c	/^int main(int argc, char ** argv)$/;"	f
+main	./util/types.c	/^int main(int argc, char * argv[])$/;"	f
+mainArgsSymbol	./newlisp.c	/^SYMBOL * mainArgsSymbol;$/;"	v
+mainContext	./newlisp.c	/^SYMBOL * mainContext = NULL;$/;"	v
+makeArray	./nl-list.c	/^CELL * makeArray(ssize_t * index, int p)$/;"	f
+makeCell	./newlisp.c	/^CELL * makeCell(int type, UINT contents)$/;"	f
+makeContextFromSymbol	./nl-symbol.c	/^void makeContextFromSymbol(SYMBOL * symbol, SYMBOL * treePtr)$/;"	f
+makeElementNode	./nl-xml-json.c	/^CELL * makeElementNode(CELL * tagNode, CELL * attributesNode, CELL * childrenNode)$/;"	f
+makeIndexVector	./nl-list.c	/^CELL * makeIndexVector(REFSTACK * refStack)$/;"	f
+makeListFromFloats	./nl-math.c	/^CELL * makeListFromFloats(double num1, double num2)$/;"	f
+makeMatrix	./nl-matrix.c	/^double * * makeMatrix(CELL * number, int n, int m)$/;"	f
+makePair	./nl-sock.c	/^CELL * makePair(CELL * left, CELL * right)$/;"	f
+makeSafeSymbol	./nl-symbol.c	/^SYMBOL * makeSafeSymbol(CELL * cell, SYMBOL * context, int flag)$/;"	f
+makeStreamFromFile	./nl-string.c	/^int makeStreamFromFile(STREAM * stream, char * fileName, size_t size, size_t offset)$/;"	f
+makeStreamFromString	./nl-string.c	/^int makeStreamFromString(STREAM * stream, char * str)$/;"	f
+makeStringCell	./newlisp.c	/^CELL * makeStringCell(char * contents, size_t size)$/;"	f
+makeTagSymbolCell	./nl-xml-json.c	/^CELL * makeTagSymbolCell(char * tagStart, int tagLen)$/;"	f
+makeTextNode	./nl-xml-json.c	/^CELL * makeTextNode(int type, CELL * contents)$/;"	f
+match	./pcre.c	/^match(REGISTER const uschar *eptr, REGISTER const uschar *ecode,$/;"	f	file:
+match_call_count	./pcre-internal.h	/^  unsigned long int match_call_count; \/* As it says *\/$/;"	m	struct:match_data
+match_condassert	./pcre.c	326;"	d	file:
+match_data	./pcre-internal.h	/^typedef struct match_data {$/;"	s
+match_data	./pcre-internal.h	/^} match_data;$/;"	t	typeref:struct:match_data
+match_isgroup	./pcre.c	327;"	d	file:
+match_limit	./pcre-internal.h	/^  unsigned long int match_limit;\/* As it says *\/$/;"	m	struct:match_data
+match_limit	./pcre.h	/^  unsigned long int match_limit;  \/* Maximum number of calls to match() *\/$/;"	m	struct:pcre_extra
+match_ref	./pcre.c	/^match_ref(int offset, register const uschar *eptr, int length, match_data *md,$/;"	f	file:
+match_xclass	./pcre.c	/^match_xclass(int c, const uschar *data)$/;"	f	file:
+matrix2data	./nl-matrix.c	/^CELL * matrix2data(double ** matrix, int type, int n, int m)$/;"	f
+max	./pcre.c	6026;"	d	file:
+max	./pcre.c	8746;"	d	file:
+max_rand	./nl-math.c	/^uint32_t max_rand = MY_RAND_MAX;$/;"	v
+mediaType	./nl-web.c	/^T_MEDIA_TYPE mediaType[] = {$/;"	v
+memcpy	./pcre-internal.h	110;"	d
+memmove	./pcre-internal.h	111;"	d
+memmove	./pcre-internal.h	123;"	d
+memmove	./pcre-internal.h	125;"	d
+memmove	./pcre-internal.h	135;"	d
+memset	./pcre-internal.h	112;"	d
+mgu	./nl-math.c	/^TERMSET * mgu = NULL; \/* most general unifier *\/$/;"	v
+microSecTime	./nl-filesys.c	/^INT64 microSecTime(void)$/;"	f
+milliSecTime	./nl-filesys.c	/^int milliSecTime(void)$/;"	f
+min	./pcre.c	6027;"	d	file:
+min	./pcre.c	8747;"	d	file:
+min	./util/ffitest.c	/^    int min;$/;"	m	struct:clock	file:
+minimize	./pcre.c	6007;"	d	file:
+minimize	./pcre.c	8739;"	d	file:
+mixed_int_float	./util/ffitest.c	/^char * mixed_int_float(int x, float a, int y, float b)$/;"	f
+mkdir	./newlisp.h	274;"	d
+mkdir	./newlisp.h	286;"	d
+mkdir_utf16	./win-path.c	/^int mkdir_utf16(const char* filename8)$/;"	f
+modRef	./nl-list.c	/^CELL * modRef(CELL * key, CELL * list, CELL * func, CELL * new, int mode, int * count)$/;"	f
+mulBigint	./nl-math.c	/^int * mulBigint(int * x, int nx, int * y,  int ny, int * p, int * n)$/;"	f
+multiply	./nl-matrix.c	/^double * * multiply(double ** A, double ** B, int n, int m, int k, int l)$/;"	f
+myFdSet	./nl-filesys.c	/^fd_set myFdSet;             \/* set of all child sockets *\/$/;"	v
+myNanoSleep	./nl-filesys.c	/^void myNanoSleep(int nanosec)$/;"	f
+mySleep	./nl-filesys.c	/^void mySleep(int ms)$/;"	f
+mySpawnList	./nl-filesys.c	/^SPAWN_LIST * mySpawnList = NULL;$/;"	v
+my_random	./nl-math.c	/^uint32_t my_random()$/;"	f
+my_random_flag	./nl-math.c	/^int my_random_flag = 0; \/* if not set, call libc version *\/$/;"	v
+my_setenv	./nl-filesys.c	/^int my_setenv(const char * varName, const char * varValue, int flag)$/;"	f
+my_srandom	./nl-math.c	/^void my_srandom(uint32_t seed)$/;"	f
+my_strnicmp	./nl-string.c	/^int my_strnicmp(char * s1, char * s2, ssize_t size)$/;"	f
+my_vasprintf	./nl-filesys.c	/^int my_vasprintf(char * * buffer, const char * format, va_list argptr)$/;"	f
+mysql	./util/sql.c	/^MYSQL  * mysql;$/;"	v
+mysql_res	./util/sql.c	/^MYSQL_RES  * mysql_res;$/;"	v
+name	./newlisp.h	/^	char * name;$/;"	m	struct:__anon13
+name	./newlisp.h	/^	char * name;$/;"	m	struct:tagSYMBOL
+name	./newlisp.h	/^    char *name;$/;"	m	struct:__anon16
+name	./nl-import.c	/^    char * name;$/;"	m	struct:__anon3	file:
+name	./nl-xml-json.c	/^    char * name;$/;"	m	struct:__anon10	file:
+name_count	./pcre-internal.h	/^  pcre_uint16 name_count;         \/* Number of name items *\/$/;"	m	struct:real_pcre
+name_entry_size	./pcre-internal.h	/^  int  name_entry_size;         \/* Size of each entry *\/$/;"	m	struct:compile_data
+name_entry_size	./pcre-internal.h	/^  pcre_uint16 name_entry_size;    \/* Size of any name items *\/$/;"	m	struct:real_pcre
+name_table	./pcre-internal.h	/^  uschar *name_table;           \/* The name\/number table *\/$/;"	m	struct:compile_data
+name_table_offset	./pcre-internal.h	/^  pcre_uint16 name_table_offset;  \/* Offset to name table that follows *\/$/;"	m	struct:real_pcre
+names_found	./pcre-internal.h	/^  int  names_found;             \/* Number of entries so far *\/$/;"	m	struct:compile_data
+nargs	./win-ffi.h	/^  unsigned nargs;$/;"	m	struct:__anon28
+netAccept	./nl-sock.c	/^int netAccept(int listenSock)$/;"	f
+netConnect	./nl-sock.c	/^int netConnect(char * remoteHostName, int portNo, int type, int prot, int topt)$/;"	f
+netConnectLocal	./nl-sock.c	/^int netConnectLocal(char * path)$/;"	f
+netError	./nl-sock.c	/^CELL * netError(int errorNo) $/;"	f
+netErrorIdx	./nl-sock.c	/^UINT netErrorIdx = 0;$/;"	v
+netErrorMsg	./nl-sock.c	/^char * netErrorMsg[] =$/;"	v
+netEvalError	./nl-sock.c	/^CELL * netEvalError(int errorNo)$/;"	f
+netListenLocal	./nl-sock.c	/^int netListenLocal(char * name)$/;"	f
+netListenOrDatagram	./nl-sock.c	/^int netListenOrDatagram(int portNo, int stype, char * ifAddr, char * mcAddr, int option)$/;"	f
+netPeerLocal	./nl-sock.c	/^CELL * netPeerLocal(CELL * params, int peerLocalFlag) $/;"	f
+netReceive	./nl-sock.c	/^CELL * netReceive(int sock, SYMBOL * readSymbol, size_t readSize, CELL * params)$/;"	f
+netReceiveFrom	./nl-sock.c	/^CELL * netReceiveFrom(int sock, size_t readSize, int closeFlag)$/;"	f
+netSendTo	./nl-sock.c	/^CELL * netSendTo(CELL * params, int type)$/;"	f
+netStream	./nl-sock.c	/^    STREAM * netStream;$/;"	m	struct:__anon5	file:
+new_recursive	./pcre.c	6003;"	d	file:
+new_recursive	./pcre.c	8735;"	d	file:
+newlispCallback	./unix-lib.c	/^long newlispCallback(char * funcName, long funcAddr, char * callType)$/;"	f
+newlispCallback	./win-dll.c	/^intptr_t EXPORT newlispCallback(char * funcName, intptr_t funcAddr, char * callType)$/;"	f
+newlispEvalStr	./unix-lib.c	/^char * newlispEvalStr(char * cmd)$/;"	f
+newlispEvalStr	./win-dll.c	/^LPSTR EXPORT newlispEvalStr(LPSTR cmd)$/;"	f
+newlispLibConsole	./unix-lib.c	/^int newlispLibConsole(int flag)$/;"	f
+newlispLibConsole	./win-dll.c	/^int EXPORT newlispLibConsole(int flag)$/;"	f
+newlispLibConsoleFlag	./newlisp.c	/^int newlispLibConsoleFlag = 0;$/;"	v
+newlisp_completion	./newlisp.c	/^char ** newlisp_completion (char * text, int start, int end)$/;"	f
+newptrb	./pcre.c	6037;"	d	file:
+newptrb	./pcre.c	8757;"	d	file:
+next	./newlisp.h	/^	void * next;$/;"	m	struct:__anon12
+next	./newlisp.h	/^    void * next;$/;"	m	struct:__anon14
+next	./nl-filesys.c	/^    void * next;    $/;"	m	struct:__anon6	file:
+next	./nl-math.c	/^    void * next;$/;"	m	struct:__anon1	file:
+next	./nl-sock.c	/^    void * next;$/;"	m	struct:__anon4	file:
+next	./nl-sock.c	/^    void * next;$/;"	m	struct:__anon5	file:
+next	./nl-string.c	/^    void * next;$/;"	m	struct:__anon8	file:
+next	./nl-xml-json.c	/^    void * next;$/;"	m	struct:__anon10	file:
+next	./pcre.c	5998;"	d	file:
+next	./pcre.c	8730;"	d	file:
+next_item_length	./pcre.h	/^  int          next_item_length;  \/* Length of next item in the pattern *\/$/;"	m	struct:pcre_callout_block
+nilCell	./newlisp.c	/^CELL * nilCell;$/;"	v
+nilSymbol	./newlisp.c	/^SYMBOL * nilSymbol;$/;"	v
+noPromptMode	./newlisp.c	/^int noPromptMode = 0;$/;"	v
+node	./nl-filesys.c	/^    unsigned char   node[6];$/;"	m	struct:__anon7	file:
+nopartial	./pcre-internal.h	/^  BOOL nopartial;               \/* Set TRUE if partial won't work *\/$/;"	m	struct:compile_data
+notbol	./pcre-internal.h	/^  BOOL   notbol;                \/* NOTBOL flag *\/$/;"	m	struct:match_data
+notempty	./pcre-internal.h	/^  BOOL   notempty;              \/* Empty string match not wanted *\/$/;"	m	struct:match_data
+noteol	./pcre-internal.h	/^  BOOL   noteol;                \/* NOTEOL flag *\/$/;"	m	struct:match_data
+nshuff	./nl-math.c	/^UINT nshuff = 50;  \/* to drop some "seed -> 1st value" linearity *\/$/;"	v
+nullpad	./pcre-internal.h	/^  const unsigned char *nullpad;   \/* NULL padding *\/$/;"	m	struct:real_pcre
+number	./pcre.c	6028;"	d	file:
+number	./pcre.c	8748;"	d	file:
+objCell	./newlisp.c	/^CELL * objCell;$/;"	v
+objSymbol	./newlisp.c	/^SYMBOL objSymbol = {SYMBOL_GLOBAL | SYMBOL_BUILTIN, $/;"	v
+occurCheck	./nl-math.c	/^int occurCheck(CELL * symCell, CELL * expr)$/;"	f
+off_t	./newlisp.h	268;"	d
+offset	./nl-string.c	/^    int offset;$/;"	m	struct:__anon8	file:
+offset	./pcre.c	6029;"	d	file:
+offset	./pcre.c	8749;"	d	file:
+offset_end	./pcre-internal.h	/^  int    offset_end;            \/* One past the end *\/$/;"	m	struct:match_data
+offset_max	./pcre-internal.h	/^  int    offset_max;            \/* The maximum usable for return data *\/$/;"	m	struct:match_data
+offset_overflow	./pcre-internal.h	/^  BOOL   offset_overflow;       \/* Set if too many extractions *\/$/;"	m	struct:match_data
+offset_save	./pcre-internal.h	/^  int *offset_save;             \/* Pointer to start of saved offsets *\/$/;"	m	struct:recursion_info
+offset_top	./pcre.c	5986;"	d	file:
+offset_top	./pcre.c	8722;"	d	file:
+offset_vector	./pcre-internal.h	/^  int   *offset_vector;         \/* Offset vector *\/$/;"	m	struct:match_data
+offset_vector	./pcre.h	/^  int         *offset_vector;     \/* The offset vector *\/$/;"	m	struct:pcre_callout_block
+offsetof	./pcre-internal.h	221;"	d
+one	./util/types.c	/^    char one;$/;"	m	struct:__anon34	file:
+one	./util/types.c	/^    char one;$/;"	m	struct:__anon35	file:
+one	./util/types.c	/^    char one;$/;"	m	struct:__anon36	file:
+one	./util/types.c	/^    char one;$/;"	m	struct:__anon37	file:
+op	./pcre.c	6030;"	d	file:
+op	./pcre.c	8750;"	d	file:
+open	./newlisp.h	285;"	d
+openFile	./nl-filesys.c	/^int openFile(char * fileName, char * accessMode, char * option)$/;"	f
+openStrStream	./nl-string.c	/^void openStrStream(STREAM * stream, size_t buffSize, int reopenFlag)$/;"	f
+openTrace	./nl-debug.c	/^void openTrace(void)    $/;"	f
+open_utf16	./win-path.c	/^int open_utf16(const char* filename8, int flags, int mode)$/;"	f
+opendir	./newlisp.h	290;"	d
+opendir_utf16	./win-path.c	/^_WDIR * opendir_utf16(const char* dirname8)$/;"	f
+opsys	./newlisp.c	/^int opsys = 10;$/;"	v
+opsys	./newlisp.c	/^int opsys = 11;$/;"	v
+opsys	./newlisp.c	/^int opsys = 1;$/;"	v
+opsys	./newlisp.c	/^int opsys = 2;$/;"	v
+opsys	./newlisp.c	/^int opsys = 3;$/;"	v
+opsys	./newlisp.c	/^int opsys = 4;$/;"	v
+opsys	./newlisp.c	/^int opsys = 6;$/;"	v
+opsys	./newlisp.c	/^int opsys = 7; $/;"	v
+opsys	./newlisp.c	/^int opsys = 8;$/;"	v
+opsys	./newlisp.c	/^int opsys = 9; $/;"	v
+options	./pcre-internal.h	/^  pcre_uint32 options;$/;"	m	struct:pcre_study_data
+options	./pcre-internal.h	/^  pcre_uint32 options;$/;"	m	struct:real_pcre
+optionsFlag	./nl-xml-json.c	/^UINT optionsFlag;$/;"	v
+ord2utf8	./pcre.c	/^ord2utf8(int cvalue, uschar *buffer)$/;"	f	file:
+original_ims	./pcre.c	6010;"	d	file:
+original_ims	./pcre.c	8742;"	d	file:
+outer	./pcre-internal.h	/^  struct branch_chain *outer;$/;"	m	struct:branch_chain	typeref:struct:branch_chain::branch_chain
+overWriteFlag	./newlisp.c	/^static int overWriteFlag;$/;"	v	file:
+p_JSONerror	./nl-xml-json.c	/^CELL * p_JSONerror(CELL * params)$/;"	f
+p_JSONparse	./nl-xml-json.c	/^CELL * p_JSONparse(CELL * params)$/;"	f
+p_XMLerror	./nl-xml-json.c	/^CELL * p_XMLerror(CELL * params)$/;"	f
+p_XMLparse	./nl-xml-json.c	/^CELL * p_XMLparse(CELL * params)$/;"	f
+p_XMLtypeTags	./nl-xml-json.c	/^CELL * p_XMLtypeTags(CELL * params)$/;"	f
+p_abort	./nl-filesys.c	/^CELL * p_abort(CELL * params)$/;"	f
+p_abs	./nl-math.c	/^CELL * p_abs(CELL * params) $/;"	f
+p_acos	./nl-math.c	/^CELL * p_acos(CELL * params) { return(functionFloat(params, OP_ACOS)); }$/;"	f
+p_acosh	./nl-math.c	/^CELL * p_acosh(CELL * params) { return(functionFloat(params, OP_ACOSH)); }$/;"	f
+p_add	./nl-math.c	/^CELL * p_add(CELL * params) { return(arithmetikOp(params, OP_ADD)); }$/;"	f
+p_addFloat	./nl-math.c	/^CELL * p_addFloat(CELL * params) { return(floatOp(params, OP_ADD)); }$/;"	f
+p_address	./nl-string.c	/^CELL * p_address(CELL * params)$/;"	f
+p_amb	./nl-math.c	/^CELL * p_amb(CELL * params)$/;"	f
+p_and	./newlisp.c	/^CELL * p_and(CELL * params)$/;"	f
+p_append	./nl-liststr.c	/^CELL * p_append(CELL * params)$/;"	f
+p_appendFile	./nl-filesys.c	/^CELL * p_appendFile(CELL * params)$/;"	f
+p_apply	./newlisp.c	/^CELL * p_apply(CELL * params)$/;"	f
+p_args	./newlisp.c	/^CELL * p_args(CELL * params)$/;"	f
+p_array	./nl-list.c	/^CELL * p_array(CELL * params)$/;"	f
+p_arrayList	./nl-list.c	/^CELL * p_arrayList(CELL * params)$/;"	f
+p_asin	./nl-math.c	/^CELL * p_asin(CELL * params) { return(functionFloat(params, OP_ASIN)); }$/;"	f
+p_asinh	./nl-math.c	/^CELL * p_asinh(CELL * params) { return(functionFloat(params, OP_ASINH)); }$/;"	f
+p_assoc	./nl-list.c	/^CELL * p_assoc(CELL * params)$/;"	f
+p_atan	./nl-math.c	/^CELL * p_atan(CELL * params) { return(functionFloat(params, OP_ATAN)); }$/;"	f
+p_atan2	./nl-math.c	/^CELL * p_atan2(CELL * params)$/;"	f
+p_atanh	./nl-math.c	/^CELL * p_atanh(CELL * params) { return(functionFloat(params, OP_ATANH)); }$/;"	f
+p_base64Dec	./nl-web.c	/^CELL * p_base64Dec(CELL * params) { return(base64(params, BASE64_DEC)); }$/;"	f
+p_base64Enc	./nl-web.c	/^CELL * p_base64Enc(CELL * params) { return(base64(params, BASE64_ENC)); }$/;"	f
+p_bayesQuery	./nl-math.c	/^CELL * p_bayesQuery(CELL * params)$/;"	f
+p_bayesTrain	./nl-math.c	/^CELL * p_bayesTrain(CELL * params)$/;"	f
+p_beta	./nl-math.c	/^CELL * p_beta(CELL * params)$/;"	f
+p_betai	./nl-math.c	/^CELL * p_betai(CELL * params)$/;"	f
+p_bigInt	./nl-math.c	/^CELL * p_bigInt(CELL * params)$/;"	f
+p_bind	./nl-list.c	/^CELL * p_bind(CELL * params)$/;"	f
+p_binomial	./nl-math.c	/^CELL * p_binomial(CELL * params)$/;"	f
+p_bitAnd	./nl-math.c	/^CELL * p_bitAnd(CELL * params) { return(arithmetikOp(params, OP_BIT_AND)); }$/;"	f
+p_bitNot	./nl-math.c	/^CELL * p_bitNot(CELL * params)$/;"	f
+p_bitOr	./nl-math.c	/^CELL * p_bitOr(CELL * params) { return(arithmetikOp(params, OP_BIT_OR)); }$/;"	f
+p_bitXor	./nl-math.c	/^CELL * p_bitXor(CELL * params) { return(arithmetikOp(params, OP_BIT_XOR)); }$/;"	f
+p_bits	./nl-math.c	/^CELL * p_bits(CELL * params) $/;"	f
+p_callback	./nl-import.c	/^CELL * p_callback(CELL * params)$/;"	f
+p_case	./newlisp.c	/^CELL * p_case(CELL * params)$/;"	f
+p_catch	./newlisp.c	/^CELL * p_catch(CELL * params)$/;"	f
+p_ceil	./nl-math.c	/^CELL * p_ceil(CELL * params) { return(functionFloat(params, OP_CEIL)); }$/;"	f
+p_changeDir	./nl-filesys.c	/^CELL * p_changeDir(CELL * params)$/;"	f
+p_char	./nl-string.c	/^CELL * p_char(CELL * params)$/;"	f
+p_chop	./nl-liststr.c	/^CELL * p_chop(CELL * params)$/;"	f
+p_clean	./nl-list.c	/^CELL * p_clean(CELL * params)$/;"	f
+p_close	./nl-filesys.c	/^CELL * p_close(CELL * params)$/;"	f
+p_collect	./nl-list.c	/^CELL * p_collect(CELL * params)$/;"	f
+p_colon	./newlisp.c	/^CELL * p_colon(CELL * params)$/;"	f
+p_commandEvent	./newlisp.c	/^CELL * p_commandEvent(CELL * params)$/;"	f
+p_condition	./newlisp.c	/^CELL * p_condition(CELL * params)$/;"	f
+p_cons	./newlisp.c	/^CELL * p_cons(CELL * params)$/;"	f
+p_constant	./newlisp.c	/^CELL * p_constant(CELL *params)$/;"	f
+p_context	./newlisp.c	/^CELL * p_context(CELL * params)$/;"	f
+p_copy	./newlisp.c	/^CELL * p_copy(CELL * params)$/;"	f
+p_copyFile	./nl-filesys.c	/^CELL * p_copyFile(CELL * params)$/;"	f
+p_copyMemory	./nl-string.c	/^CELL * p_copyMemory(CELL * params)$/;"	f
+p_corr	./nl-math.c	/^CELL * p_corr(CELL * params)$/;"	f
+p_cos	./nl-math.c	/^CELL * p_cos(CELL * params) { return(functionFloat(params, OP_COS)); }$/;"	f
+p_cosh	./nl-math.c	/^CELL * p_cosh(CELL * params) { return(functionFloat(params, OP_COSH)); }$/;"	f
+p_count	./nl-list.c	/^CELL * p_count(CELL * params)$/;"	f
+p_crc32	./nl-math.c	/^CELL * p_crc32(CELL * params)$/;"	f
+p_criticalChi2	./nl-math.c	/^CELL * p_criticalChi2(CELL  * params)$/;"	f
+p_criticalF	./nl-math.c	/^CELL * p_criticalF(CELL  * params)$/;"	f
+p_criticalT	./nl-math.c	/^CELL * p_criticalT(CELL * params)$/;"	f
+p_criticalZ	./nl-math.c	/^CELL * p_criticalZ(CELL * params)$/;"	f
+p_currentLine	./nl-filesys.c	/^CELL * p_currentLine(CELL * params)$/;"	f
+p_curry	./newlisp.c	/^CELL * p_curry(CELL * params)$/;"	f
+p_date	./nl-filesys.c	/^CELL * p_date(CELL * params)$/;"	f
+p_dateList	./nl-filesys.c	/^CELL * p_dateList(CELL * params)$/;"	f
+p_dateParse	./nl-filesys.c	/^CELL * p_dateParse(CELL * params)$/;"	f
+p_dateValue	./nl-filesys.c	/^CELL * p_dateValue(CELL * params)$/;"	f
+p_debug	./nl-debug.c	/^CELL * p_debug(CELL * params)$/;"	f
+p_decrementF	./nl-math.c	/^CELL * p_decrementF(CELL * params) { return(incDecF(params, -1)); }$/;"	f
+p_decrementI	./nl-math.c	/^CELL * p_decrementI(CELL * params) { return(incDecI(params, -1)); }$/;"	f
+p_default	./newlisp.c	/^CELL * p_default(CELL * params)$/;"	f
+p_define	./newlisp.c	/^CELL * p_define(CELL * params)$/;"	f
+p_defineMacro	./newlisp.c	/^CELL * p_defineMacro(CELL * params)$/;"	f
+p_defineNew	./newlisp.c	/^CELL * p_defineNew(CELL * params)$/;"	f
+p_deleteFile	./nl-filesys.c	/^CELL * p_deleteFile(CELL * params)$/;"	f
+p_deleteSymbol	./nl-symbol.c	/^CELL * p_deleteSymbol(CELL * params)$/;"	f
+p_deleteUrl	./nl-web.c	/^CELL * p_deleteUrl(CELL * params)$/;"	f
+p_destroyProcess	./nl-filesys.c	/^CELL * p_destroyProcess(CELL * params)$/;"	f
+p_determinant	./nl-matrix.c	/^CELL * p_determinant(CELL * params)$/;"	f
+p_device	./newlisp.c	/^CELL * p_device(CELL * params)$/;"	f
+p_difference	./nl-list.c	/^CELL * p_difference(CELL * params)$/;"	f
+p_directory	./nl-filesys.c	/^CELL * p_directory(CELL * params)$/;"	f
+p_divFloat	./nl-math.c	/^CELL * p_divFloat(CELL * params) { return(floatOp(params, OP_DIVIDE)); }$/;"	f
+p_divide	./nl-math.c	/^CELL * p_divide(CELL * params) { return(arithmetikOp(params, OP_DIVIDE)); }$/;"	f
+p_doUntil	./newlisp.c	/^CELL * p_doUntil(CELL * params) { return(repeat(params, REPEAT_DOUNTIL)); }$/;"	f
+p_doWhile	./newlisp.c	/^CELL * p_doWhile(CELL * params) { return(repeat(params, REPEAT_DOWHILE)); }$/;"	f
+p_doargs	./newlisp.c	/^CELL * p_doargs(CELL * params)$/;"	f
+p_dolist	./newlisp.c	/^CELL * p_dolist(CELL * params)$/;"	f
+p_dostring	./newlisp.c	/^CELL * p_dostring(CELL * params)$/;"	f
+p_dotimes	./newlisp.c	/^CELL * p_dotimes(CELL * params)$/;"	f
+p_dotree	./newlisp.c	/^CELL * p_dotree(CELL * params)$/;"	f
+p_dump	./newlisp.c	/^CELL * p_dump(CELL * params)$/;"	f
+p_dumpSymbol	./nl-symbol.c	/^CELL * p_dumpSymbol(CELL * params)$/;"	f
+p_dup	./nl-liststr.c	/^CELL * p_dup(CELL * params)$/;"	f
+p_encrypt	./nl-math.c	/^CELL * p_encrypt(CELL * params)$/;"	f
+p_endsWith	./nl-liststr.c	/^CELL * p_endsWith(CELL * params) { return startsEndsWith(params, ENDS_WITH); }$/;"	f
+p_env	./nl-filesys.c	/^CELL * p_env(CELL * params)$/;"	f
+p_equal	./nl-math.c	/^CELL * p_equal(CELL * params) { return(compareOp(params, OP_EQUAL)); }$/;"	f
+p_erf	./nl-math.c	/^CELL * p_erf(CELL * params) { return(functionFloat(params, OP_ERRORFUNC)); }$/;"	f
+p_errorEvent	./newlisp.c	/^CELL * p_errorEvent(CELL * params)$/;"	f
+p_eval	./newlisp.c	/^CELL * p_eval(CELL * params)$/;"	f
+p_evalBlock	./newlisp.c	/^CELL * p_evalBlock(CELL * params)$/;"	f
+p_evalString	./newlisp.c	/^CELL * p_evalString(CELL * params) { return(evalString(params, EVAL_STRING)); }$/;"	f
+p_evalStringJS	./newlisp.c	/^CELL * p_evalStringJS(CELL * params)$/;"	f
+p_exec	./nl-filesys.c	/^CELL * p_exec(CELL * params)$/;"	f
+p_exists	./nl-list.c	/^CELL * p_exists(CELL * params)$/;"	f
+p_exit	./newlisp.c	/^CELL * p_exit(CELL * params)$/;"	f
+p_exp	./nl-math.c	/^CELL * p_exp(CELL * params) { return(functionFloat(params, OP_EXP)); }$/;"	f
+p_expand	./newlisp.c	/^CELL * p_expand(CELL * params)$/;"	f
+p_explode	./nl-string.c	/^CELL * p_explode(CELL * params)$/;"	f
+p_extend	./nl-liststr.c	/^CELL * p_extend(CELL * params)$/;"	f
+p_factor	./nl-math.c	/^CELL * p_factor (CELL * params)$/;"	f
+p_fft	./nl-math.c	/^CELL * p_fft(CELL * params)$/;"	f
+p_fileInfo	./nl-filesys.c	/^CELL * p_fileInfo(CELL * params)$/;"	f
+p_filter	./nl-list.c	/^CELL * p_filter(CELL * params)$/;"	f
+p_find	./nl-liststr.c	/^CELL * p_find(CELL * params) $/;"	f
+p_findAll	./nl-liststr.c	/^CELL * p_findAll(CELL * params)$/;"	f
+p_first	./newlisp.c	/^CELL * p_first(CELL * params)$/;"	f
+p_flat	./nl-list.c	/^CELL * p_flat(CELL * params)$/;"	f
+p_float	./nl-string.c	/^CELL * p_float(CELL * params)$/;"	f
+p_floor	./nl-math.c	/^CELL * p_floor(CELL * params) { return(functionFloat(params, OP_FLOOR)); }$/;"	f
+p_flt	./nl-math.c	/^CELL * p_flt(CELL * params)$/;"	f
+p_for	./newlisp.c	/^CELL * p_for(CELL * params)$/;"	f
+p_forAll	./nl-list.c	/^CELL * p_forAll(CELL * params)$/;"	f
+p_fork	./nl-filesys.c	/^CELL * p_fork(CELL * params)$/;"	f
+p_format	./nl-string.c	/^CELL * p_format(CELL * params)$/;"	f
+p_fv	./nl-math.c	/^CELL * p_fv(CELL * params)$/;"	f
+p_gammai	./nl-math.c	/^CELL * p_gammai(CELL * params)$/;"	f
+p_gammaln	./nl-math.c	/^CELL * p_gammaln(CELL * params)$/;"	f
+p_gcd	./nl-math.c	/^CELL * p_gcd(CELL * params)$/;"	f
+p_getChar	./nl-string.c	/^CELL * p_getChar(CELL * params)$/;"	f
+p_getFloat	./nl-string.c	/^CELL * p_getFloat(CELL * params)$/;"	f
+p_getInteger	./nl-string.c	/^CELL * p_getInteger(CELL * params)$/;"	f
+p_getLong	./nl-string.c	/^CELL * p_getLong(CELL * params)$/;"	f
+p_getString	./nl-string.c	/^CELL * p_getString(CELL * params)$/;"	f
+p_getUrl	./nl-web.c	/^CELL * p_getUrl(CELL * params)$/;"	f
+p_global	./newlisp.c	/^CELL * p_global(CELL * params)$/;"	f
+p_greater	./nl-math.c	/^CELL * p_greater(CELL * params) { return(compareOp(params, OP_GREATER)); }$/;"	f
+p_greaterEqual	./nl-math.c	/^CELL * p_greaterEqual(CELL * params) { return(compareOp(params, OP_GREATER_EQUAL)); }$/;"	f
+p_if	./newlisp.c	/^CELL * p_if(CELL * params)$/;"	f
+p_ifNot	./newlisp.c	/^CELL * p_ifNot(CELL * params)$/;"	f
+p_ifft	./nl-math.c	/^CELL * p_ifft(CELL * params)$/;"	f
+p_importLib	./nl-import.c	/^CELL * p_importLib(CELL * params)$/;"	f
+p_incrementF	./nl-math.c	/^CELL * p_incrementF(CELL * params) { return(incDecF(params, 1)); }$/;"	f
+p_incrementI	./nl-math.c	/^CELL * p_incrementI(CELL * params) { return(incDecI(params, 1)); }$/;"	f
+p_index	./nl-list.c	/^CELL * p_index(CELL * params)$/;"	f
+p_integer	./nl-string.c	/^CELL * p_integer(CELL * params)$/;"	f
+p_intersect	./nl-list.c	/^CELL * p_intersect(CELL * params)$/;"	f
+p_irr	./nl-math.c	/^CELL * p_irr(CELL * params)$/;"	f
+p_isArray	./newlisp.c	/^CELL * p_isArray(CELL * params)$/;"	f
+p_isAtom	./newlisp.c	/^CELL * p_isAtom(CELL * params)$/;"	f
+p_isBigInteger	./newlisp.c	/^CELL * p_isBigInteger(CELL * params)$/;"	f
+p_isContext	./newlisp.c	/^CELL * p_isContext(CELL * params)$/;"	f
+p_isDirectory	./nl-filesys.c	/^CELL * p_isDirectory(CELL * params)$/;"	f
+p_isEmpty	./newlisp.c	/^CELL * p_isEmpty(CELL * params)$/;"	f
+p_isEven	./nl-math.c	/^CELL * p_isEven(CELL * params)$/;"	f
+p_isFile	./nl-filesys.c	/^CELL * p_isFile(CELL * params) \/* includes dev,socket,dir,file etc. *\/$/;"	f
+p_isFloat	./newlisp.c	/^CELL * p_isFloat(CELL * params)$/;"	f
+p_isGlobal	./newlisp.c	/^CELL * p_isGlobal(CELL * params)$/;"	f
+p_isInteger	./newlisp.c	/^CELL * p_isInteger(CELL * params)$/;"	f
+p_isLambda	./newlisp.c	/^CELL * p_isLambda(CELL * params)$/;"	f
+p_isLegal	./newlisp.c	/^CELL * p_isLegal(CELL * params)$/;"	f
+p_isList	./newlisp.c	/^CELL * p_isList(CELL * params)$/;"	f
+p_isMacro	./newlisp.c	/^CELL * p_isMacro(CELL * params)$/;"	f
+p_isNil	./newlisp.c	/^CELL * p_isNil(CELL * params)$/;"	f
+p_isNull	./newlisp.c	/^CELL * p_isNull(CELL * params)$/;"	f
+p_isNumber	./newlisp.c	/^CELL * p_isNumber(CELL * params)$/;"	f
+p_isOdd	./nl-math.c	/^CELL * p_isOdd(CELL * params)$/;"	f
+p_isPrimitive	./newlisp.c	/^CELL * p_isPrimitive(CELL * params)$/;"	f
+p_isProtected	./newlisp.c	/^CELL * p_isProtected(CELL * params)$/;"	f
+p_isQuote	./newlisp.c	/^CELL * p_isQuote(CELL *params)$/;"	f
+p_isString	./newlisp.c	/^CELL * p_isString(CELL * params)$/;"	f
+p_isSymbol	./newlisp.c	/^CELL * p_isSymbol(CELL * params)$/;"	f
+p_isTrue	./newlisp.c	/^CELL * p_isTrue(CELL * params)$/;"	f
+p_isZero	./newlisp.c	/^CELL * p_isZero(CELL * params)$/;"	f
+p_isinf	./nl-math.c	/^CELL * p_isinf(CELL * params) { return(functionFloat(params, OP_ISINF)); }$/;"	f
+p_isnan	./nl-math.c	/^CELL * p_isnan(CELL * params) { return(functionFloat(params, OP_ISNAN)); }$/;"	f
+p_join	./nl-liststr.c	/^CELL * p_join(CELL * params)$/;"	f
+p_kmeansQuery	./nl-matrix.c	/^CELL * p_kmeansQuery(CELL * params)$/;"	f
+p_kmeansTrain	./nl-matrix.c	/^CELL * p_kmeansTrain(CELL * params)$/;"	f
+p_last	./newlisp.c	/^CELL * p_last(CELL * params)$/;"	f
+p_lastError	./newlisp.c	/^CELL * p_lastError(CELL * params)$/;"	f
+p_length	./nl-liststr.c	/^CELL * p_length(CELL * params)$/;"	f
+p_less	./nl-math.c	/^CELL * p_less(CELL * params) { return(compareOp(params, OP_LESS)); }$/;"	f
+p_lessEqual	./nl-math.c	/^CELL * p_lessEqual(CELL * params) { return(compareOp(params, OP_LESS_EQUAL)); }$/;"	f
+p_let	./newlisp.c	/^CELL * p_let(CELL * params) { return(let(params, LET_STD)); }$/;"	f
+p_letExpand	./newlisp.c	/^CELL * p_letExpand(CELL * params) { return(let(params, LET_EXPAND)); }$/;"	f
+p_letn	./newlisp.c	/^CELL * p_letn(CELL * params) { return(let(params, LET_NEST)); }$/;"	f
+p_list	./newlisp.c	/^CELL * p_list(CELL * params)$/;"	f
+p_load	./newlisp.c	/^CELL * p_load(CELL * params)$/;"	f
+p_local	./newlisp.c	/^CELL * p_local(CELL * params) { return(let(params, LET_LOCAL)); }$/;"	f
+p_log	./nl-math.c	/^CELL * p_log(CELL * params) { return(functionFloat(params, OP_LOG)); }$/;"	f
+p_lookup	./nl-list.c	/^CELL * p_lookup(CELL * params)$/;"	f
+p_lower	./nl-string.c	/^CELL * p_lower(CELL * params) {return(strUpperLower(params, STR_LOWER));}$/;"	f
+p_macro	./newlisp.c	/^CELL * p_macro(CELL * params)$/;"	f
+p_mainArgs	./newlisp.c	/^CELL * p_mainArgs(CELL * params)$/;"	f
+p_makeDir	./nl-filesys.c	/^CELL * p_makeDir(CELL * params)$/;"	f
+p_map	./nl-list.c	/^CELL * p_map(CELL * params)$/;"	f
+p_matInvert	./nl-matrix.c	/^CELL * p_matInvert(CELL * params)$/;"	f
+p_matMultiply	./nl-matrix.c	/^CELL * p_matMultiply(CELL * params)$/;"	f
+p_matScalar	./nl-matrix.c	/^CELL * p_matScalar(CELL * params)$/;"	f
+p_matTranspose	./nl-matrix.c	/^CELL * p_matTranspose(CELL * params)$/;"	f
+p_match	./nl-list.c	/^CELL * p_match(CELL * params)$/;"	f
+p_maxFloat	./nl-math.c	/^CELL * p_maxFloat(CELL * params) { return(floatOp(params, OP_MAX)); }$/;"	f
+p_member	./nl-liststr.c	/^CELL * p_member(CELL * params)$/;"	f
+p_minFloat	./nl-math.c	/^CELL * p_minFloat(CELL * params) { return(floatOp(params, OP_MIN)); }$/;"	f
+p_modFloat	./nl-math.c	/^CELL * p_modFloat(CELL * params) { return(floatOp(params, OP_MODULO)); }$/;"	f
+p_modulo	./nl-math.c	/^CELL * p_modulo(CELL * params) { return(arithmetikOp(params, OP_MODULO)); }$/;"	f
+p_mulFloat	./nl-math.c	/^CELL * p_mulFloat(CELL * params) { return(floatOp(params, OP_MULTIPLY)); }$/;"	f
+p_multiply	./nl-math.c	/^CELL * p_multiply(CELL * params) { return(arithmetikOp(params, OP_MULTIPLY)); }$/;"	f
+p_netAccept	./nl-sock.c	/^CELL * p_netAccept(CELL * params) $/;"	f
+p_netClose	./nl-sock.c	/^CELL * p_netClose(CELL * params) $/;"	f
+p_netConnect	./nl-sock.c	/^CELL * p_netConnect(CELL * params)$/;"	f
+p_netEval	./nl-sock.c	/^CELL * p_netEval(CELL * params)$/;"	f
+p_netInterface	./nl-sock.c	/^CELL * p_netInterface(CELL * params)$/;"	f
+p_netIpv	./nl-sock.c	/^CELL * p_netIpv(CELL * params)$/;"	f
+p_netLastError	./nl-sock.c	/^CELL * p_netLastError(CELL * params)$/;"	f
+p_netListen	./nl-sock.c	/^CELL * p_netListen(CELL * params) $/;"	f
+p_netLocal	./nl-sock.c	/^CELL * p_netLocal(CELL * params) $/;"	f
+p_netLookup	./nl-sock.c	/^CELL * p_netLookup(CELL * params)$/;"	f
+p_netPacket	./nl-sock.c	/^CELL * p_netPacket(CELL * params)$/;"	f
+p_netPeek	./nl-sock.c	/^CELL * p_netPeek(CELL * params)$/;"	f
+p_netPeer	./nl-sock.c	/^CELL * p_netPeer(CELL * params)$/;"	f
+p_netPing	./nl-sock.c	/^CELL * p_netPing(CELL * params)$/;"	f
+p_netReceive	./nl-sock.c	/^CELL * p_netReceive(CELL * params) $/;"	f
+p_netReceiveFrom	./nl-sock.c	/^CELL * p_netReceiveFrom(CELL * params)$/;"	f
+p_netReceiveUDP	./nl-sock.c	/^CELL * p_netReceiveUDP(CELL * params) $/;"	f
+p_netSelect	./nl-sock.c	/^CELL * p_netSelect(CELL * params)$/;"	f
+p_netSend	./nl-sock.c	/^CELL * p_netSend(CELL * params) $/;"	f
+p_netSendTo	./nl-sock.c	/^CELL * p_netSendTo(CELL * params)$/;"	f
+p_netSendUDP	./nl-sock.c	/^CELL * p_netSendUDP(CELL * params)$/;"	f
+p_netService	./nl-sock.c	/^CELL * p_netService(CELL * params) $/;"	f
+p_netSessions	./nl-sock.c	/^CELL * p_netSessions(CELL * params)$/;"	f
+p_new	./newlisp.c	/^CELL * p_new(CELL * params)$/;"	f
+p_normal	./nl-math.c	/^CELL * p_normal(CELL * params)$/;"	f
+p_not	./newlisp.c	/^CELL * p_not(CELL * params)$/;"	f
+p_notEqual	./nl-math.c	/^CELL * p_notEqual(CELL * params) { return(compareOp(params, OP_NOTEQUAL)); }$/;"	f
+p_now	./nl-filesys.c	/^CELL * p_now(CELL * params)$/;"	f
+p_nper	./nl-math.c	/^CELL * p_nper(CELL * params)$/;"	f
+p_npv	./nl-math.c	/^CELL * p_npv(CELL * params)$/;"	f
+p_nth	./nl-liststr.c	/^CELL * p_nth(CELL * params)$/;"	f
+p_open	./nl-filesys.c	/^CELL * p_open(CELL * params)$/;"	f
+p_or	./newlisp.c	/^CELL * p_or(CELL * params)$/;"	f
+p_pack	./nl-string.c	/^CELL * p_pack(CELL * params)$/;"	f
+p_parse	./nl-string.c	/^CELL * p_parse(CELL * params)$/;"	f
+p_peek	./nl-filesys.c	/^CELL * p_peek(CELL * params)$/;"	f
+p_pipe	./nl-filesys.c	/^CELL * p_pipe(CELL * params)$/;"	f
+p_pmt	./nl-math.c	/^CELL * p_pmt(CELL * params)$/;"	f
+p_pop	./nl-liststr.c	/^CELL * p_pop(CELL * params)$/;"	f
+p_popAssoc	./nl-list.c	/^CELL * p_popAssoc(CELL * params)$/;"	f
+p_postUrl	./nl-web.c	/^CELL * p_postUrl(CELL * params)$/;"	f
+p_powFloat	./nl-math.c	/^CELL * p_powFloat(CELL * params) { return(floatOp(params, OP_POW)); }$/;"	f
+p_prefix	./nl-symbol.c	/^CELL * p_prefix(CELL * params)$/;"	f
+p_prettyPrint	./newlisp.c	/^CELL * p_prettyPrint(CELL * params)$/;"	f
+p_print	./newlisp.c	/^CELL * p_print(CELL * params)$/;"	f
+p_println	./newlisp.c	/^CELL * p_println(CELL * params)$/;"	f
+p_probabilityChi2	./nl-math.c	/^CELL * p_probabilityChi2(CELL * params)$/;"	f
+p_probabilityF	./nl-math.c	/^CELL * p_probabilityF(CELL * params)$/;"	f
+p_probabilityT	./nl-math.c	/^CELL * p_probabilityT(CELL * params)$/;"	f
+p_probabilityZ	./nl-math.c	/^CELL * p_probabilityZ(CELL * params)$/;"	f
+p_process	./nl-filesys.c	/^CELL * p_process(CELL * params)$/;"	f
+p_promptEvent	./newlisp.c	/^CELL * p_promptEvent(CELL * params)$/;"	f
+p_push	./nl-liststr.c	/^CELL * p_push(CELL * params)$/;"	f
+p_putUrl	./nl-web.c	/^CELL * p_putUrl(CELL * params)$/;"	f
+p_pv	./nl-math.c	/^CELL * p_pv(CELL * params)$/;"	f
+p_quote	./newlisp.c	/^CELL * p_quote(CELL * params)$/;"	f
+p_rand	./nl-math.c	/^CELL * p_rand(CELL * params)$/;"	f
+p_random	./nl-math.c	/^CELL * p_random(CELL * params)$/;"	f
+p_randomize	./nl-math.c	/^CELL * p_randomize(CELL * params)$/;"	f
+p_readBuffer	./nl-filesys.c	/^CELL * p_readBuffer(CELL * params)$/;"	f
+p_readChar	./nl-filesys.c	/^CELL * p_readChar(CELL * params)$/;"	f
+p_readExpr	./newlisp.c	/^CELL * p_readExpr(CELL * params) { return(evalString(params, READ_EXPR)); }$/;"	f
+p_readFile	./nl-filesys.c	/^CELL * p_readFile(CELL * params)$/;"	f
+p_readKey	./nl-filesys.c	/^CELL * p_readKey(CELL * params)$/;"	f
+p_readLine	./nl-filesys.c	/^CELL * p_readLine(CELL * params)$/;"	f
+p_readUTF8	./nl-utf8.c	/^CELL * p_readUTF8(CELL * params)$/;"	f
+p_readerEvent	./newlisp.c	/^CELL * p_readerEvent(CELL * params)$/;"	f
+p_realpath	./nl-filesys.c	/^CELL * p_realpath(CELL * params)$/;"	f
+p_receive	./nl-filesys.c	/^CELL * p_receive(CELL * params)$/;"	f
+p_ref	./nl-list.c	/^CELL * p_ref(CELL * params)$/;"	f
+p_refAll	./nl-list.c	/^CELL * p_refAll(CELL * params)$/;"	f
+p_regex	./nl-string.c	/^CELL * p_regex(CELL * params)$/;"	f
+p_regexComp	./nl-string.c	/^CELL * p_regexComp(CELL * params)$/;"	f
+p_removeDir	./nl-filesys.c	/^CELL * p_removeDir(CELL * params)$/;"	f
+p_renameFile	./nl-filesys.c	/^CELL * p_renameFile(CELL * params)$/;"	f
+p_replace	./nl-liststr.c	/^CELL * p_replace(CELL * params)$/;"	f
+p_reset	./newlisp.c	/^CELL * p_reset(CELL * params)$/;"	f
+p_rest	./newlisp.c	/^CELL * p_rest(CELL * params)$/;"	f
+p_reverse	./nl-liststr.c	/^CELL * p_reverse(CELL * params)$/;"	f
+p_rotate	./nl-liststr.c	/^CELL * p_rotate(CELL * params)$/;"	f
+p_round	./nl-math.c	/^CELL * p_round(CELL * params)$/;"	f
+p_save	./newlisp.c	/^CELL * p_save(CELL * params)$/;"	f
+p_search	./nl-string.c	/^CELL * p_search(CELL * params)$/;"	f
+p_seed	./nl-math.c	/^CELL *  p_seed(CELL * params)$/;"	f
+p_seek	./nl-filesys.c	/^CELL * p_seek(CELL * params)$/;"	f
+p_select	./nl-liststr.c	/^CELL * p_select(CELL * params)$/;"	f
+p_self	./newlisp.c	/^CELL * p_self(CELL * params)$/;"	f
+p_semaphore	./nl-filesys.c	/^CELL * p_semaphore(CELL * params)$/;"	f
+p_send	./nl-filesys.c	/^CELL * p_send(CELL * params)$/;"	f
+p_sequence	./nl-list.c	/^CELL * p_sequence(CELL * params)$/;"	f
+p_series	./nl-math.c	/^CELL * p_series(CELL * params)$/;"	f
+p_set	./newlisp.c	/^CELL * p_set(CELL *params)$/;"	f
+p_setLocale	./newlisp.c	/^CELL * p_setLocale(CELL * params)$/;"	f
+p_setRef	./nl-list.c	/^CELL * p_setRef(CELL * params)$/;"	f
+p_setRefAll	./nl-list.c	/^CELL * p_setRefAll(CELL * params)$/;"	f
+p_setf	./newlisp.c	/^CELL * p_setf(CELL *params)$/;"	f
+p_sgn	./nl-math.c	/^CELL * p_sgn(CELL * params) { return(functionFloat(params, OP_SIGNUM)); }$/;"	f
+p_share	./nl-filesys.c	/^CELL * p_share(CELL * params)$/;"	f
+p_shiftLeft	./nl-math.c	/^CELL * p_shiftLeft(CELL * params) { return(arithmetikOp(params, OP_SHIFTL)); }$/;"	f
+p_shiftRight	./nl-math.c	/^CELL * p_shiftRight(CELL * params) { return(arithmetikOp(params, OP_SHIFTR)); }$/;"	f
+p_signal	./newlisp.c	/^CELL * p_signal(CELL * params)$/;"	f
+p_silent	./newlisp.c	/^CELL * p_silent(CELL * params)$/;"	f
+p_sin	./nl-math.c	/^CELL * p_sin(CELL * params) { return(functionFloat(params, OP_SIN)); }$/;"	f
+p_sinh	./nl-math.c	/^CELL * p_sinh(CELL * params) { return(functionFloat(params, OP_SINH)); }$/;"	f
+p_sleep	./nl-filesys.c	/^CELL * p_sleep(CELL * params)$/;"	f
+p_slice	./nl-liststr.c	/^CELL * p_slice(CELL * params)$/;"	f
+p_sort	./nl-list.c	/^CELL * p_sort(CELL * params)$/;"	f
+p_spawn	./nl-filesys.c	/^CELL * p_spawn(CELL * params)$/;"	f
+p_sqrt	./nl-math.c	/^CELL * p_sqrt(CELL * params) { return(functionFloat(params, OP_SQRT)); }$/;"	f
+p_ssq	./nl-math.c	/^CELL * p_ssq(CELL * params)$/;"	f
+p_startsWith	./nl-liststr.c	/^CELL * p_startsWith(CELL * params) { return startsEndsWith(params, STARTS_WITH); }$/;"	f
+p_stats	./nl-math.c	/^CELL * p_stats(CELL * params)$/;"	f
+p_string	./nl-string.c	/^CELL * p_string(CELL * params)$/;"	f
+p_struct	./nl-import.c	/^CELL * p_struct(CELL * params)$/;"	f
+p_subFloat	./nl-math.c	/^CELL * p_subFloat(CELL * params) { return(floatOp(params, OP_SUBTRACT)); }$/;"	f
+p_subtract	./nl-math.c	/^CELL * p_subtract(CELL * params) { return(arithmetikOp(params, OP_SUBTRACT)); }$/;"	f
+p_swap	./nl-liststr.c	/^CELL * p_swap(CELL * params)$/;"	f
+p_symbol	./nl-string.c	/^CELL * p_symbol(CELL * params)$/;"	f
+p_symbolSource	./nl-string.c	/^CELL * p_symbolSource(CELL * params)$/;"	f
+p_symbols	./nl-symbol.c	/^CELL * p_symbols(CELL * params)$/;"	f
+p_sync	./nl-filesys.c	/^CELL * p_sync(CELL * params)$/;"	f
+p_system	./nl-filesys.c	/^CELL * p_system(CELL *params)$/;"	f
+p_systemError	./nl-filesys.c	/^CELL * p_systemError(CELL * params)$/;"	f
+p_systemInfo	./nl-filesys.c	/^CELL * p_systemInfo(CELL * params)$/;"	f
+p_systemSymbol	./newlisp.c	/^CELL * p_systemSymbol(CELL * params)$/;"	f
+p_tan	./nl-math.c	/^CELL * p_tan(CELL * params) { return(functionFloat(params, OP_TAN)); }$/;"	f
+p_tanh	./nl-math.c	/^CELL * p_tanh(CELL * params) { return(functionFloat(params, OP_TANH)); }$/;"	f
+p_term	./nl-symbol.c	/^CELL * p_term(CELL * params)$/;"	f
+p_throw	./newlisp.c	/^CELL * p_throw(CELL * params)$/;"	f
+p_throwError	./newlisp.c	/^CELL * p_throwError(CELL * params)$/;"	f
+p_time	./nl-filesys.c	/^CELL * p_time(CELL * params)$/;"	f
+p_timeOfDay	./nl-filesys.c	/^CELL * p_timeOfDay(CELL * params)$/;"	f
+p_timerEvent	./newlisp.c	/^CELL * p_timerEvent(CELL * params)$/;"	f
+p_timerEvent	./win-util.c	/^CELL * p_timerEvent(CELL * params)$/;"	f
+p_title	./nl-string.c	/^CELL * p_title(CELL * params) {return(strUpperLower(params, STR_TITLE));}$/;"	f
+p_trace	./nl-debug.c	/^CELL * p_trace(CELL * params)$/;"	f
+p_traceHighlight	./nl-debug.c	/^CELL * p_traceHighlight(CELL * params)$/;"	f
+p_transferEvent	./newlisp.c	/^CELL * p_transferEvent(CELL * params)$/;"	f
+p_trim	./nl-string.c	/^CELL * p_trim(CELL * params)$/;"	f
+p_ttest	./nl-math.c	/^CELL * p_ttest(CELL * params)$/;"	f
+p_unicode	./nl-utf8.c	/^CELL * p_unicode(CELL * params)$/;"	f
+p_unify	./nl-math.c	/^CELL * p_unify(CELL * params)$/;"	f
+p_union	./nl-list.c	/^CELL * p_union(CELL * params)$/;"	f
+p_unique	./nl-list.c	/^CELL * p_unique(CELL * params)$/;"	f
+p_unless	./newlisp.c	/^CELL * p_unless(CELL * params)$/;"	f
+p_unpack	./nl-string.c	/^CELL * p_unpack(CELL * params)$/;"	f
+p_until	./newlisp.c	/^CELL * p_until(CELL * params) { return(repeat(params, REPEAT_UNTIL)); }$/;"	f
+p_upper	./nl-string.c	/^CELL * p_upper(CELL * params) {return(strUpperLower(params, STR_UPPER));}$/;"	f
+p_utf8	./nl-utf8.c	/^CELL * p_utf8(CELL * params)$/;"	f
+p_utf8len	./nl-utf8.c	/^CELL * p_utf8len(CELL * params)$/;"	f
+p_uuid	./nl-filesys.c	/^CELL * p_uuid(CELL * params)$/;"	f
+p_waitpid	./nl-filesys.c	/^CELL * p_waitpid(CELL * params)$/;"	f
+p_when	./newlisp.c	/^CELL * p_when(CELL * params)$/;"	f
+p_while	./newlisp.c	/^CELL * p_while(CELL * params) { return(repeat(params, REPEAT_WHILE)); }$/;"	f
+p_writeBuffer	./nl-filesys.c	/^CELL * p_writeBuffer(CELL * params)$/;"	f
+p_writeChar	./nl-filesys.c	/^CELL * p_writeChar(CELL * params)$/;"	f
+p_writeFile	./nl-filesys.c	/^CELL * p_writeFile(CELL * params)$/;"	f
+p_writeLine	./nl-filesys.c	/^CELL * p_writeLine(CELL * params)$/;"	f
+packFFIstruct	./nl-import.c	/^CELL * packFFIstruct(CELL * cell, CELL * params)$/;"	f
+pagesize	./newlisp.c	/^int pagesize;$/;"	v
+parStackCounter	./newlisp.c	/^int parStackCounter = 0;$/;"	v
+paramError	./nl-math.c	/^static int paramError;$/;"	v	file:
+parent	./newlisp.h	/^	struct tagSYMBOL * parent;$/;"	m	struct:tagSYMBOL	typeref:struct:tagSYMBOL::tagSYMBOL
+parentPad	./nl-filesys.c	/^void * parentPad = NULL;    \/* written by parent for this process *\/$/;"	v
+parentPid	./nl-filesys.c	/^int parentPid = 0;$/;"	v
+parseAttributes	./nl-xml-json.c	/^CELL * parseAttributes(char * endSrc)$/;"	f
+parseClosing	./nl-xml-json.c	/^void parseClosing(void)$/;"	f
+parseDTD	./nl-xml-json.c	/^void parseDTD(void)$/;"	f
+parseDoc	./nl-xml-json.c	/^CELL * parseDoc(void)$/;"	f
+parseNormalTag	./nl-xml-json.c	/^CELL * parseNormalTag(char * endSrc, char * newSrc)$/;"	f
+parsePackFormat	./nl-string.c	/^char * parsePackFormat(char * format, int * length, int * type)$/;"	f
+parsePath	./nl-web.c	/^void parsePath(char * url, char * path, size_t bufflen)$/;"	f
+parseProcessingInstruction	./nl-xml-json.c	/^void parseProcessingInstruction(void)$/;"	f
+parseRegexOptions	./nl-string.c	/^CELL* parseRegexOptions(CELL* params, UINT * options, int evalFlag)$/;"	f
+parseTag	./nl-xml-json.c	/^CELL * parseTag(char * closeTagStr)$/;"	f
+parseUrl	./nl-web.c	/^int parseUrl(char * url, char * protocol, char * host, int * port, char * path, size_t bufflen)$/;"	f
+parseValue	./nl-web.c	/^size_t parseValue(char * str)$/;"	f
+partial	./pcre-internal.h	/^  BOOL   partial;               \/* PARTIAL flag *\/$/;"	m	struct:match_data
+patternMatchL	./nl-list.c	/^CELL * patternMatchL(CELL * pattern, CELL * list, int flag)$/;"	f
+pattern_position	./pcre.h	/^  int          pattern_position;  \/* Offset to next item in the pattern *\/$/;"	m	struct:pcre_callout_block
+pchars	./pcre.c	/^pchars(const uschar *p, int length, BOOL is_subject, match_data *md)$/;"	f	file:
+pclose	./nl-filesys.c	67;"	d	file:
+pcre	./pcre.h	/^typedef struct real_pcre pcre;$/;"	t	typeref:struct:real_pcre
+pcreCachedCompile	./nl-string.c	/^pcre * pcreCachedCompile(char * pattern, int options)$/;"	f
+pcre_callout	./pcre.c	/^extern "C" int   (*pcre_callout)(pcre_callout_block *) = NULL;$/;"	v
+pcre_callout	./pcre.c	/^int   (*pcre_callout)(pcre_callout_block *) = NULL;$/;"	v
+pcre_callout	./pcre.h	/^PCRE_DATA_SCOPE int   (*pcre_callout)(pcre_callout_block *);$/;"	v
+pcre_callout_block	./pcre.h	/^typedef struct pcre_callout_block {$/;"	s
+pcre_callout_block	./pcre.h	/^} pcre_callout_block;$/;"	t	typeref:struct:pcre_callout_block
+pcre_compile	./pcre.c	/^pcre_compile(const char *pattern, int options, const char **errorptr,$/;"	f
+pcre_config	./pcre.c	/^pcre_config(int what, void *where)$/;"	f
+pcre_default_tables	./pcre-chartables.c	/^static unsigned char pcre_default_tables[] = {$/;"	v	file:
+pcre_exec	./pcre.c	/^pcre_exec(const pcre *argument_re, const pcre_extra *extra_data,$/;"	f
+pcre_extra	./pcre.h	/^typedef struct pcre_extra {$/;"	s
+pcre_extra	./pcre.h	/^} pcre_extra;$/;"	t	typeref:struct:pcre_extra
+pcre_free	./pcre.c	/^extern "C" void  (*pcre_free)(void *) = free;$/;"	v
+pcre_free	./pcre.c	/^void  (*pcre_free)(void *) = free;$/;"	v
+pcre_free	./pcre.h	/^PCRE_DATA_SCOPE void  (*pcre_free)(void *);$/;"	v
+pcre_fullinfo	./pcre.c	/^pcre_fullinfo(const pcre *argument_re, const pcre_extra *extra_data, int what,$/;"	f
+pcre_info	./pcre.c	/^pcre_info(const pcre *argument_re, int *optptr, int *first_byte)$/;"	f
+pcre_malloc	./pcre.c	/^extern "C" void *(*pcre_malloc)(size_t) = malloc;$/;"	v
+pcre_malloc	./pcre.c	/^void *(*pcre_malloc)(size_t) = malloc;$/;"	v
+pcre_malloc	./pcre.h	/^PCRE_DATA_SCOPE void *(*pcre_malloc)(size_t);$/;"	v
+pcre_memmove	./pcre-internal.h	/^pcre_memmove(unsigned char *dest, const unsigned char *src, size_t n)$/;"	f
+pcre_stack_free	./pcre.c	/^extern "C" void  (*pcre_stack_free)(void *) = free;$/;"	v
+pcre_stack_free	./pcre.c	/^void  (*pcre_stack_free)(void *) = free;$/;"	v
+pcre_stack_free	./pcre.h	/^PCRE_DATA_SCOPE void  (*pcre_stack_free)(void *);$/;"	v
+pcre_stack_malloc	./pcre.c	/^extern "C" void *(*pcre_stack_malloc)(size_t) = malloc;$/;"	v
+pcre_stack_malloc	./pcre.c	/^void *(*pcre_stack_malloc)(size_t) = malloc;$/;"	v
+pcre_stack_malloc	./pcre.h	/^PCRE_DATA_SCOPE void *(*pcre_stack_malloc)(size_t);$/;"	v
+pcre_study_data	./pcre-internal.h	/^typedef struct pcre_study_data {$/;"	s
+pcre_study_data	./pcre-internal.h	/^} pcre_study_data;$/;"	t	typeref:struct:pcre_study_data
+pcre_uint16	./pcre-internal.h	/^  typedef unsigned int pcre_uint16;$/;"	t
+pcre_uint16	./pcre-internal.h	/^  typedef unsigned short pcre_uint16;$/;"	t
+pcre_uint32	./pcre-internal.h	/^  typedef unsigned int pcre_uint32;$/;"	t
+pcre_uint32	./pcre-internal.h	/^  typedef unsigned long int pcre_uint32;$/;"	t
+pcre_version	./pcre.c	/^pcre_version(void)$/;"	f
+performXmlCallback	./nl-xml-json.c	/^void performXmlCallback(CELL * result, char * tagStart)$/;"	f
+pid	./nl-filesys.c	/^    int pid;            \/* childs pid *\/$/;"	m	struct:__anon6	file:
+ping	./nl-sock.c	/^CELL * ping(CELL * address, int maxwait, int listmode, int maxCount, int flag)$/;"	f
+pipe	./nl-filesys.c	68;"	d	file:
+plainProcess	./win-util.c	/^UINT plainProcess(char * command, size_t len)$/;"	f
+plusSymbol	./newlisp.c	/^SYMBOL * plusSymbol;$/;"	v
+popDebugStack	./nl-debug.c	55;"	d	file:
+popEnvironment	./newlisp.h	327;"	d
+popRef	./nl-list.c	1324;"	d	file:
+popResult	./newlisp.h	332;"	d
+popSet	./nl-math.c	/^void  popSet(TERMSET * * root, CELL * * left, CELL * * right)$/;"	f
+popString	./nl-liststr.c	/^CELL * popString(CELL * str, CELL * params)$/;"	f
+popen	./nl-filesys.c	66;"	d	file:
+port	./nl-sock.c	/^    int port;$/;"	m	struct:__anon5	file:
+portFromSockAddr	./nl-sock.c	/^in_port_t portFromSockAddr(struct sockaddr * addr)$/;"	f
+position	./newlisp.h	/^	size_t position;$/;"	m	struct:__anon11
+posix_class_maps	./pcre.c	/^static const int posix_class_maps[] = {$/;"	v	file:
+posix_name_lengths	./pcre.c	/^static const uschar posix_name_lengths[] = {$/;"	v	file:
+posix_names	./pcre.c	/^static const char *const posix_names[] = {$/;"	v	file:
+pp	./pcre.c	5999;"	d	file:
+pp	./pcre.c	8731;"	d	file:
+preLoad	./newlisp.c	/^char preLoad[] = $/;"	v
+prettyPrint	./newlisp.c	/^void prettyPrint(UINT device)$/;"	f
+prettyPrintCurrent	./newlisp.c	/^int prettyPrintCurrent = 0;$/;"	v
+prettyPrintFlags	./newlisp.c	/^int prettyPrintFlags = 0;$/;"	v
+prettyPrintFloat	./newlisp.c	/^char * prettyPrintFloat = "%1.16g";$/;"	v
+prettyPrintLength	./newlisp.c	/^int prettyPrintLength = 0;$/;"	v
+prettyPrintMaxLength	./newlisp.c	/^UINT prettyPrintMaxLength =  MAX_PRETTY_PRINT_LENGTH;$/;"	v
+prettyPrintPars	./newlisp.c	/^int prettyPrintPars = 0;$/;"	v
+prettyPrintTab	./newlisp.c	/^char * prettyPrintTab = " ";$/;"	v
+prev	./pcre.c	6000;"	d	file:
+prev	./pcre.c	8732;"	d	file:
+prev_is_word	./pcre.c	6008;"	d	file:
+prev_is_word	./pcre.c	8740;"	d	file:
+prevrec	./pcre-internal.h	/^  struct recursion_info *prevrec; \/* Previous recursion record (or NULL) *\/$/;"	m	struct:recursion_info	typeref:struct:recursion_info::recursion_info
+primitive	./primes.h	/^PRIMITIVE primitive[] =$/;"	v
+printArray	./nl-list.c	/^void printArray(CELL * array, UINT device)$/;"	f
+printArrayDimensions	./nl-list.c	/^void printArrayDimensions(CELL * array, UINT device)$/;"	f
+printCell	./newlisp.c	/^void printCell(CELL * cell, UINT printFlag, UINT device)$/;"	f
+printDevice	./newlisp.c	/^UINT printDevice;$/;"	v
+printErrorMessage	./newlisp.c	/^void printErrorMessage(UINT errorNumber, CELL * expr, int deleteFlag)$/;"	f
+printExpression	./newlisp.c	/^void printExpression(CELL * cell, UINT device)$/;"	f
+printHelpText	./newlisp.c	/^void printHelpText(void)$/;"	f
+printLambda	./newlisp.c	/^void printLambda(SYMBOL * sPtr, UINT device)$/;"	f
+printMemoryModel	./util/types.c	/^void printMemoryModel(void)$/;"	f
+printStack	./nl-math.c	/^void printStack(TERMSET * tset)$/;"	f
+printString	./newlisp.c	/^void printString(char * str, UINT  device, int size)$/;"	f
+printSymbol	./newlisp.c	/^void printSymbol(SYMBOL * sPtr, UINT device)$/;"	f
+printSymbolName	./newlisp.c	/^void printSymbolName(UINT device, SYMBOL * sPtr)$/;"	f
+printSymbolNameExt	./newlisp.c	/^void printSymbolNameExt(UINT device, SYMBOL * sPtr)$/;"	f
+println	./newlisp.c	/^CELL * println(CELL * params, int lineFeed)$/;"	f
+probChi2	./nl-math.c	/^double probChi2(double chi2, UINT df)$/;"	f
+probF	./nl-math.c	/^double probF(double f, UINT df1, UINT df2)$/;"	f
+probT	./nl-math.c	/^double probT(double t, UINT df)$/;"	f
+probability_x	./nl-math.c	/^CELL * probability_x(CELL * params, int type)$/;"	f
+processCommandEvent	./newlisp.c	/^char * processCommandEvent(char * command)$/;"	f
+processSpawnList	./nl-filesys.c	/^void processSpawnList(int pid, int mode, int result)$/;"	f
+prompt	./newlisp.c	/^char * prompt(void)$/;"	f
+promptEvent	./newlisp.c	/^SYMBOL * promptEvent;$/;"	v
+prop_category	./pcre.c	6015;"	d	file:
+prop_chartype	./pcre.c	6016;"	d	file:
+prop_fail_result	./pcre.c	6014;"	d	file:
+prop_othercase	./pcre.c	6017;"	d	file:
+prop_test_against	./pcre.c	6018;"	d	file:
+prop_test_variable	./pcre.c	6019;"	d	file:
+prop_type	./pcre.c	6013;"	d	file:
+protocol	./nl-sock.c	/^    unsigned char protocol;$/;"	m	struct:pseudohdr	file:
+pseudo_chks	./nl-sock.c	/^unsigned short pseudo_chks($/;"	f
+pseudohdr	./nl-sock.c	/^struct pseudohdr$/;"	s	file:
+ptr	./newlisp.h	/^	char *ptr;$/;"	m	struct:__anon11
+ptr	./win-ffi.h	/^  void*		ptr;$/;"	m	union:__anon30
+ptr	./win-ffi.h	/^  void*     ptr;$/;"	m	union:__anon29
+purgeSpawnList	./nl-filesys.c	/^void purgeSpawnList(int sockFlag)$/;"	f
+pushDebugStack	./nl-debug.c	54;"	d	file:
+pushEnvironment	./newlisp.h	326;"	d
+pushLambda	./newlisp.c	280;"	d	file:
+pushOnString	./nl-liststr.c	/^CELL * pushOnString(CELL * newStr, CELL * str, CELL * idx)$/;"	f
+pushRef	./nl-list.c	1323;"	d	file:
+pushResult	./newlisp.h	331;"	d
+pushResultFlag	./newlisp.c	/^int pushResultFlag = TRUE;$/;"	v
+pushSet	./nl-math.c	/^void pushSet(TERMSET * * root, CELL * left, CELL * right)$/;"	f
+questionSymbol	./newlisp.c	/^SYMBOL * questionSymbol;$/;"	v
+random	./newlisp.h	265;"	d
+random	./nl-math.c	/^long int random(void)$/;"	f
+randomDist	./nl-math.c	/^CELL * randomDist(CELL * params, int type)$/;"	f
+randseed	./nl-math.c	/^uint32_t randseed = 937186357; \/* after srandom(1), NSHUFF=50 counted *\/$/;"	v
+readFile	./nl-filesys.c	/^ssize_t readFile(char * fileName, char * * buffer)$/;"	f
+readHeader	./nl-web.c	/^size_t readHeader(char * buff, int * pragmaFlag)$/;"	f
+readLineStream	./newlisp.c	/^STREAM readLineStream;$/;"	v
+readPayLoad	./nl-web.c	/^ssize_t readPayLoad(ssize_t size, char * buff, int outFile, char * request)$/;"	f
+readStreamLine	./nl-filesys.c	/^char * readStreamLine(STREAM * stream, FILE * inStream)$/;"	f
+readStreamText	./nl-string.c	/^char * readStreamText(STREAM * stream, int * size)$/;"	f
+readWriteShared	./nl-filesys.c	/^CELL * readWriteShared(UINT * address, CELL * params, int flag)$/;"	f
+readWriteSharedExpression	./nl-filesys.c	/^CELL * readWriteSharedExpression(UINT * address, CELL * params)$/;"	f
+readWriteSocket	./nl-filesys.c	/^CELL * readWriteSocket(int socket, CELL * params)$/;"	f
+read_repeat_counts	./pcre.c	/^read_repeat_counts(const uschar *p, int *minp, int *maxp, const char **errorptr)$/;"	f	file:
+readdir	./newlisp.h	294;"	d
+readerEvent	./newlisp.c	/^SYMBOL * readerEvent;$/;"	v
+real_pcre	./pcre-internal.h	/^typedef struct real_pcre {$/;"	s
+real_pcre	./pcre-internal.h	/^} real_pcre;$/;"	t	typeref:struct:real_pcre
+reallocMemory	./newlisp.c	/^void * reallocMemory(void * prevPtr, UINT size)$/;"	f
+realpath	./newlisp.h	279;"	d
+realpath	./nl-filesys.c	62;"	d	file:
+recoverEnvironment	./newlisp.c	/^void recoverEnvironment(UINT * index)$/;"	f
+recoverIteratorIndex	./newlisp.c	/^void recoverIteratorIndex(CELL * cellIdx)$/;"	f
+recursionCount	./newlisp.c	/^int recursionCount = 0;$/;"	v
+recursion_info	./pcre-internal.h	/^typedef struct recursion_info {$/;"	s
+recursion_info	./pcre-internal.h	/^} recursion_info;$/;"	t	typeref:struct:recursion_info
+recursive	./pcre-internal.h	/^  recursion_info *recursive;    \/* Linked list of recursion data *\/$/;"	m	struct:match_data
+recvc_tm	./nl-web.c	/^int recvc_tm(int sock)$/;"	f
+recvs_tm	./nl-web.c	/^char * recvs_tm(char * buffer, size_t size, int sock)$/;"	f
+recvsize_tm	./nl-web.c	/^size_t recvsize_tm(char * buffer, size_t size, int sock, int flag)$/;"	f
+ref	./nl-list.c	/^void ref(CELL * keyCell, CELL * list, CELL * funcCell, CELL * * head, $/;"	f
+reference	./nl-list.c	/^CELL * reference(CELL * params, int mode)$/;"	f
+references	./nl-symbol.c	/^int references(SYMBOL * sPtr, int replaceFlag)$/;"	f
+regexError	./nl-string.c	/^void regexError(char * msg_1, int number, const char * msg_2)$/;"	f
+register_callback	./util/ffitest.c	/^void register_callback(void * ptr)$/;"	f
+register_callback_simple	./util/ffitest.c	/^void register_callback_simple(void * ptr)$/;"	f
+rename	./newlisp.h	284;"	d
+rename_utf16	./win-path.c	/^int rename_utf16(const char* oldname8, const char* newname8)$/;"	f
+repLen	./nl-string.c	/^    int repLen;$/;"	m	struct:__anon8	file:
+repStr	./nl-string.c	/^    char * repStr;$/;"	m	struct:__anon8	file:
+rep_max	./pcre.c	/^static const char rep_max[] = { 0, 0, 0, 0, 1, 1 };$/;"	v	file:
+rep_min	./pcre.c	/^static const char rep_min[] = { 0, 0, 1, 1, 0, 0 };$/;"	v	file:
+repeat	./newlisp.c	/^CELL * repeat(CELL * params, int type)$/;"	f
+replaceString	./nl-string.c	/^char * replaceString$/;"	f
+req_byte	./pcre-internal.h	/^  pcre_uint16 req_byte;$/;"	m	struct:real_pcre
+req_varyopt	./pcre-internal.h	/^  int  req_varyopt;             \/* "After variable item" flag for reqbyte *\/$/;"	m	struct:compile_data
+requestMethod	./nl-web.c	/^char * requestMethod[] = {"GET", "HEAD", "PUT", "PUT", "POST", "DELETE"};$/;"	v
+reset	./newlisp.c	/^void reset()$/;"	f
+resortVectorToList	./nl-list.c	/^CELL * resortVectorToList(CELL * * vector, ssize_t length)$/;"	f
+result	./nl-sock.c	/^    CELL * result;$/;"	m	struct:__anon5	file:
+resultStack	./newlisp.c	/^UINT * resultStack = NULL;$/;"	v
+resultStackIdx	./newlisp.c	/^UINT * resultStackIdx;$/;"	v
+resultStackTop	./newlisp.c	/^UINT * resultStackTop;$/;"	v
+result_addr	./nl-filesys.c	/^    void * result_addr; \/* written by child *\/$/;"	m	struct:__anon6	file:
+ret_double	./util/ffitest.c	/^double ret_double(double number)$/;"	f
+ret_float	./util/ffitest.c	/^float ret_float(float number)$/;"	f
+ret_pointer	./util/ffitest.c	/^char * ret_pointer(char * ptr)$/;"	f
+ret_sint16	./util/ffitest.c	/^short int ret_sint16(int number)$/;"	f
+ret_sint32	./util/ffitest.c	/^int ret_sint32(int number)$/;"	f
+ret_sint32_void	./util/ffitest.c	/^int ret_sint32_void(void)$/;"	f
+ret_sint64	./util/ffitest.c	/^long long ret_sint64(long long number)$/;"	f
+ret_sint8	./util/ffitest.c	/^char ret_sint8(char number)$/;"	f
+ret_uint16	./util/ffitest.c	/^short int ret_uint16(unsigned int number)$/;"	f
+ret_uint32	./util/ffitest.c	/^unsigned int ret_uint32(unsigned int number)$/;"	f
+ret_uint8	./util/ffitest.c	/^char ret_uint8(unsigned char number)$/;"	f
+right	./newlisp.h	/^	struct tagSYMBOL * right;   $/;"	m	struct:tagSYMBOL	typeref:struct:tagSYMBOL::tagSYMBOL
+right	./nl-math.c	/^    CELL * right;$/;"	m	struct:__anon1	file:
+rmdir	./newlisp.h	275;"	d
+rmdir	./newlisp.h	287;"	d
+rmdir_utf16	./win-path.c	/^int rmdir_utf16(const char* filename8)$/;"	f
+rollover	./win-util.c	/^int rollover = 0;$/;"	v
+root	./nl-symbol.c	/^static SYMBOL * root;   \/* root symbol derived from context *\/$/;"	v	file:
+rotateLeft	./nl-symbol.c	/^void rotateLeft(SYMBOL* x) $/;"	f
+rotateRight	./nl-symbol.c	/^void rotateRight(SYMBOL * x)$/;"	f
+rtype	./win-ffi.h	/^  ffi_type *rtype;$/;"	m	struct:__anon28
+saveContext	./newlisp.c	/^void saveContext(SYMBOL * sPtr, UINT device)$/;"	f
+saveSymbols	./newlisp.c	/^void saveSymbols(SYMBOL * sPtr, UINT device)$/;"	f
+save_capture_last	./pcre.c	6031;"	d	file:
+save_capture_last	./pcre.c	8751;"	d	file:
+save_offset1	./pcre.c	6032;"	d	file:
+save_offset1	./pcre.c	8752;"	d	file:
+save_offset2	./pcre.c	6033;"	d	file:
+save_offset2	./pcre.c	8753;"	d	file:
+save_offset3	./pcre.c	6034;"	d	file:
+save_offset3	./pcre.c	8754;"	d	file:
+save_start	./pcre-internal.h	/^  const uschar *save_start;     \/* Old value of md->start_match *\/$/;"	m	struct:recursion_info
+saved_eptr	./pcre.c	6001;"	d	file:
+saved_eptr	./pcre.c	8733;"	d	file:
+saved_max	./pcre-internal.h	/^  int saved_max;                \/* Number of saved offsets *\/$/;"	m	struct:recursion_info
+searchBuffer	./nl-string.c	/^ssize_t searchBuffer(char * buffer,  size_t length, char * string, size_t size, int caseFlag)$/;"	f
+searchBufferRegex	./nl-string.c	/^ssize_t searchBufferRegex(char * string,  size_t offset, $/;"	f
+sec	./util/ffitest.c	/^    short int sec;$/;"	m	struct:clock	file:
+second	./util/ffitest.c	/^	int second;$/;"	m	struct:foo	file:
+semaphore	./nl-filesys.c	/^int semaphore(UINT sem_id, int value, int type)$/;"	f
+sendHTTPmessage	./nl-web.c	/^int sendHTTPmessage(int status, char * desc, char * req)$/;"	f
+sendHTTPpage	./nl-web.c	/^void sendHTTPpage(char * content, size_t size, char * media)$/;"	f
+sendall	./nl-sock.c	/^int sendall(int sock, char * buffer, int len)$/;"	f
+sendf	./nl-web.c	/^ssize_t sendf(int sock, int debug, char * format, ...)$/;"	f
+sentinel	./nl-symbol.c	/^SYMBOL sentinel = {$/;"	v
+serializeSymbols	./newlisp.c	/^void serializeSymbols(CELL * params, UINT device)$/;"	f
+serverFD	./nl-sock.c	/^FILE * serverFD(int port, char * domain, int reconnect)$/;"	f
+setDefine	./newlisp.c	/^CELL * setDefine(SYMBOL * symbol, CELL * params, int type)$/;"	f
+setEvent	./newlisp.c	/^CELL * setEvent(CELL * params, SYMBOL * * eventSymPtr, char * sysSymName)$/;"	f
+setInterDiff	./nl-list.c	/^CELL * setInterDiff(CELL * params, int mode)$/;"	f
+setJSONerror	./nl-xml-json.c	/^CELL * setJSONerror(char * errorText, char * jsonStr)$/;"	f
+setNthStr	./nl-string.c	/^CELL * setNthStr(CELL * cellStr, CELL * new, char * insertPtr)$/;"	f
+setRef	./nl-list.c	/^CELL * setRef(CELL * params, int mode)$/;"	f
+setSockaddrPort	./nl-sock.c	/^void setSockaddrPort(struct sockaddr * addr, in_port_t port)$/;"	f
+setenv	./newlisp.h	244;"	d
+setenv	./newlisp.h	264;"	d
+setupAllSignals	./newlisp.c	/^void setupAllSignals(void)$/;"	f
+setupServer	./newlisp.c	/^void setupServer(int reconnect)$/;"	f
+setupSignalHandler	./newlisp.c	/^void setupSignalHandler(int sig, void (* handler)(int))$/;"	f
+setupTypeTagCells	./nl-xml-json.c	/^CELL * setupTypeTagCells(void)$/;"	f
+sigalrm_handler	./newlisp.c	/^void sigalrm_handler(int sig)$/;"	f
+sigchld_handler	./newlisp.c	/^void sigchld_handler(int sig)$/;"	f
+signal_handler	./newlisp.c	/^void signal_handler(int sig)$/;"	f
+sigpipe_handler	./newlisp.c	/^void sigpipe_handler(int sig)$/;"	f
+sint	./win-ffi.h	/^  ffi_sarg  sint;$/;"	m	union:__anon29
+sint	./win-ffi.h	/^  signed int	sint;$/;"	m	union:__anon30
+size	./newlisp.h	/^	size_t size;$/;"	m	struct:__anon11
+size	./nl-import.c	/^    int size;$/;"	m	struct:__anon3	file:
+size	./pcre-internal.h	/^  pcre_uint32 size;               \/* Total that was malloced *\/$/;"	m	struct:pcre_study_data
+size	./pcre-internal.h	/^  pcre_uint32 size;               \/* Total that was malloced *\/$/;"	m	struct:real_pcre
+size	./win-ffi.h	/^  size_t size;$/;"	m	struct:_ffi_type
+sock	./nl-sock.c	/^    int sock;$/;"	m	struct:__anon4	file:
+sock	./nl-sock.c	/^    int sock;$/;"	m	struct:__anon5	file:
+socket	./nl-filesys.c	/^    int socket; $/;"	m	struct:__anon6	file:
+socketStart	./nl-web.c	/^struct timeval socketStart;$/;"	v	typeref:struct:timeval
+socketTimeout	./nl-web.c	/^INT socketTimeout = 0;$/;"	v
+socketTimeoutJump	./nl-web.c	/^jmp_buf socketTimeoutJump;$/;"	v
+socklen_t	./nl-sock.c	96;"	d	file:
+source	./nl-xml-json.c	/^static char * source;$/;"	v	file:
+sourceOrg	./nl-xml-json.c	/^static char * sourceOrg;$/;"	v	file:
+source_addr	./nl-sock.c	/^    struct in_addr source_addr;$/;"	m	struct:pseudohdr	typeref:struct:pseudohdr::in_addr	file:
+srandom	./newlisp.h	266;"	d
+srandom	./nl-math.c	/^void srandom(unsigned int init)$/;"	f
+stacksave	./pcre.c	6035;"	d	file:
+stacksave	./pcre.c	8755;"	d	file:
+starSymbol	./newlisp.c	/^SYMBOL * starSymbol;$/;"	v
+start	./win-util.c	/^int start;$/;"	v
+start_bits	./pcre-internal.h	/^  uschar start_bits[32];$/;"	m	struct:pcre_study_data
+start_code	./pcre-internal.h	/^  const uschar *start_code;     \/* For use when recursing *\/$/;"	m	struct:match_data
+start_code	./pcre-internal.h	/^  const uschar *start_code;     \/* The start of the compiled code *\/$/;"	m	struct:compile_data
+start_match	./pcre-internal.h	/^  const uschar *start_match;    \/* Start of this match attempt *\/$/;"	m	struct:match_data
+start_match	./pcre.h	/^  int          start_match;       \/* Offset to start of this match attempt *\/$/;"	m	struct:pcre_callout_block
+start_offset	./pcre-internal.h	/^  int    start_offset;          \/* The start offset value *\/$/;"	m	struct:match_data
+start_pattern	./pcre-internal.h	/^  const uschar *start_pattern;  \/* The start of the pattern *\/$/;"	m	struct:compile_data
+start_subject	./pcre-internal.h	/^  const uschar *start_subject;  \/* Start of the subject string *\/$/;"	m	struct:match_data
+startsEndsWith	./nl-liststr.c	/^CELL * startsEndsWith(CELL * params, int type)$/;"	f
+startupDir	./newlisp.c	/^char startupDir[PATH_MAX]; \/* start up directory, if defined via -w *\/$/;"	v
+stat_utf16	./win-path.c	/^int stat_utf16(const char* filename8, struct stat* buf)$/;"	f
+stdcallFunction	./nl-import.c	/^UINT stdcallFunction(UINT fAddress, UINT * args, int count)$/;"	f
+str2cmp	./nl-symbol.c	29;"	d	file:
+str2cmp	./util/types.c	127;"	d	file:
+strToBigint	./nl-math.c	/^int * strToBigint(char * str, int len, int * intlen)$/;"	f
+strUpperLower	./nl-string.c	/^CELL * strUpperLower(CELL * params, int type)$/;"	f
+stream	./newlisp.h	/^    FILE * stream;$/;"	m	struct:__anon14
+stringCell	./newlisp.c	/^CELL * stringCell = NULL;$/;"	v
+stringIndexPtr	./newlisp.c	/^void * stringIndexPtr = NULL;$/;"	v
+stringOutputRaw	./newlisp.c	/^int stringOutputRaw = TRUE;$/;"	v
+string_copy	./util/ffitest.c	/^char * string_copy(char * from, char * to)$/;"	f
+strncmp	./pcre-internal.h	109;"	d
+strtoll	./newlisp.h	128;"	d
+strtoull	./newlisp.h	129;"	d
+study_data	./pcre.h	/^  void *study_data;               \/* Opaque data from pcre_study() *\/$/;"	m	struct:pcre_extra
+stuffBigint	./newlisp.c	/^CELL * stuffBigint(char * token)$/;"	f
+stuffFloat	./newlisp.c	/^CELL * stuffFloat(double floatVal)$/;"	f
+stuffInteger	./newlisp.c	/^CELL * stuffInteger(UINT contents)$/;"	f
+stuffInteger64	./newlisp.c	/^CELL * stuffInteger64(INT64 contents)$/;"	f
+stuffInteger64	./newlisp.h	454;"	d
+stuffIntegerList	./newlisp.c	/^CELL * stuffIntegerList(int argc, ...)$/;"	f
+stuffString	./newlisp.c	/^CELL * stuffString(char * string)$/;"	f
+stuffStringN	./newlisp.c	/^CELL * stuffStringN(char * string, int len)$/;"	f
+stuffSymbol	./newlisp.c	/^CELL * stuffSymbol(SYMBOL * sPtr)$/;"	f
+subBigint	./nl-math.c	/^int * subBigint(int * x, int nx, int * y, int ny, int * sm, int * nsm)$/;"	f
+subarray	./nl-list.c	/^CELL * subarray(CELL * array, ssize_t offset, ssize_t length)$/;"	f
+subject	./pcre.h	/^  const char  *subject;           \/* The subject being matched *\/$/;"	m	struct:pcre_callout_block
+subject_length	./pcre.h	/^  int          subject_length;    \/* The length of the subject *\/$/;"	m	struct:pcre_callout_block
+sublist	./nl-liststr.c	/^CELL * sublist(CELL * list, ssize_t offset, ssize_t length)$/;"	f
+substitute	./nl-math.c	/^void substitute(CELL * expr, CELL * sym, TERMSET * tset)$/;"	f
+substring	./nl-string.c	/^CELL * substring(char * string, ssize_t slen, ssize_t offset, ssize_t len)$/;"	f
+subsym	./nl-math.c	/^CELL * subsym(CELL * expr, CELL * sym, CELL * cell)$/;"	f
+swap	./nl-liststr.c	/^void swap(UINT * left, UINT * right)$/;"	f
+swapEndian	./nl-string.c	/^void swapEndian(char * data, int n)$/;"	f
+sym	./nl-import.c	/^    SYMBOL * sym;$/;"	m	struct:__anon2	file:
+symHandler	./newlisp.c	/^SYMBOL * symHandler[32];$/;"	v
+symbol	./newlisp.h	/^  SYMBOL *symbol;$/;"	m	struct:__anon15
+symbolCheck	./newlisp.c	/^SYMBOL * symbolCheck = NULL;$/;"	v
+symbolCount	./newlisp.c	/^size_t symbolCount = 0;$/;"	v
+symbolPtr	./nl-filesys.c	/^    SYMBOL * symbolPtr; \/* smbol for result *\/$/;"	m	struct:__anon6	file:
+symbolType	./newlisp.h	450;"	d
+sysEvalString	./newlisp.c	/^CELL * sysEvalString(char * evalString, SYMBOL * context, CELL * proc, int mode)$/;"	f
+sysSymbol	./newlisp.c	/^SYMBOL * sysSymbol[MAX_REGEX_EXP];$/;"	v
+sysxSymbol	./newlisp.c	/^SYMBOL * sysxSymbol;$/;"	v
+table64	./nl-web.c	/^static const char table64[]=$/;"	v	file:
+tables	./pcre-internal.h	/^  const unsigned char *tables;    \/* Pointer to tables or NULL for std *\/$/;"	m	struct:real_pcre
+tables	./pcre.h	/^  const unsigned char *tables;    \/* Pointer to character tables *\/$/;"	m	struct:pcre_extra
+tables_length	./pcre-internal.h	753;"	d
+tagSYMBOL	./newlisp.h	/^typedef struct tagSYMBOL$/;"	s
+tagStack	./nl-xml-json.c	/^TAG_STACK * tagStack = NULL;$/;"	v
+tempDir	./newlisp.c	/^char * tempDir; \/* \/tmp on unix or geten("TMP") on Windows *\/$/;"	v
+template	./nl-import.c	/^INT template(INT n, INT p1, INT p2, INT p3, INT p4, INT p5, INT p6, INT p7, INT p8) $/;"	f
+third	./util/ffitest.c	/^	short int third;$/;"	m	struct:foo	file:
+thisPad	./nl-filesys.c	/^void * thisPad = NULL;      \/* written by this process for the parent *\/$/;"	v
+thisSocket	./nl-filesys.c	/^int thisSocket = 0;$/;"	v
+this_closure	./win-ffi.h	/^  void      *this_closure;$/;"	m	struct:__anon32
+this_closure	./win-ffi.h	/^  void      *this_closure;$/;"	m	struct:__anon33
+thisframe	./pcre-internal.h	/^  struct heapframe *thisframe;  \/* Used only when compiling for no recursion *\/$/;"	m	struct:match_data	typeref:struct:match_data::heapframe
+three	./util/types.c	/^    long three;$/;"	m	struct:__anon36	file:
+three	./util/types.c	/^    long three;$/;"	m	struct:__anon37	file:
+throwResult	./newlisp.c	/^CELL * throwResult;$/;"	v
+timeOut	./nl-sock.c	/^    int timeOut;$/;"	m	struct:__anon5	file:
+time_hi_and_version	./nl-filesys.c	/^    UINT16          time_hi_and_version;$/;"	m	struct:__anon7	file:
+time_low	./nl-filesys.c	/^    UINT32          time_low;$/;"	m	struct:__anon7	file:
+time_mid	./nl-filesys.c	/^    UINT16          time_mid;$/;"	m	struct:__anon7	file:
+timediff64_us	./nl-filesys.c	/^UINT64 timediff64_us(struct timeval out, struct timeval in )$/;"	f
+timediff_ms	./nl-filesys.c	/^int timediff_ms(struct timeval out, struct timeval in )$/;"	f
+timerDuration	./win-util.c	/^int timerDuration = 0;$/;"	v
+timerEvent	./newlisp.c	/^SYMBOL * timerEvent;$/;"	v
+timerFunc	./win-util.c	/^void timerFunc(void * dummy)$/;"	f
+toContext	./newlisp.c	/^static SYMBOL * toContext;$/;"	v	file:
+top_backref	./pcre-internal.h	/^  int  top_backref;             \/* Maximum back reference *\/$/;"	m	struct:compile_data
+top_backref	./pcre-internal.h	/^  pcre_uint16 top_backref;$/;"	m	struct:real_pcre
+top_bracket	./pcre-internal.h	/^  pcre_uint16 top_bracket;$/;"	m	struct:real_pcre
+traceEntry	./nl-debug.c	/^void traceEntry(CELL * cell, CELL * pCell, CELL * args)$/;"	f
+traceExit	./nl-debug.c	/^void traceExit(CELL * result, CELL * cell, CELL * pCell, CELL * args)$/;"	f
+traceFlag	./newlisp.c	/^int traceFlag = 0;$/;"	v
+tracePrint	./nl-debug.c	/^void tracePrint(char * label, CELL * expr)$/;"	f
+tracePrintDevice	./nl-debug.c	/^UINT tracePrintDevice;$/;"	v
+tramp	./win-ffi.h	/^  char tramp[FFI_TRAMPOLINE_SIZE];$/;"	m	struct:__anon31
+tramp	./win-ffi.h	/^  char tramp[FFI_TRAMPOLINE_SIZE];$/;"	m	struct:__anon32
+tramp	./win-ffi.h	/^  char tramp[FFI_TRAMPOLINE_SIZE];$/;"	m	struct:__anon33
+transfer	./nl-web.c	/^int transfer(int sock, char * buff, int len)$/;"	f
+transferEvent	./newlisp.c	/^SYMBOL * transferEvent;$/;"	v
+translateCreateSymbol	./nl-symbol.c	/^SYMBOL * translateCreateSymbol$/;"	f
+translate_args	./win-ffi.h	/^  void     (*translate_args)(ffi_cif*,void*,void**,void*);$/;"	m	struct:__anon32
+translate_args	./win-ffi.h	/^  void     (*translate_args)(ffi_cif*,void*,void**,void*);$/;"	m	struct:__anon33
+trigger_callback	./util/ffitest.c	/^void trigger_callback()$/;"	f
+trigger_callback_simple	./util/ffitest.c	/^void trigger_callback_simple() \/* only handles strings and integers *\/$/;"	f
+trim	./nl-web.c	/^char * trim(char * buff) $/;"	f
+trueCell	./newlisp.c	/^CELL * trueCell;$/;"	v
+trueSymbol	./newlisp.c	/^SYMBOL * trueSymbol;$/;"	v
+try_flipped	./pcre.c	/^try_flipped(const real_pcre *re, real_pcre *internal_re,$/;"	f	file:
+two	./util/types.c	/^    short int two;$/;"	m	struct:__anon34	file:
+two	./util/types.c	/^    short int two;$/;"	m	struct:__anon35	file:
+two	./util/types.c	/^    short int two;$/;"	m	struct:__anon36	file:
+two	./util/types.c	/^    short int two;$/;"	m	struct:__anon37	file:
+type	./newlisp.h	/^	UINT type;$/;"	m	struct:__anon12
+type	./newlisp.h	/^    short int type;$/;"	m	struct:__anon16
+type	./nl-import.c	/^    ffi_type * type;$/;"	m	struct:__anon3	file:
+type	./nl-web.c	/^    char * type;$/;"	m	struct:__anon19	file:
+type	./win-ffi.h	/^  unsigned short type;$/;"	m	struct:_ffi_type
+typeCell	./nl-xml-json.c	/^CELL * typeCell[4];$/;"	v
+typeNames	./nl-xml-json.c	/^char * typeNames[] =$/;"	v
+uint	./win-ffi.h	/^  ffi_arg   uint;$/;"	m	union:__anon29
+uint	./win-ffi.h	/^  unsigned int	uint;$/;"	m	union:__anon30
+unblockSocket	./nl-sock.c	/^int unblockSocket(int sock)$/;"	f
+unify	./nl-math.c	/^CELL * unify(CELL * left, CELL * right)$/;"	f
+unifyGetType	./nl-math.c	/^int unifyGetType(CELL * cell)$/;"	f
+unlink	./newlisp.h	288;"	d
+unlink_utf16	./win-path.c	/^int unlink_utf16(const char* filename8)$/;"	f
+unpackFFI	./nl-import.c	/^CELL * unpackFFI(ffi_type * ffiPtr, char * data)$/;"	f
+unpackFFIstruct	./nl-import.c	/^CELL * unpackFFIstruct(CELL * cell, char * data)$/;"	f
+updateCell	./nl-list.c	/^void updateCell(CELL * cell, CELL * val)$/;"	f
+update_crc	./nl-math.c	/^unsigned int update_crc(unsigned int crc, unsigned char *buf, int len)$/;"	f
+url_decode	./nl-web.c	/^void url_decode(char *dest, char *src)$/;"	f
+uschar	./pcre-internal.h	/^typedef unsigned char uschar;$/;"	t
+useFoo	./util/ffitest.c	/^foo * useFoo(int value)$/;"	f
+user_data	./win-ffi.h	/^  void      *user_data;$/;"	m	struct:__anon31
+user_data	./win-ffi.h	/^  void      *user_data;$/;"	m	struct:__anon32
+user_data	./win-ffi.h	/^  void      *user_data;$/;"	m	struct:__anon33
+utf16_to_utf8	./win-path.c	/^char * utf16_to_utf8(const WCHAR *utf16str)$/;"	f
+utf16_to_utf8ptr	./win-path.c	/^int utf16_to_utf8ptr(const WCHAR *utf16str, char * utf8str, int size)$/;"	f
+utf8	./pcre-internal.h	/^  BOOL   utf8;                  \/* UTF8 flag *\/$/;"	m	struct:match_data
+utf8_1st_len	./nl-utf8.c	/^int utf8_1st_len(char * utf8str)$/;"	f
+utf8_from_mbcs	./win-path.c	/^CELL * utf8_from_mbcs(void * str)$/;"	f
+utf8_index	./nl-utf8.c	/^char * utf8_index(char * utf8str, int idx)$/;"	f
+utf8_table1	./nl-utf8.c	/^static const int utf8_table1[] =$/;"	v	file:
+utf8_table1	./pcre.c	/^static const int utf8_table1[] =$/;"	v	file:
+utf8_table2	./nl-utf8.c	/^static const int utf8_table2[] = { 0,    0xc0, 0xe0, 0xf0, 0xf8, 0xfc};$/;"	v	file:
+utf8_table2	./pcre.c	/^static const int utf8_table2[] = { 0,    0xc0, 0xe0, 0xf0, 0xf8, 0xfc};$/;"	v	file:
+utf8_table3	./nl-utf8.c	/^static const int utf8_table3[] = { 0xff, 0x1f, 0x0f, 0x07, 0x03, 0x01};$/;"	v	file:
+utf8_table3	./pcre.c	/^static const int utf8_table3[] = { 0xff, 0x1f, 0x0f, 0x07, 0x03, 0x01};$/;"	v	file:
+utf8_table4	./nl-utf8.c	/^static const char utf8_table4[] = {$/;"	v	file:
+utf8_table4	./pcre.c	/^static const uschar utf8_table4[] = {$/;"	v	file:
+utf8_to_utf16	./win-path.c	/^WCHAR * utf8_to_utf16(const char *utf8str)$/;"	f
+utf8_wchar	./nl-utf8.c	/^char * utf8_wchar(char * utf8str, int * chr)$/;"	f
+utf8_wlen	./nl-utf8.c	/^size_t utf8_wlen(char * utf8str, char * limit)$/;"	f
+utf8_wstr	./nl-utf8.c	/^int utf8_wstr(int * unicode, char * utf8str, int maxwc)$/;"	f
+valid_utf8	./pcre.c	/^valid_utf8(const uschar *string, int length)$/;"	f	file:
+varPrintf	./newlisp.c	/^void varPrintf(UINT device, char * format, ...)$/;"	f
+vasprintf	./newlisp.h	230;"	d
+vasprintf	./newlisp.h	239;"	d
+vasprintf	./newlisp.h	252;"	d
+version	./newlisp.c	/^int version = 10700;$/;"	v
+version	./pcre.h	/^  int          version;           \/* Identifies version of block *\/$/;"	m	struct:pcre_callout_block
+wait_ready	./nl-sock.c	/^int wait_ready(int sock, INT64 wait_us, int mode)$/;"	f
+wait_until_read_ready	./nl-web.c	/^void wait_until_read_ready(int sock)$/;"	f
+wchar_utf8	./nl-utf8.c	/^int wchar_utf8(int cvalue, char *buffer)$/;"	f
+webError	./nl-web.c	/^CELL * webError(int errorNo)$/;"	f
+which	./newlisp.c	/^char * which(char * name, char * buff)$/;"	f
+winCreateSemaphore	./win-util.c	/^UINT winCreateSemaphore(void)$/;"	f
+winDeleteSemaphore	./win-util.c	/^int winDeleteSemaphore(UINT hSemaphore) $/;"	f
+winMapView	./win-util.c	/^UINT * winMapView(UINT hMemory, int size)$/;"	f
+winPipe	./win-util.c	/^int winPipe(UINT * inpipe, UINT * outpipe)$/;"	f
+winPipedProcess	./win-util.c	/^UINT winPipedProcess(char * cmd, int inpipe, int outpipe, int option)$/;"	f
+winSharedMemory	./win-util.c	/^UINT winSharedMemory(int size)$/;"	f
+winSignalSemaphore	./win-util.c	/^UINT winSignalSemaphore(UINT hSemaphore, int count)$/;"	f
+winWaitSemaphore	./win-util.c	/^UINT winWaitSemaphore(UINT hSemaphore)$/;"	f
+win_fclose	./nl-sock.c	/^int win_fclose(FILE * fPtr)$/;"	f
+win_fdopen	./nl-sock.c	/^FILE * win_fdopen(int handle, const char * mode)$/;"	f
+win_fgetc	./nl-sock.c	/^int win_fgetc(FILE * fPtr)$/;"	f
+win_fgets	./nl-sock.c	/^char * win_fgets(char * buffer, int size, FILE * fPtr)$/;"	f
+win_fprintf	./nl-sock.c	/^int win_fprintf(FILE * fPtr, char * notused, char * buffer)$/;"	f
+win_getExePath	./win-path.c	/^char * win_getExePath(char * EXEName)$/;"	f
+win_realpath	./win-path.c	/^char *win_realpath(const char *filepath, char *realpath)$/;"	f
+word	./util/ffitest.c	/^	char * word;$/;"	m	struct:foo	file:
+writeBuffer	./nl-filesys.c	/^CELL * writeBuffer(CELL * params, int lineFeed)$/;"	f
+writeFile	./nl-filesys.c	/^int writeFile(char * fileName, char * buffer, size_t size, char * type)$/;"	f
+writeLog	./nl-sock.c	/^void writeLog(char * text, int newLine) { return; }$/;"	f
+writeLog	./nl-sock.c	/^void writeLog(char * text, int newLine)$/;"	f
+writeStreamChar	./nl-string.c	/^void writeStreamChar(STREAM * stream, char chr)$/;"	f
+writeStreamStr	./nl-string.c	/^void writeStreamStr(STREAM * stream, char * buff, size_t length)$/;"	f
+ws	./nl-math.c	/^TERMSET * ws = NULL;$/;"	v
+wstr_utf8	./nl-utf8.c	/^int wstr_utf8(char * utf8str, int * unicode, int maxstr)$/;"	f
+xmlCallback	./nl-xml-json.c	/^CELL * xmlCallback = NULL;$/;"	v
+xmlError	./nl-xml-json.c	/^static char * xmlError;$/;"	v	file:
+xmlMsg	./nl-xml-json.c	/^static char xmlMsg[64];$/;"	v	file:
+xmlTags	./nl-xml-json.c	/^CELL * xmlTags = NULL;$/;"	v
