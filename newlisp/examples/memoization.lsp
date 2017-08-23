@@ -6,10 +6,10 @@
               (or (context c (string (args)))
               (context c (string (args)) (apply f (args))))))))
 
-(memoize factor-m factor)
+;(memoize factor-m factor)
 
-(println (time (factor-m 10240)))
-(println (time (factor-m 10240)))
-(println (time (factor-m 10240)))
+;(println (time (factor-m 10240)))
+;(println (time (factor-m 10240)))
+;(println (time (factor-m 10240)))
 
 ;(exit)

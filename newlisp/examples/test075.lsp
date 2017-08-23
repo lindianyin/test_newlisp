@@ -1,0 +1,32 @@
+(setq limit 1500000)
+(setq limitm (floor (sqrt (/ limit 2))))
+(setq f (array (+ limit 1))) 
+(for (m 2 limitm)
+    (for (n 1 (- m 1))
+        (setq a (* 2 (* m n)))
+        (setq b (- (pow m) (pow n)))
+        (setq c (+ (pow m) (pow n)))
+        (when 
+            (and
+             (= 1 (gcd m n))
+             (odd? (+ m n))
+            )
+            (setq p (+ a b c))
+            (while (< p  limit)
+               (inc (f p))
+               (inc p (+ a b c))
+            )
+        )
+    ) 
+)
+(setq cnt 0)
+(dolist (x f)
+   (when (= 1 x)
+        (inc cnt)  
+   )
+)
+(println cnt)
+
+(exit)
+
+

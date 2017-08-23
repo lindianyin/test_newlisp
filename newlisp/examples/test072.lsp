@@ -1,0 +1,10 @@
+(load "./rational.lsp")
+
+(setq cnt 0)
+(for (d 2 1000000)
+    (setq m (map (lambda (x) (list (- x 1L) x)) (unique (factor d))))
+    (push (bigint d) m 0) 
+    (inc cnt (apply Q:* m))
+)
+(println cnt)
+(exit)
